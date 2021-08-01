@@ -1,0 +1,35 @@
+[
+
+  {
+    "id": 2,
+    "title": "Invest in <span> <br> Kakamega </br></span>",
+    "description": "Investment is central to growth and sustainable development. It expands an economy’s\nproductive capacity and drives job creation and income growth.",
+    "bg": "11.png",
+    "btnText": "Learn More",
+    "btnLink": "/about"
+  },
+  {
+    "id": 3,
+    "title": "<span> <br>  </br></span>",
+    "description": "",
+    "bg": "14.png",
+    "btnText": "Contact Us",
+    "btnLink": "/contact"
+  },
+  {
+    "id": 4,
+    "title": "",
+    "description": "",
+    "bg": "10.png",
+    "btnText": "",
+    "btnLink": ""
+  },
+  {
+    "id": 5,
+    "title": "",
+    "description": "",
+    "bg": "12.png",
+    "btnText": "",
+    "btnLink": ""
+  }
+]

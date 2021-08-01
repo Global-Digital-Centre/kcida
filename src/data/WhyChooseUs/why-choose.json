@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1, 
+    "title": "Strategically Located",
+    "text": "Kakamega County is located in Western Kenya near\nLake Victoria, the largest fresh water Lake in Africa. The County easily\nconnects to the major towns through the transnational highways that connect\nTanzania to South Sudan and Cape Town to Cairo. The County also neighbors\ntwo international airports of Eldoret and Kisumu and has an airstrip.\nKakamega also has good road network across the County",
+    "icon": "icon_group" 
+  },
+  {
+    "id": 2, 
+    "title": "Market potential",
+    "text": "Kakamega has a population of 1,867,579 which offers ready\nmarket for goods and services produced within and neighboring counties\nwhich have high population. The County is also a member of the Lake Region\nEconomic Bloc (LREB) comprising of 14 Counties. The Lake Region is one of\nthe most densely populated regions of Kenya with over 10 million people\nwhich constitute about 25% of the population in Kenya.",
+    "icon": "icon_easel"  
+  },
+  {
+    "id": 3, 
+    "title": "Availability of Natural Resources",
+    "text": "The County enjoys abundant natural\nresources such as Kakamega Forest which is Kenya’s only tropical rain forest,\ntourist cultural attraction sites such as the Crying Stone, Na-bongo Shrines\nand Mawe Tatu. There also exists mineral deposits such as gold.",
+    "icon": "icon_piechart" 
+  },
+  {
+    "id": 4, 
+    "title": "Investor Support and Incentives",
+    "text": "The County has established an Investment\n&amp; Development Agency to guide investors through the investment process.\nThe county can provide incentives in form of land, access to water and 3-\nPhase Electricity, Investor friendly policies, pre-feasibility studies and\nenvironmental impact assessment.",
+    "icon": "icon_datareport" 
+  }
+]

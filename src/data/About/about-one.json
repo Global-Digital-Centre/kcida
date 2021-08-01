@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "title": "Our Vision",
+    "text": "The hub of choice for investments in Kenya",
+    "icon": "fas fa-eye"
+  },
+  {
+    "id": 2,
+    "title": "Our Mission",
+    "text": "To provide &amp; deliver the best service to all our clients to their satisfaction.",
+    "icon": "fas fa-bullseye"
+  }
+]

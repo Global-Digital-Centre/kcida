@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "KCTRH",
+    "shortDesc": "Construction of the Kakamega County Teaching and Referral Hospital (KCTRH) that is being constructed in three Phases.",
+    "description": "<p>Kakamega County Teaching and Referral Hospital(KCTRH) Once completed, KCTRH will offer specialised medical services and will be one of\n\n17 | Page\n\nthe largest referral hospitals in Kenya. The first Phase is almost complete\nand the county wants a PPP with an investor or development partner to\nequip the hospital </p>",
+    "icon": "fas fa-hospital",
+    "thumb": "KCTRH.png",
+    "btnText": "Read More",
+    "singleThumb": "KCTRH.png"
+  },
+  {
+    "id": 2,
+    "title": "Dairy Factory",
+    "shortDesc": "Construction of the dairy factory in Malava and seeks an investor to\nequip and operationalise the milk plant.",
+    "description": "<p>Construction of the dairy factory in Malava and seeks an investor to\nequip and operationalise the milk plant. The County through the One-Cow\nInitiative program has distributed over 2000 in-calf heifers to households to\nimprove milk production and also invested in Smart Dairy farms that will\nsupply milk to the Dairy factory.</p>",
+    "icon": "fas fa-blender",
+    "thumb": "Malava.png",
+    "btnText": "Read More",
+    "singleThumb": "Malava.png"
+  },
+  {
+    "id": 3,
+    "title": "Tea Factory",
+    "shortDesc": "The County Government has purchased and\nfenced land in Shinyalu for the construction of the Tea factory",
+    "description": "<p>The County Government has purchased and\nfenced land in Shinyalu for the construction of the Tea factory and has also\nsupplied tea seedlings to farmers in the tea growing areas to improve the\navailability of the raw materials. The County government is looking for an\ninvestor to construct, equip and operationalise the tea factory</p>",
+    "icon": "fas fa-mug-hot",
+    "thumb": "TeaFactory.png",
+    "btnText": "Read More",
+    "singleThumb": "TeaFactory.png"
+  },
+  {
+    "id": 4,
+    "title": "Maize Milling",
+    "shortDesc": "The county has supported Maize milling farmers in Lugari for Maize production through subsidised farm inputs such as input fertilizer\nand quality seeds",
+    "description": "<p>The county has supported farmers in\nmaize production through subsidised farm inputs such as input fertilizer\nand quality seeds which has improved the production of maize. To\nminimize losses through middlemen, the County government wants to\ncreate market for its farmers by constructing a maize milling plant in Lugari\nthat will produce not only maize flour but also fortified flour from grain\namaranth\n</p>",
+    "icon": "fas fa-anchor",
+    "thumb": "Maizemilling.png",
+    "btnText": "Read More",
+    "singleThumb": "Maizemilling.png"
+  },
+  {
+    "id": 5,
+    "title": "Industrial park",
+    "shortDesc": "The County Government has purchased over 200 acres of land in Mumias for the purpose of developing an Industrial park.",
+    "description": "<p>The County Government has purchased over 200 acres\nof land in Mumias for the purpose of developing an Industrial park. The\nCounty has provided 3-phase power, Water and developed the road\nnetwork in the area and is calling for investors to put up industries. The\nCounty has signed an MOU with EPZA to gazette the area as an industrial\npark</p>",
+    "icon": "fas fa-industry",
+    "thumb": "Industrialpark.png",
+    "btnText": "Read More",
+    "singleThumb": "Industrialpark.png"
+  },
+  {
+    "id": 6,
+    "title": "Sugar industry",
+    "shortDesc": "The county government through the\ndepartment of agriculture is supporting cane development as sugarcane",
+    "description": "<p>The county government through the\ndepartment of agriculture is supporting cane development as sugarcane is\nthe largest cash crop grown in western region especially Kakamega which\nhas 3 factories namely, Mumias Sugar, Butali and West Kenya Sugar\nFactories. The County has put in effort to revive Mumias Sugar whose\ncollapse has affected the livelihoods of the many farmers in Kakamega.</p>",
+    "icon": "fas fa-seedling",
+    "thumb": "sugar.png",
+    "btnText": "Read More",
+    "singleThumb": "sugar.png"
+  }
+]
