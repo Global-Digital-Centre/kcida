@@ -11,7 +11,8 @@ const GalleryContent = () => {
           <div className="container">
               {/* Heading */}
               <div className="base-header">
-                  <h3><span className="light">AN OVERVIEW OF</span> <span className="drak">INVESTMENT INITIATIVES</span>
+                  <h3><span className="light">AN OVERVIEW OF</span> <span
+                    className="drak">INVESTMENT OPPORTUNITIES</span>
                   </h3>
                   <p>The County intends to increase the level of investment and strengthen investor
                       confidence as elaborated in the CIDP 2018-2022 and other county development
@@ -24,7 +25,7 @@ const GalleryContent = () => {
                   <Tab.Container defaultActiveKey="all">
                       <Nav variant="pills" className="acount__nav justify-content-center nav nav-pills">
                           <Nav.Item>
-                              <Nav.Link eventKey="all">All Initiatives</Nav.Link>
+                              <Nav.Link eventKey="all">All Opportunities</Nav.Link>
                           </Nav.Item>
 
                           <Nav.Item>
@@ -81,7 +82,7 @@ const GalleryContent = () => {
 
                           <Tab.Pane eventKey="office">
                               {
-                                  GalleryData.reverse().slice(5, 15).map((gallery, i) => (
+                                  GalleryData.reverse().slice(0, 5).map((gallery, i) => (
                                     <div className="col-md-4 col-sm-12" key={i}>
                                         <div className="single-project-item" style={{
                                             backgroundImage: `url(${require("../../assets/images/" + gallery.thumb)})`
@@ -106,7 +107,7 @@ const GalleryContent = () => {
 
                           <Tab.Pane eventKey="house">
                               {
-                                  GalleryData.reverse().slice(1, 7).map((gallery, i) => (
+                                  GalleryData.reverse().slice(0, 3).map((gallery, i) => (
                                     <div className="col-md-4 col-sm-12" key={i}>
                                         <div className="single-project-item" style={{
                                             backgroundImage: `url(${require("../../assets/images/" + gallery.thumb)})`
@@ -131,7 +132,7 @@ const GalleryContent = () => {
 
                           <Tab.Pane eventKey="carpet">
                               {
-                                  GalleryData.reverse().slice(1, 7).map((gallery, i) => (
+                                  GalleryData.reverse().slice(0, 4).map((gallery, i) => (
                                     <div className="col-md-4 col-sm-12" key={i}>
                                         <div className="single-project-item" style={{
                                             backgroundImage: `url(${require("../../assets/images/" + gallery.thumb)})`
@@ -157,7 +158,7 @@ const GalleryContent = () => {
 
                           <Tab.Pane eventKey="pool">
                               {
-                                  GalleryData.reverse().slice(0, 8).map((gallery, i) => (
+                                  GalleryData.reverse().slice(0, 3).map((gallery, i) => (
                                     <div className="col-md-4 col-sm-12" key={i}>
                                         <div className="single-project-item" style={{
                                             backgroundImage: `url(${require("../../assets/images/" + gallery.thumb)})`

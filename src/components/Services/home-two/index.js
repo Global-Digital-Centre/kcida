@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import ServicesData from "../../../data/Services/service-one.json";
+import ServicesData from "../../../data/Services/service-two.json";
 import ServiceItem from "./ServiceItem";
 import SectionTitle from "../../SectionTitles/SectionTitleTwo";
 
@@ -13,15 +13,15 @@ const Service = (props) => {
         <div className="container">
           {/* Heading */}
           <SectionTitle
-            smallTitle="What We Did"
-            title="Our Projects"
+            smallTitle="What We are"
+            title="All About"
           />
           {/* End: Heading */}
 
           <div className="row">
 
             {
-              ServicesData.slice(0, 6).map((service, id) => (
+              ServicesData.slice(0, 3).map((service, id) => (
 
                 <Fragment key={id}>
                   <ServiceItem

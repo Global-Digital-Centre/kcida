@@ -9,8 +9,8 @@ const PromoItem = (props) => {
     <div className="col-md-4 col-sm-12">
       <div className="single_promo_box"
            style={{ backgroundImage: `url(${require("../../assets/images/" + props.bgImg)})` }}>
-        <i className={`${props.icon}`}></i>
-        <Link to="#/">
+        <i className={`${props.icon}`}/>
+        <Link to="/about">
           <h4>{props.title}</h4>
         </Link>
         <div className="hover">

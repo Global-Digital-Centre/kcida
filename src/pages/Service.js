@@ -8,6 +8,7 @@ import Testimonial from "../components/Testimonials/home-one";
 import LogoContainer from "../components/BrandLogo";
 
 const servicePage = () => {
+
 	return (
 		<Fragment>
 			<MetaTags>
@@ -17,6 +18,7 @@ const servicePage = () => {
 					content="KCIDA | Projects Page"
 				/>
 			</MetaTags>
+
 			<LayoutOne>
 				<div className="service-page">
 					<PageHeader

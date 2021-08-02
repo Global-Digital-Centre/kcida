@@ -5,35 +5,57 @@ import PageHeader from "../components/PageHeader";
 import About from "../components/About/home-one";
 import Skill from "../components/Skill";
 import Team from "../components/Team/home-two";
+import Loader from "../components/Shared/Loader";
 
 
-const Aboutpage = () => {
+class Aboutpage extends React.Component {
+  // Preloader
+  state = {
+    loading: true
+  };
 
-  return (
-    <Fragment>
-      <MetaTags>
-        <title>KCIDA | About</title>
-        <meta
-          name="description"
-          content="KCIDA | About Page"
-        />
-      </MetaTags>
+  componentDidMount() {
+    this.timerHandle = setTimeout(() => this.setState({ loading: false }), 1000);
+  }
 
-      <LayoutOne>
+  componentWillUnmount() {
+    if (this.timerHandle) {
+      clearTimeout(this.timerHandle);
+      this.timerHandle = 0;
+    }
+  }
 
-        <PageHeader
-          bgImg={require("../assets/images/page_bg.jpg")}
-          title="About Us"
-        />
+  render() {
 
-        <About/>
-        <Skill/>
-        <Team/>
+    return (
+      <Fragment>
+        <MetaTags>
+          <title>KCIDA | About</title>
+          <meta
+            name="description"
+            content="KCIDA | About Page"
+          />
+        </MetaTags>
 
-      </LayoutOne>
-    </Fragment>
+        {/* Preloader */}
+        <Loader loading={this.state.loading}/>
 
-  );
-};
+        <LayoutOne>
+
+          <PageHeader
+            bgImg={require("../assets/images/page_bg.jpg")}
+            title="About Us"
+          />
+
+          <About/>
+          <Skill/>
+          <Team/>
+
+        </LayoutOne>
+      </Fragment>
+
+    );
+  }
+}
 
 export default Aboutpage;   

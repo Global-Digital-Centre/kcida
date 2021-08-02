@@ -8,10 +8,10 @@ function ServiceItem(props) {
 
       <div className="col-md-4 col-sm-12">
           <div className="serv_item_v2">
-              <div className={`icon-serv2 ${props.icon}`}></div>
-              <Link to={`${serviceURL}`}>
-                  <h5 className="serv2-left">{props.title}</h5>
-              </Link>
+              <div className={`icon-serv2 ${props.icon}`}/>
+            <Link to={`${serviceURL}`}>
+              <h5 className="serv2-left">{props.title}</h5>
+            </Link>
               <p>{props.shortDesc}</p>
           </div>
       </div>

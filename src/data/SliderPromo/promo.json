@@ -1,24 +1,26 @@
 [
   {
     "id": 1,
-    "title": "01/ Strategy",
-    "icon": "icon_genius",
-    "bgImg": "promo_1.jpg",
-    "link": ""
+    "title": "Integrity",
+    "icon": "icon_heart_alt",
+    "text": "We show impartiality, fairness and honesty while upholding the\nhighest ethical standards.",
+    "bgImg": "promo_2.jpg",
+    "link": "/about"
   },
   {
     "id": 2,
-    "title": "02/ Planning",
-    "icon": "icon_heart_alt",
-    "text": "dolor sit amet cons ectetur adipi scing elited asellu id lectu quis duia cosn splacet amet cons ectetu adipi scing id",
-    "bgImg": "promo_2.jpg",
-    "link": ""
+    "title": "Investment Focused",
+    "icon": "icon_genius",
+    "text": "We put our investors at the centre of our operations\nand strive to continuously meet and exceed their expectations.",
+    "bgImg": "promo_1.jpg",
+    "link": "/about"
   },
   {
     "id": 3,
-    "title": "03/ build",
+    "title": "Diversity",
     "icon": "icon_house_alt",
+    "text": "We recognize rights of all individuals to mutual respect;\nacceptance of others without biases based on differences of any kind.",
     "bgImg": "promo_3.jpg",
-    "link": ""
+    "link": "/about"
   }
 ]

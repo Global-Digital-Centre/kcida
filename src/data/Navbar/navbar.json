@@ -12,6 +12,21 @@
   },
   {
     "id": 3,
+    "title": "Opportunities",
+    "link": "/gallery",
+    "subMenu": [
+      {
+        "title": "Investment Opportunities",
+        "link": "/service/kctrh?id=1"
+      },
+      {
+        "title": "Other Opportunities",
+        "link": "/service/kctrh?id=1"
+      }
+    ]
+  },
+  {
+    "id": 4,
     "title": "Projects",
     "link": "/service",
     "subMenu": [
@@ -42,15 +57,26 @@
     ]
   },
   {
-    "id": 4,
-    "title": "Investment Initiatives",
-    "link": "/gallery",
-    "subMenu": false
-  },
-
-
-  {
     "id": 5,
+    "title": "Resource Center",
+    "link": "/",
+    "subMenu": [
+      {
+        "title": "Downloads",
+        "link": "/"
+      },
+      {
+        "title": "Status Reports",
+        "link": "/"
+      },
+      {
+        "title": "Tenders & Propals",
+        "link": "/"
+      }
+    ]
+  },
+  {
+    "id": 6,
     "title": "News",
     "link": "/blog",
     "subMenu": [
@@ -65,7 +91,7 @@
     ]
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Contact",
     "link": "/contact"
   }

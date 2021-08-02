@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Industrial Park",
     "thumb": "1.png",
-    "tag": "brand identity",
+    "tag": "",
     "previewImages": [
       "1.png",
       "2.png"
@@ -11,7 +11,7 @@
     "content": "KEPSA is the private sector apex and umbrella body set up in 2003, to bring together business community in a single voice to engage and influence public policy for an enabling business environment.\n\nKEPSA required brand development to communicate the core values of the organization and GDC delivered to perfection.",
     "clientName": "Kenya Private Sector Alliance",
     "companyName": "Kenya Private Sector Alliance",
-    "workType": "Brand Identity",
+    "workType": "",
     "projectDate": "07 Jan 2021",
     "Budget": "ksh",
     "Location": "Kenya"
@@ -19,15 +19,15 @@
   {
     "id": 2,
     "title": "KCTRH",
-    "thumb": "3.png",
-    "tag": "illustration,publishing,printing",
+    "thumb": "13.png",
+    "tag": "development",
     "previewImages": [
       "3.png"
     ],
     "content": "The KNCV-led, USAID-funded Challenge TB East African Regional (CTB EAR) project, running form 2015 to 2019, focused its activities in six African countries (Ethiopia, Kenya, Rwanda, Somalia Tanzania and Uganda).\n\nKNCV tasked GDC to design and produce calendar and stationery designs that communicate the brand and the work they do.",
     "clientName": "KNCV ",
     "companyName": "KNCV ",
-    "workType": "illustration,publishing,printing",
+    "workType": "development",
     "projectDate": "",
     "Budget": "ksh",
     "Location": "Kenya"
@@ -35,8 +35,8 @@
   {
     "id": 3,
     "title": "Dairy Factory",
-    "thumb": "4.png",
-    "tag": "brand identity, illustration, event Management",
+    "thumb": "3.png",
+    "tag": "development",
     "previewImages": [
       "1.png",
       "2.png",
@@ -46,7 +46,7 @@
     "content": "",
     "clientName": "Tea Factory ",
     "companyName": "Proctor & Gamble ",
-    "workType": "Brand Identity\nIllustration\nEvent Management",
+    "workType": "development",
     "projectDate": "07 Jan 2021",
     "Budget": "ksh",
     "Location": "Nairobi, Kenya"
@@ -54,8 +54,8 @@
   {
     "id": 4,
     "title": "Maize Milling",
-    "thumb": "2.png",
-    "tag": "brand identity, illustration, event Management",
+    "thumb": "3.png",
+    "tag": "development",
     "previewImages": [
       "1.png",
       "2.png",
@@ -65,7 +65,7 @@
     "content": "",
     "clientName": "LaLiga ",
     "companyName": "LaLiga ",
-    "workType": "Brand Identity\nIllustration\nEvent Management",
+    "workType": "\nIllustration\nEvent Management",
     "projectDate": "07 Jan 2021",
     "Budget": "ksh",
     "Location": "Nairobi, Kenya"
@@ -74,7 +74,7 @@
     "id": 5,
     "title": "Tea Factory",
     "thumb": "2.png",
-    "tag": "brand identity, illustration, event Management",
+    "tag": "development",
     "previewImages": [
       "frontiers-logo.png",
       "frontier-poster.png"
@@ -82,7 +82,7 @@
     "content": "Frontiers",
     "clientName": "Frontiers ",
     "companyName": "Frontiers ",
-    "workType": "Brand Identity, Event Management, Illustration",
+    "workType": ", Event Management, Illustration",
     "projectDate": "07 Jan 2021",
     "Budget": "ksh",
     "Location": "Nairobi, Kenya"
@@ -91,7 +91,7 @@
     "id": 6,
     "title": "Agro Chemical & Food Company",
     "thumb": "agfc.png",
-    "tag": "brand identity, illustration, event Management",
+    "tag": "development",
     "previewImages": [
       "agfc.png",
       "agfc.png"
