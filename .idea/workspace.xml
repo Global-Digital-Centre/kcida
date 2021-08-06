@@ -19,7 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="" />
+    <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kcida.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kcida.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +48,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -54,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628242598430</updated>
       <workItem from="1628242602989" duration="2592000" />
-      <workItem from="1628248629502" duration="3754000" />
+      <workItem from="1628248629502" duration="12667000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -63,11 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628250874828</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="v2.0.0">
+      <created>1628253930410</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1628253930410</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -82,30 +101,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="v2.0.0" />
     <option name="LAST_COMMIT_MESSAGE" value="v2.0.0" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="931" height="265" key="GridCell.Tab.0.bottom" timestamp="1628248430187">
+    <state width="921" height="267" key="GridCell.Tab.0.bottom" timestamp="1628261858749">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="931" height="265" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1628248430187" />
-    <state width="931" height="265" key="GridCell.Tab.0.center" timestamp="1628248430186">
+    <state width="921" height="267" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1628261858749" />
+    <state width="921" height="267" key="GridCell.Tab.0.center" timestamp="1628261858749">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="931" height="265" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1628248430186" />
-    <state width="931" height="265" key="GridCell.Tab.0.left" timestamp="1628248430186">
+    <state width="921" height="267" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1628261858749" />
+    <state width="921" height="267" key="GridCell.Tab.0.left" timestamp="1628261858749">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="931" height="265" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1628248430186" />
-    <state width="931" height="265" key="GridCell.Tab.0.right" timestamp="1628248430187">
+    <state width="921" height="267" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1628261858749" />
+    <state width="921" height="267" key="GridCell.Tab.0.right" timestamp="1628261858749">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="931" height="265" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1628248430187" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1628253328877">
+    <state width="921" height="267" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1628261858749" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1628254437764">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1628253328877" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1628254437764" />
   </component>
 </project>
