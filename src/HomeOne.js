@@ -27,7 +27,7 @@ export default class HomeOne extends Component {
                 <MessengerCustomerChat
                     pageId="102360768552591"
                     appId="891567418072170"
-                    htmlRef="<REF_STRING>"
+                    htmlRef="https://kcdia.netlify.app/"
                 />
 
                 {/* Hero Slider */}
