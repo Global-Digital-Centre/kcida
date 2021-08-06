@@ -25,7 +25,7 @@
     "react-modal-video": "^1.2.3",
     "react-responsive-carousel": "^3.2.9",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
     "styled-components": "^5.1.1",
     "swiper": "^6.8.1"
   },
