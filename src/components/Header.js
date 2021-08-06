@@ -18,7 +18,7 @@ class Header extends Component {
                             <Col lg="6" md="5">
                                 <div className="bar-left">
                                     <ul className="list-unstyled list-inline">
-                                        <li className="list-inline-item"><i className="las la-map-marker"/>795 South Park Avenue, CA 94107.</li>
+                                        <li className="list-inline-item"><i className="las la-map-marker"/>Kakamega County, Kenya.</li>
                                         <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/faq"}>Have Questions</Link></li>
                                     </ul>
                                 </div>
@@ -81,11 +81,11 @@ class Header extends Component {
                                         </div>
                                         <div className="box-content">
                                             <p>Enquery Us</p>
-                                            <span>enquery@edulyn.com</span>
+                                            <span>kcida@kcida.com</span>
                                         </div>
                                     </div>
                                     <div className="apply-btn">
-                                        <Link to={process.env.PUBLIC_URL + "/registration"}><i className="las la-clipboard-list"/>Apply Now</Link>
+                                        <Link to={process.env.PUBLIC_URL + "/registration"}><i className="las la-clipboard-list"/>Talk to us</Link>
                                     </div>
                                 </div>
                             </Col>
@@ -122,10 +122,10 @@ class Header extends Component {
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Courses <i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Opportunities<i className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>Course Grid</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>Course List</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>Investment Opportunities</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>Other Opportunities</Link></li>
                                                     <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>Course Details</Link></li>
                                                 </ul>
                                             </li>

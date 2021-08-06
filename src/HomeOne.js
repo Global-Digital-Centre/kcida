@@ -12,20 +12,32 @@ import HomeBlog from './components/HomeBlog';
 import CampusTour from './components/CampusTour';
 import NewsletterForm from './components/NewsletterForm';
 import Footer from './components/Footer';
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 
 export default class HomeOne extends Component {
     render() {
+
+
         return (
             <div className="main-wrapper" >
 
                 {/* Header */}
                 < Header />
 
+                <MessengerCustomerChat
+                    pageId="102360768552591"
+                    appId="891567418072170"
+                    htmlRef="<REF_STRING>"
+                />
+
                 {/* Hero Slider */}
                 < HeroSlider />
 
                 {/* Icon Box */}
                 < IconBox />
+
+                {/* Faq & Event Area */}
+                < FaqEvent />
 
                 {/* About Area */}
                 < AboutUs />
@@ -36,8 +48,7 @@ export default class HomeOne extends Component {
                 {/* Testimonial Slider */}
                 < TestimonialSlider />
 
-                {/* Faq & Event Area */}
-                < FaqEvent />
+
 
                 {/* Team Slider */}
                 < TeamSlider />
