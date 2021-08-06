@@ -5,6 +5,7 @@ export const Styles = styled.div`
     button.totop-btn {
         background : ${colors.gr_bg};
         position: fixed;
+        margin-bottom: 100px;
         bottom : 1px;
         right : 30px;
         width : 45px;

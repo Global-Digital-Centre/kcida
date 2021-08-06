@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="" />
+    <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/BackToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/BackToTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628242598430</updated>
       <workItem from="1628242602989" duration="2592000" />
-      <workItem from="1628248629502" duration="19808000" />
+      <workItem from="1628248629502" duration="21396000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -92,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628275186745</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v2.0.3">
+      <created>1628275811360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628275811360</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,36 +131,37 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="v2.0.0" />
     <MESSAGE value="v2.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2.0.2" />
+    <MESSAGE value="v2.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.0.3" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="921" height="267" key="GridCell.Tab.0.bottom" timestamp="1628261858749">
+    <state width="921" height="267" key="GridCell.Tab.0.bottom" timestamp="1628275938172">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="921" height="267" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1628261858749" />
-    <state width="921" height="267" key="GridCell.Tab.0.center" timestamp="1628261858749">
+    <state width="921" height="267" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1628275938172" />
+    <state width="921" height="267" key="GridCell.Tab.0.center" timestamp="1628275938170">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="921" height="267" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1628261858749" />
-    <state width="921" height="267" key="GridCell.Tab.0.left" timestamp="1628261858749">
+    <state width="921" height="267" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1628275938170" />
+    <state width="921" height="267" key="GridCell.Tab.0.left" timestamp="1628275938169">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="921" height="267" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1628261858749" />
-    <state width="921" height="267" key="GridCell.Tab.0.right" timestamp="1628261858749">
+    <state width="921" height="267" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1628275938169" />
+    <state width="921" height="267" key="GridCell.Tab.0.right" timestamp="1628275938172">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="921" height="267" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1628261858749" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1628275191115">
+    <state width="921" height="267" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1628275938172" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1628275816943">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1628275191115" />
-    <state x="650" y="252" width="620" height="602" key="find.popup" timestamp="1628270279291">
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1628275816943" />
+    <state x="650" y="252" width="620" height="602" key="find.popup" timestamp="1628276766110">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="650" y="252" width="620" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1628270279291" />
+    <state x="650" y="252" width="620" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1628276766110" />
     <state x="208" y="460" width="542" height="187" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1628263632096">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

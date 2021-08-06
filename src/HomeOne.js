@@ -24,12 +24,6 @@ export default class HomeOne extends Component {
                 {/* Header */}
                 < Header />
 
-                <MessengerCustomerChat
-                    pageId="102360768552591"
-                    appId="891567418072170"
-                    htmlRef="https://kcdia.netlify.app/"
-                />
-
                 {/* Hero Slider */}
                 < HeroSlider />
 
@@ -60,15 +54,21 @@ export default class HomeOne extends Component {
                 < HomeBlog />
 
                 {/* Campus Tour */}
-                < CampusTour />
+                < CampusTour/>
 
                 {/* Newsletter Form */}
-                < NewsletterForm />
+                < NewsletterForm/>
 
                 {/* Footer */}
-                < Footer />
+                < Footer/>
 
-            </div >
+                <MessengerCustomerChat
+                    pageId="102360768552591"
+                    appId="891567418072170"
+                    htmlRef="https://kcdia.netlify.app/"
+                />
+
+            </div>
         )
     }
 }

@@ -59,7 +59,7 @@ function MobileMenu() {
                         <Col md="0" sm="12">
                             <div className="mb-topbar d-flex justify-content-between">
                                 <div className="topbar-item">
-                                    <p><i className="las la-phone"></i>+1 (396) 486 4709</p>
+                                    <p><i className="las la-phone"/>+1 (396) 486 4709</p>
                                 </div>
                                 <div className="topbar-item">
                                     <ul className="list-unstyled list-inline">
@@ -73,7 +73,7 @@ function MobileMenu() {
                                 <div className="mb-logo-box d-flex">
                                     <div className="hm-button">
                                         <a href={process.env.PUBLIC_URL + "/"} id="mb-sidebar-btn">
-                                            <i className="las la-bars"></i>
+                                            <i className="las la-bars"/>
                                         </a>
                                     </div>
                                     <div className="mb-logo">
@@ -82,8 +82,8 @@ function MobileMenu() {
                                 </div>
                                 <div className="mb-search-box">
                                     <form action="#">
-                                        <input type="text" name="search" placeholder="Search Here" />
-                                        <button type="submit"><i className="las la-search"></i></button>
+                                        <input type="text" name="search" placeholder="Search Here"/>
+                                        <button type="submit"><i className="las la-search"/></button>
                                     </form>
                                 </div>
                             </div>
@@ -96,12 +96,13 @@ function MobileMenu() {
             <section className="mb-sidebar" id="mb-sidebar-body">
                 <div className="mb-sidebar-heading d-flex justify-content-between">
                     <div><h5>Menu</h5></div>
-                    <div><a href={process.env.PUBLIC_URL + "/"} id="close-mb-sidebar"><i className="las la-times"></i></a></div>
+                    <div><a href={process.env.PUBLIC_URL + "/"} id="close-mb-sidebar"><i className="las la-times"/></a>
+                    </div>
                 </div>
                 <div className="mb-sidebar-menu">
                     <div className="mb-menu-item">
                         <button className="mb-menu-button active">
-                            <p>Home <i className="las la-plus"></i></p>
+                            <p>Home <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
@@ -112,7 +113,7 @@ function MobileMenu() {
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button active">
-                            <p>Pages <i className="las la-plus"></i></p>
+                            <p>Pages <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
@@ -129,7 +130,7 @@ function MobileMenu() {
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button active">
-                            <p>Courses <i className="las la-plus"></i></p>
+                            <p>Courses <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
@@ -141,7 +142,7 @@ function MobileMenu() {
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button">
-                            <p>Instructor <i className="las la-plus"></i></p>
+                            <p>Instructor <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content">
                             <ul className="list-unstyled">
@@ -152,7 +153,7 @@ function MobileMenu() {
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button">
-                            <p>Event <i className="las la-plus"></i></p>
+                            <p>Event <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content">
                             <ul className="list-unstyled">
@@ -163,7 +164,7 @@ function MobileMenu() {
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button">
-                            <p>Blog <i className="las la-plus"></i></p>
+                            <p>Blog <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content">
                             <ul className="list-unstyled">
@@ -175,7 +176,7 @@ function MobileMenu() {
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button">
-                            <p>Shop <i className="las la-plus"></i></p>
+                            <p>Shop <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content">
                             <ul className="list-unstyled">
@@ -187,7 +188,7 @@ function MobileMenu() {
                     </div>
                 </div>
             </section>
-            <div className="mb-sidebar-overlay" id="mb-sidebar-overlay"></div>
+            <div className="mb-sidebar-overlay" id="mb-sidebar-overlay"/>
         </Styles>
     )
 }
