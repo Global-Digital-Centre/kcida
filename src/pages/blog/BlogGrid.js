@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Datas from '../../data/blog/grid.json';
 import {Link} from 'react-router-dom';
 import {Col, Container, Row} from 'react-bootstrap';
-import HeaderTwo from '../../components/HeaderTwo';
+import Header from '../../components/Header';
 import {BreadcrumbBox} from '../../components/common/Breadcrumb';
 import Pagination from './../../components/Pagination';
 import BlogSidebar from './components/BlogSidebar';
@@ -18,7 +18,7 @@ class BlogGrid extends Component {
                 <div className="main-wrapper blog-grid-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <Header/>
 
                     {/* Breadcroumb */}
                     <BreadcrumbBox title="Blog Grid" />

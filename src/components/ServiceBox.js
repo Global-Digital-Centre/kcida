@@ -21,7 +21,7 @@ class ServiceBox extends Component {
                                     <Col md="4" key={i}>
                                         <div className="service-box d-flex">
                                             <div className="box-icon">
-                                                <i className={data.boxIcon}></i>
+                                                <i className={data.boxIcon}/>
                                             </div>
                                             <div className="box-title">
                                                 <h6>{data.title}</h6>

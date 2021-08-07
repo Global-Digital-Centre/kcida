@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import HeaderTwo from '../../components/HeaderTwo';
+import Header from '../../components/Header';
 import {BreadcrumbBox} from '../../components/common/Breadcrumb';
 import AboutUs from '../../components/AboutUs';
 import IconBox from '../../components/IconBox';
@@ -18,7 +18,7 @@ class About extends Component {
                 <div className="main-wrapper about-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <Header/>
 
                     {/* Breadcroumb */}
                     <BreadcrumbBox title="About Us" />

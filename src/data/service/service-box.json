@@ -1,15 +1,15 @@
 {
-    "secTitle": "Checkout Our Features To Know Why We Are Best In This Business",
-    "dataList": [
-        {
-            "id": "1",
-            "boxIcon": "flaticon-thumbs-like",
-            "title": "Popular Courses",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "2",
-            "boxIcon": "flaticon-reading",
+  "secTitle": "WHY INVEST IN KAKAMEGA COUNTY?",
+  "dataList": [
+    {
+      "id": "1",
+      "boxIcon": "flaticon-thumbs-like",
+      "title": "Strategically Located",
+      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+    },
+    {
+      "id": "2",
+      "boxIcon": "flaticon-reading",
             "title": "Modern Library",
             "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
         },

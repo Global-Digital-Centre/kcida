@@ -13,35 +13,43 @@ import CampusTour from './components/CampusTour';
 import NewsletterForm from './components/NewsletterForm';
 import Footer from './components/Footer';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
+import ServiceBox from "./components/ServiceBox";
+import AboutUsTwo from "./components/AboutUsTwo";
 
 export default class HomeOne extends Component {
     render() {
 
 
         return (
-            <div className="main-wrapper" >
+            <div className="main-wrapper">
 
                 {/* Header */}
-                < Header />
+                < Header/>
 
                 {/* Hero Slider */}
                 < HeroSlider />
 
                 {/* Icon Box */}
-                < IconBox />
+                < IconBox/>
 
                 {/* Faq & Event Area */}
-                < FaqEvent />
+                < FaqEvent/>
 
                 {/* About Area */}
-                < AboutUs />
+                < AboutUs/>
+
+                {/* About Us 2 */}
+                <AboutUsTwo/>
+
+                {/* Service Box */}
+                <ServiceBox/>
+
 
                 {/* Course Filter */}
-                < CourseFilter />
+                < CourseFilter/>
 
                 {/* Testimonial Slider */}
-                < TestimonialSlider />
-
+                < TestimonialSlider/>
 
 
                 {/* Team Slider */}

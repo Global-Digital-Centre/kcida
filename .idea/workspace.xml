@@ -20,11 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ras.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ras.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/BackToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/BackToTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUsTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUsTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServiceBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServiceBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/StickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/StickyMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/heroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/heroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/iconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/iconBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/hero/hero-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hero/hero-slider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/service/service-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/service/service-box.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogClassic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogClassic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1628242598430</updated>
       <workItem from="1628242602989" duration="2592000" />
-      <workItem from="1628248629502" duration="21396000" />
+      <workItem from="1628248629502" duration="25732000" />
+      <workItem from="1628327098354" duration="7003000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -105,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628275811360</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="v2.0.4">
+      <created>1628277206269</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1628277206269</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,32 +159,33 @@
     <MESSAGE value="v2.0.0" />
     <MESSAGE value="v2.0.2" />
     <MESSAGE value="v2.0.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="v2.0.3" />
+    <MESSAGE value="v2.0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="v2.0.4" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="921" height="267" key="GridCell.Tab.0.bottom" timestamp="1628275938172">
+    <state width="921" height="267" key="GridCell.Tab.0.bottom" timestamp="1628321821310">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="921" height="267" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1628275938172" />
-    <state width="921" height="267" key="GridCell.Tab.0.center" timestamp="1628275938170">
+    <state width="921" height="267" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1628321821310" />
+    <state width="921" height="267" key="GridCell.Tab.0.center" timestamp="1628321821309">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="921" height="267" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1628275938170" />
-    <state width="921" height="267" key="GridCell.Tab.0.left" timestamp="1628275938169">
+    <state width="921" height="267" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1628321821309" />
+    <state width="921" height="267" key="GridCell.Tab.0.left" timestamp="1628321821309">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="921" height="267" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1628275938169" />
-    <state width="921" height="267" key="GridCell.Tab.0.right" timestamp="1628275938172">
+    <state width="921" height="267" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1628321821309" />
+    <state width="921" height="267" key="GridCell.Tab.0.right" timestamp="1628321821310">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="921" height="267" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1628275938172" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1628275816943">
+    <state width="921" height="267" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1628321821310" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1628277211901">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1628275816943" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1628277211901" />
     <state x="650" y="252" width="620" height="602" key="find.popup" timestamp="1628276766110">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

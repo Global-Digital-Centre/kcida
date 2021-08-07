@@ -312,6 +312,7 @@ export const Styles = styled.div`
     }
 
     .main-menu {
+    margin-bottom: 50px;
         .main-menu-box {
             position: relative;
             z-index : 111;

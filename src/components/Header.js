@@ -102,10 +102,22 @@ class Header extends Component {
                                     <div className="menu-box d-flex justify-content-between">
                                         <ul className="nav menu-nav">
                                             <li className="nav-item dropdown active">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Home <i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Home <i
+                                                    className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item active"><Link className="nav-link" to={process.env.PUBLIC_URL + "/"}>Home Style 1</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/home-two"}>Home Style 2</Link></li>
+                                                    <li className="nav-item active"><Link className="nav-link"
+                                                                                          to={process.env.PUBLIC_URL + "/"}>Home
+                                                        Style 1</Link></li>
+                                                    <li className="nav-item active"><Link className="nav-link"
+                                                                                          to={process.env.PUBLIC_URL + "/about"}>Vision</Link>
+                                                    </li>
+                                                    <li className="nav-item active"><Link className="nav-link"
+                                                                                          to={process.env.PUBLIC_URL + "/about"}>Mission</Link>
+                                                    </li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/home-two"}>Home
+                                                        Style 2</Link></li>
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
