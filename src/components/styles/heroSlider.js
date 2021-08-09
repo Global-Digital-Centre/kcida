@@ -53,6 +53,10 @@ export const Styles = styled.div`
                                         color         : ${colors.green};
                                         text-transform: uppercase;
                                         margin-bottom : 8px;
+                                         @media(max-width: 767px) {
+                                            font-size    : 26px;
+                                            font-weight  : 500;
+                                        }
                                     }
                                 }
 
@@ -66,7 +70,7 @@ export const Styles = styled.div`
                                         font-weight  : 600;
 
                                         @media(max-width: 767px) {
-                                            font-size    : 26px;
+                                            font-size    : 15px;
                                             font-weight  : 500;
                                         }
                                     }

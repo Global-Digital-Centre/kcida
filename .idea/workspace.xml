@@ -20,30 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ras.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ras.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AboutUsTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUsTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ServiceBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServiceBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/StickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/StickyMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/heroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/heroSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/iconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/iconBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/hero/hero-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hero/hero-slider.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/service/service-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/service/service-box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogClassic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogClassic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +61,7 @@
       <workItem from="1628242602989" duration="2592000" />
       <workItem from="1628248629502" duration="25732000" />
       <workItem from="1628327098354" duration="7003000" />
+      <workItem from="1628531498793" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
