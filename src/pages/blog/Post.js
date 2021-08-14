@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import {useEffect, useState} from 'react';
-import {getAuthor, getFeaturedImage} from '../lib/utils';
+import {getAuthor, getFeaturedImage} from './utils';
 import parse from 'html-react-parser';
 
 export default function Post({post}) {
