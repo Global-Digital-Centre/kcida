@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react';
-import {Col, Row} from 'react-bootstrap';
-import {Styles} from '../styles/commentForm.js';
+import React, { useEffect } from 'react';
+import { Row, Col } from 'react-bootstrap';
+import { Styles } from '../styles/commentForm.js';
 
 function CommentForm() {
     useEffect(() => {

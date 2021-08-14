@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Col, Row} from 'react-bootstrap';
+import React, { Component } from 'react';
+import { Row, Col } from 'react-bootstrap';
 import CourseSearch from './../../courses/components/CourseSearch';
 import CourseCategory from './../../courses/components/CourseCategory';
 import RecentBlog from './RecentPost';

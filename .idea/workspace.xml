@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/blog/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/components/BlogSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/components/BlogSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/components/CommentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/components/CommentForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/styles/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/styles/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/styles/blogDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/styles/blogDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/styles/commentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/styles/commentForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/styles/recentPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/styles/recentPost.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +54,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages/blog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/pages/about" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/blog" />
     </key>
   </component>
   <component name="SvnConfiguration">
