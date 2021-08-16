@@ -52,10 +52,11 @@ function FooterTwo() {
                         <Col md="3">
                             <div className="footer-logo-info">
                                 <img src={process.env.PUBLIC_URL + "/assets/images/f-logo.png"} alt="" className="img-fluid" />
-                                <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam null quos.</p>
+                                <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam null
+                                    quos.</p>
                                 <ul className="list-unstyled">
-                                    <li><i className="las la-map-marker"></i>795 South Park Avenue, CA 94107</li>
-                                    <li><i className="las la-envelope"></i>enquery@domain.com</li>
+                                    <li><i className="las la-map-marker"></i>Kakamega County, Kenya</li>
+                                    <li><i className="las la-envelope"></i>kcida@kakamega.com</li>
                                     <li><i className="las la-phone"></i>+1 908 875 7678</li>
                                 </ul>
                             </div>
@@ -64,11 +65,16 @@ function FooterTwo() {
                             <div className="f-links">
                                 <h5>Useful Links</h5>
                                 <ul className="list-unstyled">
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>General Information</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Help Center</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Our Services</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Privacy Policy</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Online Support</Link></li>
+                                    <li><a target="_blank" href="https://kakamega.go.ke/"><i
+                                        className="las la-angle-right"></i>Kakamega County</a></li>
+                                    <li><a target="_blank" href="http://www.invest.go.ke/"><i
+                                        className="las la-angle-right"></i>Kenya Invest</a></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/about"}><i
+                                        className="las la-angle-right"></i>Our Services</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Privacy
+                                        Policy</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/contact"}><i
+                                        className="las la-angle-right"></i>Contact Us</Link></li>
                                 </ul>
                             </div>
                         </Col>
@@ -120,13 +126,20 @@ function FooterTwo() {
                         </Col>
                         <Col md="12">
                             <div className="copytext-area text-center">
-                                <p>Copyright &copy; 2017 | Designed With <i className="las la-heart"></i> by <a href={process.env.PUBLIC_URL + "/"} target="_blank" rel="noopener noreferrer">SnazzyTheme</a></p>
+                                <p>Copyright &copy; 2021 | Designed With <i className="las la-heart"></i> by <a
+                                    href={process.env.PUBLIC_URL + "/"} target="_blank" rel="noopener noreferrer">Global
+                                    Digital Centre</a></p>
                                 <ul className="social list-unstyled list-inline">
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-dribbble"></i></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-facebook-f"></i></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-twitter"></i></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-linkedin-in"></i></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-youtube"></i></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
+                                        className="fab fa-dribbble"></i></a></li>
                                 </ul>
                             </div>
                         </Col>

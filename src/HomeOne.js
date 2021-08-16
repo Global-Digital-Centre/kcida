@@ -13,8 +13,8 @@ import CampusTour from './components/CampusTour';
 import NewsletterForm from './components/NewsletterForm';
 import Footer from './components/Footer';
 import MessengerCustomerChat from 'react-messenger-customer-chat';
-import ServiceBox from "./components/ServiceBox";
 import AboutUsTwo from "./components/AboutUsTwo";
+import ImageGallery from "./components/ImageGallery";
 
 export default class HomeOne extends Component {
     render() {
@@ -41,8 +41,8 @@ export default class HomeOne extends Component {
                 {/* About Us 2 */}
                 <AboutUsTwo/>
 
-                {/* Service Box */}
-                <ServiceBox/>
+                {/* Image Gallery Area */}
+                <ImageGallery/>
 
 
                 {/* Course Filter */}
@@ -71,7 +71,7 @@ export default class HomeOne extends Component {
                 < Footer/>
 
                 <MessengerCustomerChat
-                    pageId="102360768552591"
+                    pageId="101857828882888"
                     appId="891567418072170"
                     htmlRef="https://kcdia.netlify.app/"
                 />

@@ -121,54 +121,104 @@ class Header extends Component {
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Pages <i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Pages <i
+                                                    className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>About Us</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/login"}>Log In</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/registration"}>Registration</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/faq"}>Faq</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/404"}>404</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/coming-soon"}>Coming Soon</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/about"}>About
+                                                        Us</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link>
+                                                    </li>
+                                                    {/*<li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/login"}>Log In</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/registration"}>Registration</Link></li>*/}
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
+                                                    </li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/faq"}>Faq</Link>
+                                                    </li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/404"}>404</Link>
+                                                    </li>
+                                                    {/*<li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/coming-soon"}>Coming Soon</Link></li>*/}
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Opportunities<i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/course-grid"}
+                                                      data-toggle="dropdown">Opportunities<i
+                                                    className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-grid"}>Investment Opportunities</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-list"}>Other Opportunities</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>Course Details</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/course-grid"}>Investment
+                                                        Opportunities</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/course-list"}>Other
+                                                        Opportunities</Link></li>
+                                                    {/*<li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/course-details"}>Course Details</Link></li>*/}
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Instructor <i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/instructor"}
+                                                      data-toggle="dropdown">Board <i
+                                                    className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor"}>Instructors</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor-details"}>Instructor Details</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/instructor"}>Board
+                                                        Of Directors</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/instructor"}>Management
+                                                        Team</Link></li>
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Event <i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/events"}
+                                                      data-toggle="dropdown">Event <i
+                                                    className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/events"}>Events</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/event-details"}>Event Details</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/events"}>Events</Link>
+                                                    </li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/event-details"}>Event
+                                                        Details</Link></li>
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Blog <i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/blog-classic"}
+                                                      data-toggle="dropdown">News <i
+                                                    className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-classic"}>Blog Classic</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-grid"}>Blog Grid</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/blog-details"}>Blog Details</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/blog-classic"}>News
+                                                        Classic</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/blog-grid"}>News
+                                                        Grid</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/blog-details"}>Blog
+                                                        Details</Link></li>
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Shop <i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/products"}
+                                                      data-toggle="dropdown">Projects <i className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/products"}>Products</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/product-details"}>Product Details</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/cart"}>Cart</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/products"}>Projects</Link>
+                                                    </li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/product-details"}>Product
+                                                        Details</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/cart"}>Cart</Link>
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -176,11 +226,11 @@ class Header extends Component {
                                             <li className="nav-item search-box">
                                                 <Search />
                                             </li>
-                                            <li className="nav-item cart-box">
+                                            {/* <li className="nav-item cart-box">
                                                 <Link to={process.env.PUBLIC_URL + "/cart"} className="nav-link nav-cart">
                                                     <i className="las la-shopping-bag"/>
                                                 </Link>
-                                            </li>
+                                            </li>*/}
                                             <li className="nav-item side-box">
                                                 <Sidebar />
                                             </li>

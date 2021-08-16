@@ -62,7 +62,7 @@ function FaqEvent() {
                         <Col md="6">
                             <div className="faq-area">
                                 <div className="sec-title">
-                                    <h4>Frequently Ask <span>Question</span></h4>
+                                    <h4>Frequently Ask <span>Questions</span></h4>
                                 </div>
                                 <div className="faq-box">
                                     {

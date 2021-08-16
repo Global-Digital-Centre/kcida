@@ -46,7 +46,7 @@ class InstructorDetails extends Component {
                     <HeaderTwo />
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Instructor Details" />
+                    <BreadcrumbBox title="Board of Directors Details"/>
 
                     {/* Instructor Details Area */}
                     <section className="instructor-details-area">

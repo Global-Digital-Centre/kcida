@@ -21,6 +21,30 @@
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FaqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FaqEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/StickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/StickyMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/about-us/about-us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/about-us/about-us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/about-us/about-us2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/about-us/about-us2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/course/filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/faq-event/faq-event.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/faq-event/faq-event.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/service/service-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/service/service-box.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/shop/product.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/shop/product.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instructor/InstructorDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instructor/InstructorDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instructor/Instructors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instructor/Instructors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/Products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +99,8 @@
       <workItem from="1628677104281" duration="397000" />
       <workItem from="1628770761585" duration="2635000" />
       <workItem from="1628928080176" duration="338000" />
+      <workItem from="1629050345345" duration="7325000" />
+      <workItem from="1629093584796" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -139,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628951896408</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="APIs">
+      <created>1628952868553</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1628952868553</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,10 +228,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1628277211901" />
-    <state x="650" y="252" width="620" height="602" key="find.popup" timestamp="1628276766110">
+    <state x="650" y="252" width="620" height="602" key="find.popup" timestamp="1629088079348">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="650" y="252" width="620" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1628276766110" />
+    <state x="650" y="252" width="620" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629088079348" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1629089499664">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629089499664" />
     <state x="208" y="460" width="542" height="187" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1628263632096">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

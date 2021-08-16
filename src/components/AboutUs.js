@@ -45,23 +45,23 @@ class AboutUs extends Component {
                                     <Row>
                                         <Col sm="4">
                                             <div className="counter-box box1 text-center">
-                                                <h3><CountUp end={970} duration={5} delay={1.5}/><i
+                                                <h3><CountUp end={1867579} duration={5} delay={1.5}/><i
                                                     className="las la-plus"/></h3>
-                                                <p>Happy Students</p>
+                                                <p>Population</p>
                                             </div>
                                         </Col>
                                         <Col sm="4">
                                             <div className="counter-box box2 text-center">
-                                                <h3><CountUp end={130} duration={5} delay={1.5}/><i
+                                                <h3><CountUp end={430} duration={5} delay={1.5}/><i
                                                     className="las la-plus"/></h3>
-                                                <p>Teachers</p>
+                                                <p>Projects</p>
                                             </div>
                                         </Col>
                                         <Col sm="4">
                                             <div className="counter-box box3 text-center">
                                                 <h3><CountUp end={340} duration={5} delay={1.5}/><i
                                                     className="las la-plus"/></h3>
-                                                <p>Courses</p>
+                                                <p>Projects Completed</p>
                                             </div>
                                         </Col>
                                     </Row>

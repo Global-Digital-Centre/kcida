@@ -1,41 +1,35 @@
 {
-  "secTitle": "WHY INVEST IN KAKAMEGA COUNTY?",
+  "secTitle": "OUR CORE VALUES",
   "dataList": [
     {
       "id": "1",
       "boxIcon": "flaticon-thumbs-like",
       "title": "Strategically Located",
-      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+      "subTitle": "We put our investors at the centre of our operations\nand strive to continuously meet and exceed their expectations."
     },
     {
       "id": "2",
       "boxIcon": "flaticon-reading",
-            "title": "Modern Library",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "3",
-            "boxIcon": "flaticon-teacher",
-            "title": "Qualified Teacher",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "4",
-            "boxIcon": "flaticon-unlimited",
-            "title": "Unlimited Courses",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "5",
-            "boxIcon": "flaticon-locations",
-            "title": "Many Locations",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        },
-        {
-            "id": "6",
-            "boxIcon": "flaticon-support",
-            "title": "Online Support",
-            "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-        }
+      "title": "Diversity",
+      "subTitle": "We recognize rights of all individuals to mutual respect;\nacceptance of others without biases based on differences of any kind."
+    },
+    {
+      "id": "3",
+      "boxIcon": "flaticon-teacher",
+      "title": "Integrity",
+      "subTitle": "We show impartiality, fairness and honesty while upholding the\nhighest ethical standards. We seek to remain accountable and transparent in\nall our dealings as we deliver services to the public. We encourage our clients\nto provide feedback on the quality of services we provide."
+    },
+    {
+      "id": "4",
+      "boxIcon": "flaticon-unlimited",
+      "title": "Teamwork",
+      "subTitle": "We contribute fully to the activities of the Agency to address\nshared challenges through common effort by sharing information and\nresources to create a workplace that fosters cooperation, networking and\ncollaboration."
+    },
+    {
+      "id": "5",
+      "boxIcon": "flaticon-locations",
+      "title": "Professionalism",
+      "subTitle": "We exhibit highest standards of professionalism in our\nengagement with stakeholders. We seek to provide quality services that\nmeets expectations of stakeholders at all times."
+    }
     ]
 }

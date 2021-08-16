@@ -110,12 +110,12 @@ class HeaderTwo extends Component {
                                                 <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link>
                                                 </li>
-                                                <li className="nav-item"><Link className="nav-link"
+                                                {/*<li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/login"}>Log
                                                     In</Link></li>
                                                 <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/registration"}>Registration</Link>
-                                                </li>
+                                                </li>*/}
                                                 <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
                                                 </li>
@@ -125,9 +125,9 @@ class HeaderTwo extends Component {
                                                 <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/404"}>404</Link>
                                                 </li>
-                                                <li className="nav-item"><Link className="nav-link"
+                                                {/*<li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/coming-soon"}>Coming
-                                                    Soon</Link></li>
+                                                    Soon</Link></li>*/}
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
@@ -147,12 +147,13 @@ class HeaderTwo extends Component {
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
+                                            <Link className="nav-link dropdown-toggle"
+                                                  to={process.env.PUBLIC_URL + "/products"}
                                                   data-toggle="dropdown">Projects <i
                                                 className="las la-angle-down"/></Link>
                                             <ul className="dropdown list-unstyled">
                                                 <li className="nav-item"><Link className="nav-link"
-                                                                               to={process.env.PUBLIC_URL + "/products"}>Products</Link>
+                                                                               to={process.env.PUBLIC_URL + "/products"}>Projects</Link>
                                                 </li>
                                                 <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/product-details"}>Product
@@ -163,15 +164,21 @@ class HeaderTwo extends Component {
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
-                                                  data-toggle="dropdown">Instructor <i
+                                            <Link className="nav-link dropdown-toggle"
+                                                  to={process.env.PUBLIC_URL + "/instructor"}
+                                                  data-toggle="dropdown">Board <i
                                                 className="las la-angle-down"/></Link>
                                             <ul className="dropdown list-unstyled">
                                                 <li className="nav-item"><Link className="nav-link"
-                                                                               to={process.env.PUBLIC_URL + "/instructor"}>Instructors</Link>
+                                                                               to={process.env.PUBLIC_URL + "/instructor"}>Board
+                                                    Of Directors</Link>
                                                 </li>
                                                 <li className="nav-item"><Link className="nav-link"
-                                                                               to={process.env.PUBLIC_URL + "/instructor-details"}>Instructor
+                                                                               to={process.env.PUBLIC_URL + "/instructor"}>Management
+                                                    Team</Link>
+                                                </li>
+                                                <li className="nav-item"><Link className="nav-link"
+                                                                               to={process.env.PUBLIC_URL + "/instructor-details"}>Board
                                                     Details</Link></li>
                                             </ul>
                                         </li>

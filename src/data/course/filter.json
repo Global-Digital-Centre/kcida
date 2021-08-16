@@ -1,15 +1,15 @@
 {
-    "secTitle": "We Do What We Love To Do. Find the Best Course To Fit Your Needs.",
-    "dataList": [
-        {
-            "id": "1",
-            "targetId": "desi",
-            "imgUrl": "course-1.jpg",
-            "authorImg": "author.jpg",
-            "authorName": "John Doe",
-            "authorCourses": "13 Courses",
-            "price": "$20",
-            "courseTitle": "Php & mySql Programming",
+  "secTitle": "INVESTMENT OPPORTUNITIES",
+  "dataList": [
+    {
+      "id": "1",
+      "targetId": "desi",
+      "imgUrl": "course-1.jpg",
+      "authorImg": "author.jpg",
+      "authorName": "John Doe",
+      "authorCourses": "13 Courses",
+      "price": "$20",
+      "courseTitle": "Php & mySql Programming",
             "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
             "courseLink": "/course-details"
         },

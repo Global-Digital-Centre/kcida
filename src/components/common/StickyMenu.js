@@ -86,9 +86,9 @@ function StickyMenu() {
                                             <li className="nav-item"><Link className="nav-link"
                                                                            to={process.env.PUBLIC_URL + "/course-list"}>Other
                                                 Opportunities</Link></li>
-                                            <li className="nav-item"><Link className="nav-link"
+                                           {/* <li className="nav-item"><Link className="nav-link"
                                                                            to={process.env.PUBLIC_URL + "/course-details"}>Course
-                                                Details</Link></li>
+                                                Details</Link></li>*/}
                                         </ul>
                                     </li>
 
@@ -97,11 +97,11 @@ function StickyMenu() {
                                               data-toggle="dropdown">Projects <i className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
                                             <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/products"}>Products</Link>
+                                                                           to={process.env.PUBLIC_URL + "/products"}>PROJECTS</Link>
                                             </li>
                                             <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/product-details"}>Product
-                                                Details</Link></li>
+                                                                           to={process.env.PUBLIC_URL + "/product-details"}>Projects
+                                                details</Link></li>
                                             <li className="nav-item"><Link className="nav-link"
                                                                            to={process.env.PUBLIC_URL + "/cart"}>Cart</Link>
                                             </li>
@@ -112,11 +112,16 @@ function StickyMenu() {
                                               data-toggle="dropdown">Board <i className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
                                             <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/instructor"}>Instructors</Link>
+                                                                           to={process.env.PUBLIC_URL + "/instructor"}>Board
+                                                Of Directors</Link>
                                             </li>
                                             <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/instructor-details"}>Instructor
-                                                Details</Link></li>
+                                                                           to={process.env.PUBLIC_URL + "/instructor"}>Management
+                                                Team</Link>
+                                            </li>
+                                            <li className="nav-item"><Link className="nav-link"
+                                                                           to={process.env.PUBLIC_URL + "/instructor"}>Committe</Link>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">

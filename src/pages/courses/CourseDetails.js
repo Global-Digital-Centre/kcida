@@ -34,7 +34,7 @@ function CourseDetails() {
             < HeaderTwo />
 
             {/* Breadcroumb */}
-            < BreadcrumbBox title="Course Details" />
+            < BreadcrumbBox title="Investment Details"/>
 
             <Styles>
                 {/* Course Details */}

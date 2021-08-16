@@ -2,28 +2,28 @@
     "eventDataList": [
         {
             "id": "1",
-            "eventDate": "25 March",
-            "eventTitle": "2020 admidion fair going on this week",
+            "eventDate": "12 August",
+            "eventTitle": "COUNTY COMMENCES REHABILITATION OF SPORTS FACILITIES",
             "eventTime": "5:30pm - 7.00pm",
-            "eventLocation": "Newyork,NY.",
+            "eventLocation": "Kakamega County",
             "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
             "eventLink": "/event-details"
         },
         {
             "id": "2",
-            "eventDate": "25 March",
-            "eventTitle": "2020 admidion fair going on this week",
+            "eventDate": "10 August",
+            "eventTitle": "LAND GRABBERS PUT ON NOTICE",
             "eventTime": "5:30pm - 7.00pm",
-            "eventLocation": "Newyork,NY.",
+            "eventLocation": "Kakamega County",
             "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
             "eventLink": "/event-details"
         },
         {
             "id": "3",
-            "eventDate": "25 March",
-            "eventTitle": "2020 admidion fair going on this week",
+            "eventDate": "5 August",
+            "eventTitle": "ATHLETICS KENYA DELEGATES PAY A COURTESY CALL TO COUNTY SPORTS",
             "eventTime": "5:30pm - 7.00pm",
-            "eventLocation": "Newyork,NY.",
+            "eventLocation": "Kakamega County",
             "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
             "eventLink": "/event-details"
         }
@@ -31,18 +31,18 @@
     "faqDataList": [
         {
             "id": "1",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
+            "faqTitle": "Why Invest in Kakamega?",
+            "faqDesc": "The County has established an Investment Development Agency to guide investors through the investment process.\nThe county can provide incentives in form of land, access to water and 3-\nPhase Electricity, Investor friendly policies, pre-feasibility studies and\nenvironmental impact assessment"
         },
         {
             "id": "2",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid."
+            "faqTitle": "How big is Kakamega?",
+            "faqDesc": "Kakamega has a population of 1,867,579 which offers ready market for goods and services produced within and neighboring counties\nwhich have high population."
         },
         {
             "id": "3",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
+            "faqTitle": "What is Kakamega known for?",
+            "faqDesc": "The County enjoys abundant natural resources such as Kakamega Forest which is Kenya’s only tropical rain forest,tourist cultural attraction sites such as the Crying Stone, Na-bongo Shrines\nand Mawe Tatu. There also exists mineral deposits such as gold"
         }
     ]
 }
