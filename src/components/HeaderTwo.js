@@ -94,14 +94,15 @@ class HeaderTwo extends Component {
                                             <ul className="dropdown list-unstyled">
                                                 <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/"}>Home
-                                                    Style 1</Link></li>
-                                                <li className="nav-item"><Link className="nav-link"
+                                                </Link></li>
+                                                {/*<li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/home-two"}>Home
-                                                    Style 2</Link></li>
+                                                    Style 2</Link></li>*/}
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
-                                            <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
+                                            <Link className="nav-link dropdown-toggle"
+                                                  to={process.env.PUBLIC_URL + "/about"}
                                                   data-toggle="dropdown">Pages <i className="las la-angle-down"/></Link>
                                             <ul className="dropdown list-unstyled">
                                                 <li className="nav-item"><Link className="nav-link"
@@ -122,9 +123,9 @@ class HeaderTwo extends Component {
                                                 <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/faq"}>Faq</Link>
                                                 </li>
-                                                <li className="nav-item"><Link className="nav-link"
+                                                {/* <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/404"}>404</Link>
-                                                </li>
+                                                </li>*/}
                                                 {/*<li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/coming-soon"}>Coming
                                                     Soon</Link></li>*/}
@@ -141,9 +142,9 @@ class HeaderTwo extends Component {
                                                 <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/course-list"}>Other
                                                     Opportunities</Link></li>
-                                                <li className="nav-item"><Link className="nav-link"
+                                                {/*<li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/course-details"}>Course
-                                                    Details</Link></li>
+                                                    Details</Link></li>*/}
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">
@@ -158,9 +159,9 @@ class HeaderTwo extends Component {
                                                 <li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/product-details"}>Product
                                                     Details</Link></li>
-                                                <li className="nav-item"><Link className="nav-link"
+                                                {/*<li className="nav-item"><Link className="nav-link"
                                                                                to={process.env.PUBLIC_URL + "/cart"}>Cart</Link>
-                                                </li>
+                                                </li>*/}
                                             </ul>
                                         </li>
                                         <li className="nav-item dropdown">

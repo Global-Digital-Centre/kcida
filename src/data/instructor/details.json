@@ -6,7 +6,7 @@
         "authorName": "John Doe",
         "authorCourses": "13 Courses",
         "price": "$20",
-        "courseTitle": "Php & mySql Programming",
+        "courseTitle": "National Development Plans",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -17,7 +17,7 @@
         "authorName": "Jara Sen",
         "authorCourses": "21 Courses",
         "price": "$13",
-        "courseTitle": "Microsoft Excel for Beginner",
+        "courseTitle": "Session Papers and Master Plans",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -28,7 +28,7 @@
         "authorName": "Kim Chang",
         "authorCourses": "26 Courses",
         "price": "$19",
-        "courseTitle": "Digital Marketing Course",
+        "courseTitle": "Investment Promotion Act",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -39,7 +39,7 @@
         "authorName": "Jim Hunt",
         "authorCourses": "09 Courses",
         "price": "$15",
-        "courseTitle": "Zero to Hero in Python 3",
+        "courseTitle": "The Inter-Governmental Authority on Development (IGAD)",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     }

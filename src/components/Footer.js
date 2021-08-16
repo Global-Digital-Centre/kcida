@@ -15,9 +15,10 @@ class Footer extends Component {
                         <Row>
                             <Col md="4">
                                 <div className="footer-logo-info">
-                                    <img src={process.env.PUBLIC_URL + "/assets/images/f-logo.png"} alt="" className="img-fluid" />
-                                    <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam
-                                        null quos. Adipisci eius unde magnam ad, nisi voluptates.</p>
+                                    <img src={process.env.PUBLIC_URL + "/assets/images/f-logo.png"} alt=""
+                                         className="img-fluid"/>
+                                    <p>Kakamega County Investment and Development Agency (KCIDA) aims to deliver on its
+                                        mandate of attracting, promoting and facilitating investments in the County.</p>
                                     <ul className="list-unstyled">
                                         <li><i className="las la-map-marker"></i>Kakamega County, Kenya</li>
                                         <li><i className="las la-envelope"></i>kcida@kakamega.com</li>
@@ -29,9 +30,11 @@ class Footer extends Component {
                                 <div className="f-links">
                                     <h5>Useful Links</h5>
                                     <ul className="list-unstyled">
-                                        <li><a target="_blank" href="https://kakamega.go.ke/"><i
+                                        <li><a Using target="_blank" without rel="noreferrer"
+                                               href="https://kakamega.go.ke/"><i
                                             className="las la-angle-right"></i>Kakamega County</a></li>
-                                        <li><a target="_blank" href="http://www.invest.go.ke/"><i
+                                        <li><a Using target="_blank" without rel="noreferrer"
+                                               href="http://www.invest.go.ke/"><i
                                             className="las la-angle-right"></i>Kenya Invest</a></li>
                                         <li><Link to={process.env.PUBLIC_URL + "/about"}><i
                                             className="las la-angle-right"></i>Our Services</Link></li>
@@ -84,7 +87,9 @@ class Footer extends Component {
                         <Row>
                             <Col md="6">
                                 <div className="copy-text">
-                                    <p>Copyright &copy; 2020 | Designed With <i className="las la-heart"></i> by <a href={process.env.PUBLIC_URL + "/"} target="_blank" rel="noopener noreferrer">SnazzyTheme</a></p>
+                                    <p>Copyright &copy; 2020 | Designed by <a href="http://gdc-ltd.org/" Using
+                                                                              target="_blank" rel="noopener noreferrer">Global
+                                        Digital Centre</a></p>
                                 </div>
                             </Col>
                             <Col md="6" className="text-right">

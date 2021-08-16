@@ -4,9 +4,9 @@
         "imgUrl": "course-1.jpg",
         "authorImg": "author.jpg",
         "authorName": "John Doe",
-        "authorCourses": "13 Courses",
-        "price": "$20",
-        "courseTitle": "Php & mySql Programming",
+        "authorCourses": "13 Investments",
+        "price": "",
+        "courseTitle": "National Development Plans",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -15,9 +15,9 @@
         "imgUrl": "course-2.jpg",
         "authorImg": "author.jpg",
         "authorName": "Jara Sen",
-        "authorCourses": "21 Courses",
+        "authorCourses": "21 Investments",
         "price": "$13",
-        "courseTitle": "Microsoft Excel for Beginner",
+        "courseTitle": "Session Papers and Master Plans",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -28,7 +28,7 @@
         "authorName": "Kim Chang",
         "authorCourses": "26 Courses",
         "price": "$19",
-        "courseTitle": "Digital Marketing Course",
+        "courseTitle": "Investment Promotion Act",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -38,8 +38,8 @@
         "authorImg": "author.jpg",
         "authorName": "Jim Hunt",
         "authorCourses": "09 Courses",
-        "price": "$15",
-        "courseTitle": "Zero to Hero in Python 3",
+        "price": "",
+        "courseTitle": "The Inter-Governmental Authority on Development (IGAD)",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -49,8 +49,8 @@
         "authorImg": "author.jpg",
         "authorName": "Sara Kim",
         "authorCourses": "17 Courses",
-        "price": "$21",
-        "courseTitle": "React JS, Angular & Vue JS",
+        "price": "",
+        "courseTitle": "East African Community(EAC)",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -60,8 +60,8 @@
         "authorImg": "author.jpg",
         "authorName": "Shon Doe",
         "authorCourses": "31 Courses",
-        "price": "$24",
-        "courseTitle": "Laravel API Development",
+        "price": "",
+        "courseTitle": "Investment Promotion Act",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     }

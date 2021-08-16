@@ -48,11 +48,17 @@ function CourseFilter() {
                         <Col md="12">
                             <div className="filter-btns text-center">
                                 <ul className="filter-btn-list list-unstyled list inline">
-                                    <li data-target="*" className="active list-inline-item">All Courses</li>
-                                    <li data-target="desi" className="list-inline-item">Web Design</li>
-                                    <li data-target="deve" className="list-inline-item">Web Development</li>
-                                    <li data-target="seo" className="list-inline-item">Seo</li>
-                                    <li data-target="prog" className="list-inline-item">Programming</li>
+                                    <li data-target="*" className="active list-inline-item">All Investment
+                                        Opportunities
+                                    </li>
+                                    <li data-target="seo" className="list-inline-item">Kakamega Investment
+                                        Opportunities
+                                    </li>
+                                    <li data-target="desi" className="list-inline-item">Regional Opportunities</li>
+                                    <li data-target="deve" className="list-inline-item">Alignment with Strategic Plan
+                                        with CIDP
+                                    </li>
+                                    {/*  <li data-target="prog" className="list-inline-item">Programming</li>*/}
                                 </ul>
                             </div>
                             <Row className="filter-items">
@@ -85,16 +91,21 @@ function CourseFilter() {
                                                         </div>
                                                         <div className="rating">
                                                             <ul className="list-unstyled list-inline">
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i className="las la-star-half-alt"></i>
+                                                                <li className="list-inline-item"><i
+                                                                    className="las la-star"></i></li>
+                                                                <li className="list-inline-item"><i
+                                                                    className="las la-star"></i></li>
+                                                                <li className="list-inline-item"><i
+                                                                    className="las la-star"></i></li>
+                                                                <li className="list-inline-item"><i
+                                                                    className="las la-star"></i></li>
+                                                                <li className="list-inline-item"><i
+                                                                    className="las la-star-half-alt"></i>
                                                                 </li>
                                                                 <li className="list-inline-item">(4.5)</li>
                                                             </ul>
                                                         </div>
-                                                        <div className="student">
+                                                        <div className="Investors">
                                                             <p><i className="las la-chair"></i>60</p>
                                                         </div>
                                                     </div>
@@ -107,7 +118,7 @@ function CourseFilter() {
                         </Col>
                         <Col md="12" className="text-center">
                             <div className="viewall-btn">
-                                <Link to={process.env.PUBLIC_URL + "/course-grid"}>View All Courses</Link>
+                                <Link to={process.env.PUBLIC_URL + "/course-grid"}>View Investment Opportunities</Link>
                             </div>
                         </Col>
                     </Row>
