@@ -95,7 +95,7 @@ function MobileMenu() {
             {/* Mobile Menu Sidebar */}
             <section className="mb-sidebar" id="mb-sidebar-body">
                 <div className="mb-sidebar-heading d-flex justify-content-between">
-                    <div><h5>Menu</h5></div>
+                    <div><h5>KCIDA</h5></div>
                     <div><a href={process.env.PUBLIC_URL + "/"} id="close-mb-sidebar"><i className="las la-times"/></a>
                     </div>
                 </div>
@@ -106,8 +106,10 @@ function MobileMenu() {
                         </button>
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
-                                <li><Link to={process.env.PUBLIC_URL + "/"}>Home Style 1</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/home-two"}>Home Style 2</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/about"}>Home</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/about"}>Vision</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/about"}>Mission</Link></li>
+                                {/* <li><Link to={process.env.PUBLIC_URL + "/home-two"}>Home Style 2</Link></li>*/}
                             </ul>
                         </div>
                     </div>
@@ -119,35 +121,50 @@ function MobileMenu() {
                             <ul className="list-unstyled">
                                 <li><Link to={process.env.PUBLIC_URL + "/about"}>About Us</Link></li>
                                 <li><Link to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/login"}>Log In</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/registration"}>Registration</Link></li>
+                                {/*<li><Link to={process.env.PUBLIC_URL + "/login"}>Log In</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/registration"}>Registration</Link></li>*/}
                                 <li><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></li>
                                 <li><Link to={process.env.PUBLIC_URL + "/faq"}>Faq</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/404"}>404</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/coming-soon"}>Coming Soon</Link></li>
+                                {/*<li><Link to={process.env.PUBLIC_URL + "/404"}>404</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/coming-soon"}>Coming Soon</Link></li>*/}
                             </ul>
                         </div>
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button active">
-                            <p>Courses <i className="las la-plus"/></p>
+                            <p>Investment Opportunities <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
-                                <li><Link to={process.env.PUBLIC_URL + "/course-grid"}>Course Grid</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/course-list"}>Course List</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/course-details"}>Course Details</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/course-grid"}>Investment Opportunities</Link>
+                                </li>
+                                <li><Link to={process.env.PUBLIC_URL + "/course-list"}>Other Opportunities</Link></li>
+                                {/*<li><Link to={process.env.PUBLIC_URL + "/course-details"}>Course Details</Link></li>*/}
                             </ul>
                         </div>
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button">
-                            <p>Instructor <i className="las la-plus"/></p>
+                            <p>Board <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content">
                             <ul className="list-unstyled">
-                                <li><Link to={process.env.PUBLIC_URL + "/instructor"}>Instructors</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/instructor-details"}>Instructor Details</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/instructor"}>Board of Directors</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/instructor-details"}>Management Board</Link>
+                                </li>
+                                <li><Link to={process.env.PUBLIC_URL + "/instructor-details"}>Committe</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="mb-menu-item">
+                        <button className="mb-menu-button">
+                            <p>Projects <i className="las la-plus"/></p>
+                        </button>
+                        <div className="mb-menu-content">
+                            <ul className="list-unstyled">
+                                <li><Link to={process.env.PUBLIC_URL + "/products"}>Projects</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/product-details"}>Projects Details</Link></li>
+                                {/*<li><Link to={process.env.PUBLIC_URL + "/cart"}>Cart</Link></li>*/}
                             </ul>
                         </div>
                     </div>
@@ -164,28 +181,17 @@ function MobileMenu() {
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button">
-                            <p>Blog <i className="las la-plus"/></p>
+                            <p>News <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content">
                             <ul className="list-unstyled">
-                                <li><Link to={process.env.PUBLIC_URL + "/blog-classic"}>Blog Classic</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>Blog Grid</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/blog-details"}>Blog Details</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/blog-classic"}>Nes Classic</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/blog-grid"}>News Grid</Link></li>
+                                {/* <li><Link to={process.env.PUBLIC_URL + "/blog-details"}>Blog Details</Link></li>*/}
                             </ul>
                         </div>
                     </div>
-                    <div className="mb-menu-item">
-                        <button className="mb-menu-button">
-                            <p>Shop <i className="las la-plus"/></p>
-                        </button>
-                        <div className="mb-menu-content">
-                            <ul className="list-unstyled">
-                                <li><Link to={process.env.PUBLIC_URL + "/products"}>Products</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/product-details"}>Product Details</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/cart"}>Cart</Link></li>
-                            </ul>
-                        </div>
-                    </div>
+
                 </div>
             </section>
             <div className="mb-sidebar-overlay" id="mb-sidebar-overlay"/>
