@@ -44,7 +44,7 @@ function BackToTop() {
         <Styles>
             {/* Back To Top */}
             <button type="text" className="totop-btn">
-                <i className="las la-arrow-up"></i>
+                <i className="las la-arrow-up"/>
             </button>
         </Styles>
     )

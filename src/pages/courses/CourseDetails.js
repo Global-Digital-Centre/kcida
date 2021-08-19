@@ -34,7 +34,7 @@ function CourseDetails() {
             < HeaderTwo />
 
             {/* Breadcroumb */}
-            < BreadcrumbBox title="Course Details" />
+            < BreadcrumbBox title="Details"/>
 
             <Styles>
                 {/* Course Details */}
@@ -44,37 +44,40 @@ function CourseDetails() {
                             <Col lg="9" md="8" sm="12">
                                 <div className="course-details-top">
                                     <div className="heading">
-                                        <h4>Javascript Programming From Scretch For Beginers To Advanced With Top Rated Author (Andy Robert).</h4>
+                                        <h4>Kakamega</h4>
                                     </div>
                                     <div className="course-top-overview">
                                         <div className="d-flex overviews">
                                             <div className="author">
-                                                <img src={process.env.PUBLIC_URL + `/assets/images/author.jpg`} alt="" />
+                                                <img
+                                                    src={process.env.PUBLIC_URL + `/assets/images/author-280_x_280.png`}
+                                                    alt=""/>
                                                 <div className="author-name">
                                                     <h6>Author</h6>
-                                                    <p>Andy Robert</p>
+                                                    <p>KCIDA</p>
                                                 </div>
                                             </div>
-                                            <div className="category">
+                                            {/* <div className="category">
                                                 <h6>Category</h6>
                                                 <p>Social Science</p>
-                                            </div>
+                                            </div>*/}
                                             <div className="rating">
                                                 <h6>Rating</h6>
                                                 <ul className="list-unstyled list-inline">
-                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                    <li className="list-inline-item"><i className="las la-star-half-alt"></i>
+                                                    <li className="list-inline-item"><i className="las la-star"/></li>
+                                                    <li className="list-inline-item"><i className="las la-star"/></li>
+                                                    <li className="list-inline-item"><i className="las la-star"/></li>
+                                                    <li className="list-inline-item"><i className="las la-star"/></li>
+                                                    <li className="list-inline-item"><i
+                                                        className="las la-star-half-alt"/>
                                                     </li>
                                                     <li className="list-inline-item">(4.5)</li>
                                                 </ul>
                                             </div>
-                                            <div className="price">
+                                            {/*<div className="price">
                                                 <h6>Price</h6>
                                                 <p>$29.00</p>
-                                            </div>
+                                            </div>*/}
                                         </div>
                                     </div>
                                     <div className="course-details-banner">
@@ -99,36 +102,102 @@ function CourseDetails() {
                                             <Tab.Content>
                                                 <Tab.Pane eventKey="overview" className="overview-tab">
                                                     <div className="course-desc">
-                                                        <h5>Course Description</h5>
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nesciunt harum facilis odit inventore molestias qui asperiores recusandae architecto mollitia provident ipsa unde, praesentium impedit enim voluptate ducimus, saepe autem. Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br /><br />Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda optio sequi suscipit et modi! Corporis obcaecati rerum et, explicabo inventore, aliquid, odit modi harum libero culpa distinctio. Nemo, aliquid dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio earum accusantium quam eius dignissimos quaerat voluptatem excepturi aliquid dolor ducimus. Illo porro maiores fuga dignissimos temporibus odio nulla nobis nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                        <h5>Description</h5>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                            Facere nesciunt harum facilis odit inventore molestias qui
+                                                            asperiores recusandae architecto mollitia provident ipsa
+                                                            unde, praesentium impedit enim voluptate ducimus, saepe
+                                                            autem. Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                            elit.<br/><br/>Lorem ipsum dolor sit, amet consectetur
+                                                            adipisicing elit. Assumenda optio sequi suscipit et modi!
+                                                            Corporis obcaecati rerum et, explicabo inventore, aliquid,
+                                                            odit modi harum libero culpa distinctio. Nemo, aliquid
+                                                            dignissimos. Lorem ipsum dolor sit amet consectetur
+                                                            adipisicing elit. Optio earum accusantium quam eius
+                                                            dignissimos quaerat voluptatem excepturi aliquid dolor
+                                                            ducimus. Illo porro maiores fuga dignissimos temporibus odio
+                                                            nulla nobis nemo. Lorem ipsum dolor sit amet consectetur
+                                                            adipisicing elit.</p>
                                                     </div>
                                                     <div className="course-feature">
-                                                        <h5>Course Feature</h5>
-                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae impedit eligendi perspiciatis animi maxime ab minus corporis omnis similique excepturi, quidem facere quisquam aperiam neque dolorem saepe. Laboriosam, quam aliquam. Optio earum accusantium quam eius dignissimos quaerat voluptatem excepturi aliquid dolor ducimus. Illo porro maiores fuga dignissimos temporibus odio nulla nobis nemo.</p>
+                                                        <h5>Feature</h5>
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                            Quae impedit eligendi perspiciatis animi maxime ab minus
+                                                            corporis omnis similique excepturi, quidem facere quisquam
+                                                            aperiam neque dolorem saepe. Laboriosam, quam aliquam. Optio
+                                                            earum accusantium quam eius dignissimos quaerat voluptatem
+                                                            excepturi aliquid dolor ducimus. Illo porro maiores fuga
+                                                            dignissimos temporibus odio nulla nobis nemo.</p>
                                                         <ul className="list-unstyled">
-                                                            <li><i className="las la-arrow-right"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere excepturi aliquid dolor ducimus.</li>
-                                                            <li><i className="las la-arrow-right"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere excepturi aliquid .</li>
-                                                            <li><i className="las la-arrow-right"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere excepturi.</li>
+                                                            <li><i className="las la-arrow-right"/> Lorem ipsum dolor
+                                                                sit amet, consectetur adipisicing elit. Voluptatum amet
+                                                                quo eius saepe et quis necessitatibus hic natus facere
+                                                                excepturi aliquid dolor ducimus.
+                                                            </li>
+                                                            <li><i className="las la-arrow-right"/> Lorem ipsum dolor
+                                                                sit amet, consectetur adipisicing elit. Voluptatum amet
+                                                                quo eius saepe et quis necessitatibus hic natus facere
+                                                                excepturi aliquid .
+                                                            </li>
+                                                            <li><i className="las la-arrow-right"/> Lorem ipsum dolor
+                                                                sit amet, consectetur adipisicing elit. Voluptatum amet
+                                                                quo eius saepe et quis necessitatibus hic natus facere
+                                                                excepturi.
+                                                            </li>
                                                         </ul>
                                                     </div>
                                                     <div className="course-learn">
                                                         <h5>Learning Outcome</h5>
-                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae impedit eligendi perspiciatis animi maxime ab minus corporis omnis similique excepturi, quidem facere quisquam aperiam neque dolorem saepe. Laboriosam, quam aliquam odit modi harum libero culpa distinctio.</p>
+                                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                            Quae impedit eligendi perspiciatis animi maxime ab minus
+                                                            corporis omnis similique excepturi, quidem facere quisquam
+                                                            aperiam neque dolorem saepe. Laboriosam, quam aliquam odit
+                                                            modi harum libero culpa distinctio.</p>
                                                         <ul className="list-unstyled">
-                                                            <li><i className="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere Quae impedit eligendi perspiciatis animi maxime ab minus corporis omnis similique excepturi.</li>
-                                                            <li><i className="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere Quae impedit eligendi perspiciatis animi maxime ab minus corporis omnis similique excepturi.</li>
-                                                            <li><i className="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere Quae impedit eligendi perspiciatis animi maxime ab minus corporis omnis similique excepturi.</li>
-                                                            <li><i className="fa fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere Quae impedit eligendi perspiciatis animi maxime ab minus corporis omnis similique excepturi.</li>
+                                                            <li><i className="fa fa-check"/> Lorem ipsum dolor sit amet,
+                                                                consectetur adipisicing elit. Voluptatum amet quo eius
+                                                                saepe et quis necessitatibus hic natus facere Quae
+                                                                impedit eligendi perspiciatis animi maxime ab minus
+                                                                corporis omnis similique excepturi.
+                                                            </li>
+                                                            <li><i className="fa fa-check"/> Lorem ipsum dolor sit amet,
+                                                                consectetur adipisicing elit. Voluptatum amet quo eius
+                                                                saepe et quis necessitatibus hic natus facere Quae
+                                                                impedit eligendi perspiciatis animi maxime ab minus
+                                                                corporis omnis similique excepturi.
+                                                            </li>
+                                                            <li><i className="fa fa-check"/> Lorem ipsum dolor sit amet,
+                                                                consectetur adipisicing elit. Voluptatum amet quo eius
+                                                                saepe et quis necessitatibus hic natus facere Quae
+                                                                impedit eligendi perspiciatis animi maxime ab minus
+                                                                corporis omnis similique excepturi.
+                                                            </li>
+                                                            <li><i className="fa fa-check"/> Lorem ipsum dolor sit amet,
+                                                                consectetur adipisicing elit. Voluptatum amet quo eius
+                                                                saepe et quis necessitatibus hic natus facere Quae
+                                                                impedit eligendi perspiciatis animi maxime ab minus
+                                                                corporis omnis similique excepturi.
+                                                            </li>
                                                         </ul>
                                                     </div>
                                                     <div className="course-share">
                                                         <h5>Share This Course</h5>
                                                         <ul className="social list-unstyled list-inline">
-                                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-                                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
-                                                            <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-dribbble"></i></a></li>
+                                                            <li className="list-inline-item"><a
+                                                                href={process.env.PUBLIC_URL + "/"}><i
+                                                                className="fab fa-facebook-f"/></a></li>
+                                                            <li className="list-inline-item"><a
+                                                                href={process.env.PUBLIC_URL + "/"}><i
+                                                                className="fab fa-twitter"/></a></li>
+                                                            <li className="list-inline-item"><a
+                                                                href={process.env.PUBLIC_URL + "/"}><i
+                                                                className="fab fa-linkedin-in"/></a></li>
+                                                            <li className="list-inline-item"><a
+                                                                href={process.env.PUBLIC_URL + "/"}><i
+                                                                className="fab fa-youtube"/></a></li>
+                                                            <li className="list-inline-item"><a
+                                                                href={process.env.PUBLIC_URL + "/"}><i
+                                                                className="fab fa-dribbble"/></a></li>
                                                         </ul>
                                                     </div>
                                                 </Tab.Pane>
@@ -144,22 +213,26 @@ function CourseDetails() {
                                                             <div className="course-content show">
                                                                 <ul className="list-unstyled">
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 01</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 01</span>
                                                                         <span className="lecture-title">Javascript functional components</span>
                                                                         <span className="lecture-duration">02:36</span>
                                                                     </li>
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 02</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 02</span>
                                                                         <span className="lecture-title">Javascript api integration</span>
                                                                         <span className="lecture-duration">04:20</span>
                                                                     </li>
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 03</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 03</span>
                                                                         <span className="lecture-title">Javscript project Setup</span>
                                                                         <span className="lecture-duration">03:39</span>
                                                                     </li>
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 04</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 04</span>
                                                                         <span className="lecture-title">React app setup project</span>
                                                                         <span className="lecture-duration">01:56</span>
                                                                     </li>
@@ -171,17 +244,20 @@ function CourseDetails() {
                                                             <div className="course-content show">
                                                                 <ul className="list-unstyled">
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 01</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 01</span>
                                                                         <span className="lecture-title">Javascript functional components</span>
                                                                         <span className="lecture-duration">11:36</span>
                                                                     </li>
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 02</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 02</span>
                                                                         <span className="lecture-title">Javascript api integration</span>
                                                                         <span className="lecture-duration">19:20</span>
                                                                     </li>
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 03</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 03</span>
                                                                         <span className="lecture-title">Javscript project Setup</span>
                                                                         <span className="lecture-duration">10:39</span>
                                                                     </li>
@@ -193,17 +269,20 @@ function CourseDetails() {
                                                             <div className="course-content show">
                                                                 <ul className="list-unstyled">
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 01</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 01</span>
                                                                         <span className="lecture-title">Javascript functional components</span>
                                                                         <span className="lecture-duration">24:36</span>
                                                                     </li>
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 02</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 02</span>
                                                                         <span className="lecture-title">Javascript api integration</span>
                                                                         <span className="lecture-duration">21:20</span>
                                                                     </li>
                                                                     <li>
-                                                                        <span className="play-icon"><i className="las la-play"></i> Lecture: 03</span>
+                                                                        <span className="play-icon"><i
+                                                                            className="las la-play"/> Lecture: 03</span>
                                                                         <span className="lecture-title">Javscript project Setup</span>
                                                                         <span className="lecture-duration">15:39</span>
                                                                     </li>
@@ -231,10 +310,22 @@ function CourseDetails() {
                                                                             </div>
                                                                             <div className="instructor-social">
                                                                                 <ul className="social list-unstyled list-inline">
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-facebook-f"/></a>
+                                                                                    </li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-twitter"/></a>
+                                                                                    </li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-linkedin-in"/></a>
+                                                                                    </li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-youtube"/></a>
+                                                                                    </li>
                                                                                 </ul>
                                                                             </div>
                                                                         </div>
@@ -263,10 +354,22 @@ function CourseDetails() {
                                                                             </div>
                                                                             <div className="instructor-social">
                                                                                 <ul className="social list-unstyled list-inline">
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-facebook-f"/></a>
+                                                                                    </li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-twitter"/></a>
+                                                                                    </li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-linkedin-in"/></a>
+                                                                                    </li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-youtube"/></a>
+                                                                                    </li>
                                                                                 </ul>
                                                                             </div>
                                                                         </div>
@@ -295,10 +398,22 @@ function CourseDetails() {
                                                                             </div>
                                                                             <div className="instructor-social">
                                                                                 <ul className="social list-unstyled list-inline">
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
-                                                                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-facebook-f"/></a>
+                                                                                    </li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-twitter"/></a>
+                                                                                    </li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-linkedin-in"/></a>
+                                                                                    </li>
+                                                                                    <li className="list-inline-item"><a
+                                                                                        href={process.env.PUBLIC_URL + "/"}><i
+                                                                                        className="fab fa-youtube"/></a>
+                                                                                    </li>
                                                                                 </ul>
                                                                             </div>
                                                                         </div>
@@ -326,16 +441,24 @@ function CourseDetails() {
                                                                                 <h6>Mark Shadow</h6>
                                                                                 <p>Mar 26, 2020 | 06:30pm</p>
                                                                                 <ul className="list-unstyled list-inline">
-                                                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                                    <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                                                    <li className="list-inline-item"><i className="las la-star-half-alt"></i></li>
+                                                                                    <li className="list-inline-item"><i
+                                                                                        className="las la-star"/></li>
+                                                                                    <li className="list-inline-item"><i
+                                                                                        className="las la-star"/></li>
+                                                                                    <li className="list-inline-item"><i
+                                                                                        className="las la-star"/></li>
+                                                                                    <li className="list-inline-item"><i
+                                                                                        className="las la-star"/></li>
+                                                                                    <li className="list-inline-item"><i
+                                                                                        className="las la-star-half-alt"/>
+                                                                                    </li>
                                                                                     <li className="list-inline-item">(4.5)</li>
                                                                                 </ul>
                                                                             </div>
                                                                             <div className="reply-btn">
-                                                                                <button type="button"><i className="las la-reply-all"></i> Reply</button>
+                                                                                <button type="button"><i
+                                                                                    className="las la-reply-all"/> Reply
+                                                                                </button>
                                                                             </div>
                                                                         </div>
                                                                         <div className="comment-desc">

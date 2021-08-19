@@ -33,7 +33,7 @@ export const Styles = styled.div`
 
                     a.nav-link {
                         font-size     : 14px;
-                        color         : ${colors.black1};
+                        color         : ${colors.bg2};
                         text-transform: uppercase;
                         font-weight   : 500;
                         padding       : 10px 10px 20px;
@@ -47,7 +47,7 @@ export const Styles = styled.div`
                         }
 
                         &:hover {
-                            color: ${colors.bg2};
+                            color: ${colors.bg1};
                         }
 
                         @media(max-width: 1199px) {

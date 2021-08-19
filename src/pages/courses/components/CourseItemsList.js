@@ -35,11 +35,11 @@ class CourseItemList extends Component {
                                     <h6 className="heading"><Link to={process.env.PUBLIC_URL + data.courseLink}>{data.courseTitle}</Link></h6>
                                     <div className="rating">
                                         <ul className="list-unstyled list-inline">
-                                            <li className="list-inline-item"><i className="las la-star"></i></li>
-                                            <li className="list-inline-item"><i className="las la-star"></i></li>
-                                            <li className="list-inline-item"><i className="las la-star"></i></li>
-                                            <li className="list-inline-item"><i className="las la-star"></i></li>
-                                            <li className="list-inline-item"><i className="las la-star-half-alt"></i>
+                                            <li className="list-inline-item"><i className="las la-star"/></li>
+                                            <li className="list-inline-item"><i className="las la-star"/></li>
+                                            <li className="list-inline-item"><i className="las la-star"/></li>
+                                            <li className="list-inline-item"><i className="las la-star"/></li>
+                                            <li className="list-inline-item"><i className="las la-star-half-alt"/>
                                             </li>
                                             <li className="list-inline-item">(4.5)</li>
                                         </ul>

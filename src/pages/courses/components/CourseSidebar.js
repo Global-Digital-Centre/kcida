@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import {Col, Row} from 'react-bootstrap';
 import CourseSearch from './CourseSearch';
-import CoursePrice from './CoursePrice';
 import PopularCourse from './PopularCourse';
 import CourseTag from './CourseTag';
 import CourseCategory from './CourseCategory';
@@ -17,9 +16,9 @@ class CourseSidebar extends Component {
                     <Col md="12">
                         <CourseCategory />
                     </Col>
-                    <Col md="12">
+                   {/* <Col md="12">
                         <CoursePrice />
-                    </Col>
+                    </Col>*/}
                     <Col md="12">
                         <PopularCourse />
                     </Col>

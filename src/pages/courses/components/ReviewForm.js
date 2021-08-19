@@ -62,34 +62,34 @@ function ReviewForm() {
                 <Row>
                     <Col md="12">
                         <div className="star-rating">
-                            <input type="radio" name="rate" id="rate-5" />
-                            <label htmlFor="rate-5" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-4" />
-                            <label htmlFor="rate-4" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-3" />
-                            <label htmlFor="rate-3" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-2" />
-                            <label htmlFor="rate-2" className="las la-star"></label>
-                            <input type="radio" name="rate" id="rate-1" />
-                            <label htmlFor="rate-1" className="las la-star"></label>
+                            <input type="radio" name="rate" id="rate-5"/>
+                            <label htmlFor="rate-5" className="las la-star"/>
+                            <input type="radio" name="rate" id="rate-4"/>
+                            <label htmlFor="rate-4" className="las la-star"/>
+                            <input type="radio" name="rate" id="rate-3"/>
+                            <label htmlFor="rate-3" className="las la-star"/>
+                            <input type="radio" name="rate" id="rate-2"/>
+                            <label htmlFor="rate-2" className="las la-star"/>
+                            <input type="radio" name="rate" id="rate-1"/>
+                            <label htmlFor="rate-1" className="las la-star"/>
                         </div>
                     </Col>
                     <Col md="12">
                         <p className="form-control">
-                            <textarea name="comment" id="desc6" placeholder="Enter your review"></textarea>
-                            <span className="input-msg6"></span>
+                            <textarea name="comment" id="desc6" placeholder="Enter your review"/>
+                            <span className="input-msg6"/>
                         </p>
                     </Col>
                     <Col md="6">
                         <p className="form-control">
-                            <input type="name" placeholder="Enter your name" id="name6" />
-                            <span className="input-msg6"></span>
+                            <input type="name" placeholder="Enter your name" id="name6"/>
+                            <span className="input-msg6"/>
                         </p>
                     </Col>
                     <Col md="6">
                         <p className="form-control">
-                            <input type="email" placeholder="Enter your email" id="email6" />
-                            <span className="input-msg6"></span>
+                            <input type="email" placeholder="Enter your email" id="email6"/>
+                            <span className="input-msg6"/>
                         </p>
                     </Col>
                     <Col md="12">

@@ -38,17 +38,17 @@ class CourseItemGrid extends Component {
                                         </div>
                                         <div className="rating">
                                             <ul className="list-unstyled list-inline">
-                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                <li className="list-inline-item"><i className="las la-star-half-alt"></i>
+                                                <li className="list-inline-item"><i className="las la-star"/></li>
+                                                <li className="list-inline-item"><i className="las la-star"/></li>
+                                                <li className="list-inline-item"><i className="las la-star"/></li>
+                                                <li className="list-inline-item"><i className="las la-star"/></li>
+                                                <li className="list-inline-item"><i className="las la-star-half-alt"/>
                                                 </li>
                                                 <li className="list-inline-item">(4.5)</li>
                                             </ul>
                                         </div>
                                         <div className="student">
-                                            <p><i className="las la-chair"></i>60</p>
+                                            <p><i className="las la-chair"/>60</p>
                                         </div>
                                     </div>
                                 </div>

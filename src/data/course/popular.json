@@ -3,7 +3,7 @@
         "id": "1",
         "imgUrl": "pop-kakamega-town-650.png",
         "price": "",
-        "courseTitle": "Php & mySql Adv Programming",
+        "courseTitle": "Kakamega Town",
         "courseLink": "/course-details"
     },
     {
@@ -24,7 +24,7 @@
         "id": "4",
         "imgUrl": "pop-rosterman-mines-650.png",
         "price": "",
-        "courseTitle": "Beckend Dev With Wordpress",
+        "courseTitle": "Rosterman Mines",
         "courseLink": "/course-details"
     }
 ]

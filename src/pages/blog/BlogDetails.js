@@ -35,7 +35,9 @@ class BlogDetails extends Component {
                                         </div>
                                         <div className="blog-auth_date d-flex">
                                             <div className="author-img d-flex">
-                                                <Link to={process.env.PUBLIC_URL + "/"}><img src={process.env.PUBLIC_URL + `/assets/images/author.jpg`} alt="" /></Link>
+                                                <Link to={process.env.PUBLIC_URL + "/"}><img
+                                                    src={process.env.PUBLIC_URL + `/assets/images/author-280_x_280.png`}
+                                                    alt=""/></Link>
                                                 <p><Link to={process.env.PUBLIC_URL + "/"}>Medison Azar</Link></p>
                                             </div>
                                             <div className="post-date">

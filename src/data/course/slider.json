@@ -4,7 +4,7 @@
         {
             "id": "1",
             "imgUrl": "kakamega-town-650.png",
-            "authorImg": "author.jpg",
+            "authorImg": "author-280_x_280.png",
             "authorName": "John Doe",
             "authorCourses": "13 Courses",
             "price": "",
@@ -15,7 +15,7 @@
         {
             "id": "2",
             "imgUrl": "crying-stone-650.png",
-            "authorImg": "author.jpg",
+            "authorImg": "author-280_x_280.png",
             "authorName": "Jara Sen",
             "authorCourses": "21 Courses",
             "price": "",
@@ -26,7 +26,7 @@
         {
             "id": "3",
             "imgUrl": "national-forest-650.png",
-            "authorImg": "author.jpg",
+            "authorImg": "author-280_x_280.png",
             "authorName": "Kim Chang",
             "authorCourses": "26 Courses",
             "price": "",
@@ -37,7 +37,7 @@
         {
             "id": "4",
             "imgUrl": "rosterman-mines-650.png",
-            "authorImg": "author.jpg",
+            "authorImg": "author-280_x_280.png",
             "authorName": "Jim Hunt",
             "authorCourses": "09 Courses",
             "price": "",

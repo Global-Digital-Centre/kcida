@@ -8,10 +8,10 @@ class CourseSearch extends Component {
             <Styles>
                 {/* Course Search */}
                 <div className="course-search">
-                    <h5>Search Course</h5>
+                    <h5>Search</h5>
                     <form action="#">
-                        <input type="text" name="search" placeholder="Search Here" />
-                        <button type="submit"><i className="las la-search"></i></button>
+                        <input type="text" name="search" placeholder="Search Here"/>
+                        <button type="submit"><i className="las la-search"/></button>
                     </form>
                 </div>
             </Styles>
