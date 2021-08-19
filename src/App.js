@@ -59,8 +59,8 @@ function App() {
             </Switch>
 
             <MessengerCustomerChat
-                pageId={`${process.env.REACT_FB_PAGE_ID}`}
-                appId={`${process.env.REACT_FB_APP_ID}`}
+                pageId="101857828882888"
+                appId="891567418072170"
                 htmlRef="https://kcdia.netlify.app/"
             />
 
