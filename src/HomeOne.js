@@ -10,6 +10,7 @@ import CampusTour from './components/CampusTour';
 import TabBox from "./components/TabBox";
 import FooterTwo from "./components/FooterTwo";
 import ImageGallery from "./components/ImageGallery";
+import GoogleMap from "./pages/contact/GoogleMap";
 
 export default class HomeOne extends Component {
     render() {
@@ -35,23 +36,22 @@ export default class HomeOne extends Component {
                 < CourseFilter />
 
                 {/* Testimonial Slider */}
-                < TestimonialSlider />
+                < TestimonialSlider/>
 
                 {/* Image Gallery Area */}
-                <ImageGallery />
+                <ImageGallery/>
 
                 {/* Help Area */}
-                < HelpArea />
+                < HelpArea/>
 
                 {/* Campus Tour */}
-                < CampusTour />
+                < CampusTour/>
+
+                {/* Google Map */}
+                <GoogleMap/>
 
 
-
-
-
-
-               {/*  About Area
+                {/*  About Area
                 < AboutUs />
 
 

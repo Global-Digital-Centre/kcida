@@ -21,28 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/BackToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/BackToTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/styles/stickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/stickyMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/blog/classic.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/blog/classic.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/blog/grid.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/blog/grid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/course/filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/filter.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/course/item.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/item.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/course/popular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/popular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/course/slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/slider.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/instructor/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/instructor/details.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseCategory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsGrid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseSidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseTag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/PopularCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/PopularCourse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/ReviewForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/ReviewForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +103,7 @@
       <workItem from="1629177149486" duration="6703000" />
       <workItem from="1629292474866" duration="6720000" />
       <workItem from="1629299638082" duration="890000" />
-      <workItem from="1629305039767" duration="30640000" />
+      <workItem from="1629305039767" duration="31913000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -234,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629351499624</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="v7.0.3.6">
+      <created>1629352773619</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1629352773619</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +260,8 @@
     <MESSAGE value="v7.0.2" />
     <MESSAGE value="v7.0.3" />
     <MESSAGE value="v7.0.3.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="v7.0.3.5" />
+    <MESSAGE value="v7.0.3.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="v7.0.3.6" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -312,10 +303,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1629189984996" />
-    <state x="854" y="163" width="662" height="602" key="find.popup" timestamp="1629351602300">
+    <state x="854" y="163" width="662" height="602" key="find.popup" timestamp="1629353728884">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="854" y="163" width="662" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629351602300" />
+    <state x="854" y="163" width="662" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629353728884" />
     <state x="624" y="252" key="run.anything.popup" timestamp="1629089499664">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
