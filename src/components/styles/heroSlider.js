@@ -49,28 +49,24 @@ export const Styles = styled.div`
                             .slider-box {
                                 .slider-title {
                                     p {
-                                        font-size     : 35px;
-                                        color         : ${colors.green};
+                                        font-size     : 46px;
+                                         font-weight  : bold;
+                                        color         : white;
                                         text-transform: uppercase;
                                         margin-bottom : 8px;
-                                         @media(max-width: 767px) {
-                                            font-size    : 26px;
-                                            font-weight  : 500;
-                                        }
                                     }
                                 }
 
                                 .slider-desc {
                                     h1 {
-                                        font-size    : 20px;
+                                        font-size    : 46px;
                                         color        : #ffffff;
-                                        font-family  : Open Sans, sans-serif;
                                         max-width    : 700px;
                                         margin-bottom: 32px;
                                         font-weight  : 600;
 
                                         @media(max-width: 767px) {
-                                            font-size    : 15px;
+                                            font-size    : 26px;
                                             font-weight  : 500;
                                         }
                                     }
@@ -80,7 +76,7 @@ export const Styles = styled.div`
                                     a.slider-btn1 {
                                         font-size : 14px;
                                         color     : #fff;
-                                        background: ${colors.gr_bg};
+                                       /* background: ${colors.gr_bg};*/
                                         display   : inline-block;
                                         width     : 145px;
                                         height    : 40px;
@@ -97,7 +93,7 @@ export const Styles = styled.div`
                                         font-size : 14px;
                                         color     : #fff;
                                         display   : inline-block;
-                                        background: ${colors.bg1};
+                                       /* background: ${colors.bg1};*/
                                         width     : 145px;
                                         height    : 40px;
                                         text-align: center;
@@ -106,7 +102,7 @@ export const Styles = styled.div`
                                         margin-left: 15px;
 
                                         &:hover {
-                                            background: ${colors.gr_bg};
+                                            background: ${colors.bg1};
                                             border    : none;
                                             color     : #ffffff;
                                         }

@@ -3,9 +3,7 @@ import {colors} from "../common/element/elements.js";
 
 export const Styles = styled.div`
     .icon-box-area {
-    
         padding-bottom: 80px;
-        margin-bottom: 35px;
 
         .full-icon-box {
             position: relative;

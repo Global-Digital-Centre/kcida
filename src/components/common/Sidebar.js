@@ -40,23 +40,19 @@ function Sidebar() {
 
             <div className="sidebar" id="sidebar-body">
                 <div className="side-logo d-flex justify-content-between">
-                    <div><Link to={process.env.PUBLIC_URL + "/"}><img
-                        src={process.env.PUBLIC_URL + "/assets/images/logo.png"} alt=""/></Link></div>
-                    <div><a href={process.env.PUBLIC_URL + "/"} id="close-sidebar"><i className="las la-times"></i></a>
-                    </div>
+                    <div><Link to={process.env.PUBLIC_URL + "/"}><img src={process.env.PUBLIC_URL + "/assets/images/logo-171.png"} alt="" /></Link></div>
+                    <div><a href={process.env.PUBLIC_URL + "/"} id="close-sidebar"><i className="las la-times"></i></a></div>
                 </div>
                 <div className="side-content">
                     <h5>About Us</h5>
-                    <p>Kakamega County Investment and
-                        Development Agency (KCIDA) aims to deliver on its mandate of attracting, promoting and
-                        facilitating investments in the County. It is a product of extensive collaboration and
-                        comprehensive feedback from our internal and external stakeholders.</p>
+                    <p>Lorem ipsum dolor sit amet, consecte adipisicing elit. Mollitia modi, nostru rem sapiente. Excepturi
+                        molestiae soluta quisquam officiis iure sunt.</p>
                 </div>
                 <div className="side-post">
                     <h5>Recent Post</h5>
                     <div className="post-box d-flex">
                         <div className="post-img">
-                            <img src={process.env.PUBLIC_URL + "/assets/images/post-01.jpg"} alt=""/>
+                            <img src={process.env.PUBLIC_URL + "/assets/images/post-01.jpg"} alt="" />
                         </div>
                         <div className="post-title">
                             <p>Lorem ipsum dolor sit amet, consecte adipisicing elit.</p>
@@ -94,9 +90,9 @@ function Sidebar() {
                 <div className="side-contact">
                     <h5>Contact Us</h5>
                     <ul className="list-unstyled">
-                        <li><i className="las la-map-marker"></i>Kakamega County, Kenya</li>
+                        <li><i className="las la-map-marker"></i>795 South Park Avenue, New York, NY USA 94107</li>
                         <li><i className="las la-phone"></i>+1 (396) 486 4709</li>
-                        <li><i className="las la-envelope"></i>kcida@kakamega.com</li>
+                        <li><i className="las la-envelope"></i>enquery@edulyb.com</li>
                     </ul>
                 </div>
                 <div className="side-social">

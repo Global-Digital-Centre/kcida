@@ -5,7 +5,7 @@ import {Styles} from "./styles/campusTour.js";
 
 class CampusTour extends Component {
     state = {
-        secTitle: "We Have Best County In The Region. Let's Explore The County.",
+        secTitle: "We Have Best County In The Region. Let's Explore Our County.",
     }
 
     render() {

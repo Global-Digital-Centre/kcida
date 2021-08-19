@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Col, Container, Nav, Row, Tab} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 import {Styles} from "./styles/tabBox.js";
 
 class TabBox extends Component {
@@ -15,88 +16,76 @@ class TabBox extends Component {
                                 <Col lg="3" md="4">
                                     <Nav className="flex-column">
                                         <Nav.Item>
-                                            <Nav.Link eventKey="why"><i className="las la-arrow-right"></i> Why
-                                                KCIDA</Nav.Link>
+                                            <Nav.Link eventKey="why"><i className="las la-arrow-right"/> Investment In Kakamega</Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="mission"><i className="las la-arrow-right"></i> Our Mission</Nav.Link>
+                                            <Nav.Link eventKey="mission"><i className="las la-arrow-right"/> Investment Opportunities</Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="vision"><i className="las la-arrow-right"></i> Our Vision</Nav.Link>
+                                            <Nav.Link eventKey="vision"><i className="las la-arrow-right"/> Getting Started</Nav.Link>
+                                        </Nav.Item>
+                                       {/* <Nav.Item>
+                                            <Nav.Link eventKey="ranking"><i className="las la-arrow-right"/> Our Ranking</Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="ranking"><i className="las la-arrow-right"></i> Our Ranking</Nav.Link>
-                                        </Nav.Item>
-                                        <Nav.Item>
-                                            <Nav.Link eventKey="research"><i className="las la-arrow-right"></i> Our Research</Nav.Link>
-                                        </Nav.Item>
+                                            <Nav.Link eventKey="research"><i className="las la-arrow-right"/> Our Research</Nav.Link>
+                                        </Nav.Item>*/}
                                     </Nav>
                                 </Col>
                                 <Col lg="9" md="8">
                                     <Tab.Content>
                                         <Tab.Pane eventKey="why">
-                                            <h4 className="tab-title">Why KCIDA</h4>
-                                            <p className="tab-desc">Kakamega County Investment and
-                                                Development Agency (KCIDA) aims to deliver on its mandate of attracting,
-                                                promoting and
-                                                facilitating investments in the County. It is a product of extensive
-                                                collaboration and
-                                                comprehensive feedback from our internal and external stakeholders.</p>
+                                            <h4 className="tab-title">Why Invest In Kakamega</h4>
+                                            <p className="tab-desc">Kakamega County is an agricultural-based economy with sugar cane
+                                                being the principal cash crop.The county borders Vihiga County to the South, Siaya and Busia Counties to the
+                                                West, Bungoma and Trans-Nzoia Counties to the North and Nandi and Uasin Gishu
+                                                Counties to the East. It has 12 sub-counties, 60 electoral wards and 400 Community
+                                                Areas.</p>
                                             <ul className="list-unstyled check-list">
-                                                <li><i className="fa fa-check"></i>This Strategic Plan (2020-2024)
-                                                    represents the collective and objective views of the
-                                                    Agency, staff and stakeholders.
-                                                </li>
-                                                <li><i className="fa fa-check"></i>It outlines existing and emerging
-                                                    challenges and
-                                                    sets out strategic direction for the next five years.
-                                                </li>
-                                                <li><i className="fa fa-check"></i>During this period, much
-                                                    improvement is expected in promotion of investments in the County of
-                                                    Kakamega.
-                                                    The plan formulation process presented an opportunity for the Agency
-                                                    to review and
-                                                    align its functions and resources with the Governor’s Manifesto,
-                                                    Kenya Vision 2030
-                                                    and Kakamega County Integrated Development Plan (CIDP).
-                                                </li>
+                                                <li><i className="fa fa-check"/>Strategically Located</li>
+                                                <li><i className="fa fa-check"/>Market potential</li>
+                                                <li><i className="fa fa-check"/>Agriculture</li>
+                                                <li><i className="fa fa-check"/>Availability of Natural Resources</li>
+                                                <li><i className="fa fa-check"/>Investor Support and Incentives</li>
+                                                <li><i className="fa fa-check"/>Good governance</li>
+                                                <li><i className="fa fa-check"/>All sectors open to investors with no restrictions.</li>
+                                               <li>
+                                                   <Link className="readmore-btn" to={process.env.PUBLIC_URL + "/about"}>Download Investment Law</Link>
+                                               </li>
                                             </ul>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="mission">
-                                            <h4 className="tab-title">Our Mission</h4>
-                                            <p className="tab-desc">“The hub of choice for investments in Kenya”</p>
+                                            <h4 className="tab-title">Investment Opportunities</h4>
+
+                                            <p className="tab-desc">All sectors open to investors with no restrictions.Safe, peaceful and attractive location for investors</p>
+
                                             <ul className="list-unstyled check-list">
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis
-                                                    necessitatibus hic natus facere.
-                                                </li>
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis
-                                                    necessitatibus hic natus facere.
-                                                </li>
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis
-                                                    necessitatibus hic natus facere.
-                                                </li>
+                                                <div className="col-md-12">
+                                                    <li><i className="fa fa-check"/>Agriculture.</li>
+                                                    <li><i className="fa fa-check"/>Health Services.</li>
+                                                    <li><i className="fa fa-check"/>Water, Environment and Natural Resources.</li>
+                                                    <li><i className="fa fa-check"/>Trade, Industrialisation and Tourism.</li>
+                                                    <li><i className="fa fa-check"/>Land, Housing, Urban Areas and Physical Planning.</li>
+                                                    <li><i className="fa fa-check"/>Roads,Public Works and Energy.</li>
+                                                    <li><i className="fa fa-check"/>ICT, E-Government and Communication.</li>
+                                                </div>
+
                                             </ul>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="vision">
-                                            <h4 className="tab-title">Our Vision</h4>
-                                            <p className="tab-desc">“To attract, promote and facilitate investments in
-                                                the County”</p>
+                                            <h4 className="tab-title">Getting Started</h4>
+                                            <p className="tab-desc">The County Government of Kakamega established the Kakamega County Investment
+                                                and Development Agency through an Act of the County Assembly of Kakamega
+                                                referred to as the Kakamega County Investment and development Agency Act, 2018
+                                                to provide for the establishment of a legal and institutional framework for promotion
+                                                and co-ordination of investment by the county government of Kakamega and for
+                                                connected purposes.</p>
                                             <ul className="list-unstyled check-list">
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis
-                                                    necessitatibus hic natus facere.
-                                                </li>
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis
-                                                    necessitatibus hic natus facere.
-                                                </li>
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis
-                                                    necessitatibus hic natus facere.
-                                                </li>
+                                                <li><i className="fa fa-check"/>Entering Kakamega.</li>
+                                                <li><i className="fa fa-check"/>Starting a Business.</li>
+                                                <li><i className="fa fa-check"/>Hiring in Kakamega.</li>
+                                                <li><i className="fa fa-check"/>Paying Taxes.</li>
+                                                <li><i className="fa fa-check"/>Visa Information.</li>
                                             </ul>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="ranking">

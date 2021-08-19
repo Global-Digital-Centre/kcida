@@ -2,81 +2,82 @@ import React, {Component} from 'react';
 import Header from './components/Header';
 import HeroSlider from './components/HeroSlider';
 import IconBox from './components/IconBox';
-import AboutUs from './components/AboutUs';
 import CourseFilter from './components/CourseFilter';
 import TestimonialSlider from './components/TestimonialSlider';
 import FaqEvent from './components/FaqEvent';
-import TeamSlider from './components/TeamSlider';
 import HelpArea from './components/HelpArea';
-import HomeBlog from './components/HomeBlog';
 import CampusTour from './components/CampusTour';
-import NewsletterForm from './components/NewsletterForm';
-import Footer from './components/Footer';
-import MessengerCustomerChat from 'react-messenger-customer-chat';
-import AboutUsTwo from "./components/AboutUsTwo";
+import TabBox from "./components/TabBox";
+import FooterTwo from "./components/FooterTwo";
 import ImageGallery from "./components/ImageGallery";
 
 export default class HomeOne extends Component {
     render() {
-
-
         return (
-            <div className="main-wrapper">
+            <div className="main-wrapper" >
 
                 {/* Header */}
-                < Header/>
+                < Header />
 
                 {/* Hero Slider */}
                 < HeroSlider />
 
-                {/* Icon Box */}
-                < IconBox/>
-
                 {/* Faq & Event Area */}
-                < FaqEvent/>
+                < FaqEvent />
 
-                {/* About Area */}
-                < AboutUs/>
+                {/* Tab Section */}
+                <TabBox />
 
-                {/* About Us 2 */}
-                <AboutUsTwo/>
-
-                {/* Image Gallery Area */}
-                <ImageGallery/>
-
+                {/* Icon Box */}
+                < IconBox />
 
                 {/* Course Filter */}
-                < CourseFilter/>
+                < CourseFilter />
 
                 {/* Testimonial Slider */}
-                < TestimonialSlider/>
+                < TestimonialSlider />
 
-
-                {/* Team Slider */}
-                < TeamSlider />
+                {/* Image Gallery Area */}
+                <ImageGallery />
 
                 {/* Help Area */}
                 < HelpArea />
 
-                {/* Blog Area */}
-                < HomeBlog />
-
                 {/* Campus Tour */}
-                < CampusTour/>
+                < CampusTour />
 
-                {/* Newsletter Form */}
-                < NewsletterForm/>
 
-                {/* Footer */}
-                < Footer/>
 
-                <MessengerCustomerChat
-                    pageId="101857828882888"
-                    appId="891567418072170"
-                    htmlRef="https://kcdia.netlify.app/"
-                />
 
-            </div>
+
+
+               {/*  About Area
+                < AboutUs />
+
+
+
+
+
+
+                 Team Slider
+                < TeamSlider />
+
+                 Help Area
+                < HelpArea />
+
+                 Blog Area
+                < HomeBlog />*/}
+
+
+
+                 {/*Newsletter Form
+                < NewsletterForm />*/}
+
+                {/* Footer 2 */}
+                <FooterTwo />
+
+
+            </div >
         )
     }
 }

@@ -6,7 +6,7 @@
         "authorName": "John Doe",
         "authorCourses": "13 Courses",
         "price": "$20",
-        "courseTitle": "National Development Plans",
+        "courseTitle": "Kakamega Town",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -17,7 +17,7 @@
         "authorName": "Jara Sen",
         "authorCourses": "21 Courses",
         "price": "$13",
-        "courseTitle": "Session Papers and Master Plans",
+        "courseTitle": "The Crying Stone of Ilesi",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -28,7 +28,7 @@
         "authorName": "Kim Chang",
         "authorCourses": "26 Courses",
         "price": "$19",
-        "courseTitle": "Investment Promotion Act",
+        "courseTitle": "Kakamega National Forest Reserve",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -39,7 +39,7 @@
         "authorName": "Jim Hunt",
         "authorCourses": "09 Courses",
         "price": "$15",
-        "courseTitle": "The Inter-Governmental Authority on Development (IGAD)",
+        "courseTitle": "Rosterman Mines",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     }

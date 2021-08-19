@@ -22,139 +22,58 @@ function StickyMenu() {
             <section className="sticky-menu">
                 <Container>
                     <Row>
-                        <Col md="3">
+                        {/*<Col md="3">
                             <div className="logo">
-                                <Link to={process.env.PUBLIC_URL + "/"}><img src={process.env.PUBLIC_URL + "/assets/images/logo.png"} alt="" /></Link>
+                                <Link to={process.env.PUBLIC_URL + "/"}><img src={process.env.PUBLIC_URL + "/assets/images/logo-171.png"} alt="" /></Link>
                             </div>
-                        </Col>
-                        <Col md="9">
-                            <div className="menu-box d-flex justify-content-end">
+                        </Col>*/}
+                        <Col>
+                            <div className="menu-box d-flex justify-content">
                                 <ul className="nav menu-nav">
                                     <li className="nav-item dropdown active">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
-                                              data-toggle="dropdown">Home <i className="las la-angle-down"/></Link>
+                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Home <i className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/"}>Home</Link>
-                                            </li>
-                                            <li className="nav-item active"><Link className="nav-link"
-                                                                                  to={process.env.PUBLIC_URL + "/home-two"}>Vision</Link>
-                                            </li>
-                                            <li className="nav-item active"><Link className="nav-link"
-                                                                                  to={process.env.PUBLIC_URL + "/home-two"}>Mission</Link>
-                                            </li>
-                                            {/*<li className="nav-item active"><Link className="nav-link"
-                                                                                  to={process.env.PUBLIC_URL + "/home-two"}>Home
-                                                Style 2</Link></li>*/}
+                                            <li className="nav-item active"><Link className="nav-link" to={process.env.PUBLIC_URL + "/"}>Home</Link></li>
+                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>Vision</Link></li>
+                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>Mission</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
-                                              data-toggle="dropdown">Pages <i className="las la-angle-down"/></Link>
+                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Investment Opportunities<i className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/about"}>About
-                                                Us</Link></li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/instructor"}>Board
-                                                of Directors</Link></li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link>
-                                            </li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/contact"}>Contact</Link>
-                                            </li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/faq"}>Faq</Link>
-                                            </li>
-                                            {/* <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/404"}>404</Link>
-                                            </li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/coming-soon"}>Coming
-                                                Soon</Link></li>*/}
+                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/login"}>Investment Opportunities</Link></li>
+                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/registration"}>One Shop Centre</Link></li>
+                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/contact"}>Contact Us</Link></li>
+                                            {/* <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/faq"}>Faq</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/404"}>404</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/coming-soon"}>Coming Soon</Link></li>*/}
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
-                                              data-toggle="dropdown">Opportunities <i
-                                            className="las la-angle-down"/></Link>
+                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Organisation <i className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/course-grid"}>Investment
-                                                Opportunities</Link></li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/course-list"}>Other
-                                                Opportunities</Link></li>
-                                           {/* <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/course-details"}>Course
-                                                Details</Link></li>*/}
-                                        </ul>
-                                    </li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>About Us</Link></li>
+                                                </ul>
 
+                                    </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
-                                              data-toggle="dropdown">Projects <i className="las la-angle-down"/></Link>
+                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">E-Services <i className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/products"}>PROJECTS</Link>
-                                            </li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/product-details"}>Projects
-                                                details</Link></li>
-                                            {/*<li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/cart"}>Cart</Link>
+                                            <li><a href="https://www.ecitizen.go.ke/" target="_blank" rel="noopener noreferrer"><i className="las la-angle-right"/>E-Services</a></li>
+                                        </ul>
+                                    </li>
+                                    {/*<li className="nav-item dropdown">
+                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Shop <i className="las la-angle-down"></i></Link>
+                                                <ul className="dropdown list-unstyled">
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/products"}>Products</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/product-details"}>Product Details</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/cart"}>Cart</Link></li>
+                                                </ul>
                                             </li>*/}
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
-                                              data-toggle="dropdown">Board <i className="las la-angle-down"/></Link>
-                                        <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/instructor"}>Board
-                                                Of Directors</Link>
-                                            </li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/instructor"}>Management
-                                                Team</Link>
-                                            </li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/instructor"}>Committe</Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
-                                              data-toggle="dropdown">Event <i className="las la-angle-down"/></Link>
-                                        <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/events"}>Events</Link>
-                                            </li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/event-details"}>Event
-                                                Details</Link></li>
-                                        </ul>
-                                    </li>
-                                    {/* <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
-                                              data-toggle="dropdown">Blog <i className="las la-angle-down"/></Link>
-                                        <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/blog-classic"}>Blog
-                                                Classic</Link></li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/blog-grid"}>Blog
-                                                Grid</Link></li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/blog-details"}>Blog
-                                                Details</Link></li>
-                                        </ul>
-                                    </li>*/}
                                 </ul>
                                 <div className="apply-btn">
-                                    <Link to={process.env.PUBLIC_URL + "/contact"}><i
-                                        className="las la-clipboard-list"/>Talk to US</Link>
+                                    <Link to={process.env.PUBLIC_URL + "/contact"}><i className="las la-clipboard-list"/>Talk To Us</Link>
                                 </div>
                             </div>
                         </Col>

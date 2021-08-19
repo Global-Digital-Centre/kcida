@@ -33,14 +33,14 @@ export const Styles = styled.div`
                     border-radius : 50%;
                     color       : #fff;
                     margin-top  : 8px;
-                    margin-right: 30px;
+                    margin-right: 2px;
                     position    : relative;
 
                     &::before {
                         content   : "";
                         position  : absolute;
-                        width     : 70px;
-                        height    : 70px;
+                        width     : 10px;
+                        height    : 10px;
                         background: ${colors.green};
                         top       : 0;
                         left      : 0;
@@ -68,6 +68,7 @@ export const Styles = styled.div`
                     margin-top: 5px;
 
                     h6 {
+                  
                         a {
                             color        : ${colors.black1};
                             display      : inline-block;

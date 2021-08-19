@@ -42,13 +42,12 @@ class CourseItemGrid extends Component {
                                                 <li className="list-inline-item"><i className="las la-star"></i></li>
                                                 <li className="list-inline-item"><i className="las la-star"></i></li>
                                                 <li className="list-inline-item"><i className="las la-star"></i></li>
-                                                <li className="list-inline-item"><i
-                                                    className="las la-star-half-alt"></i>
+                                                <li className="list-inline-item"><i className="las la-star-half-alt"></i>
                                                 </li>
                                                 <li className="list-inline-item">(4.5)</li>
                                             </ul>
                                         </div>
-                                        <div className="Investors">
+                                        <div className="student">
                                             <p><i className="las la-chair"></i>60</p>
                                         </div>
                                     </div>

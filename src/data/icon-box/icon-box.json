@@ -1,23 +1,24 @@
 [
     {
-      "id": "1",
-      "uniqClass": "box-icon box1",
-      "boxIcon": "fas fa-map-marker-alt",
-      "title": "Strategically Located",
-      "subTitle": "Kakamega County is located in Western Kenya near\nLake Victoria, the largest fresh water Lake in Africa."
+        "id": "1",
+        "uniqClass": "box-icon box1",
+        "boxIcon": "flaticon-thumbs-like",
+        "title": "Investment focused",
+        "subTitle": "We put our investors at the centre of our operations and strive to continuously meet and exceed their expectations."
     },
-  {
-    "id": "2",
-    "uniqClass": "box-icon box2",
-    "boxIcon": "fas fa-users",
-    "title": "Market potential",
-    "subTitle": "Kakamega has a population of 1.8m which offers ready market for goods and services produced within and neighboring counties which have high population."
-  },
-  {
-    "id": "3",
-    "uniqClass": "box-icon box3",
-    "boxIcon": "fas fa-people-carry",
-    "title": "Investor Support and Incentives",
-    "subTitle": "The County has established an Investment Development Agency to guide investors through the investment process."
-  }
+    {
+        "id": "2",
+        "uniqClass": "box-icon box3",
+        "boxIcon": "flaticon-teacher",
+        "title": "Integrity",
+        "subTitle": "We show impartiality, fairness and honesty while upholding the highest ethical standards."
+    },
+    {
+        "id": "3",
+        "uniqClass": "box-icon box2",
+        "boxIcon": "flaticon-reading",
+        "title": "Diversity",
+        "subTitle": "We recognize rights of all individuals to mutual respect & acceptance of others without biases based on differences of any kind."
+    }
+
 ]

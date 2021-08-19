@@ -11,6 +11,7 @@ import TestimonialSlider from './components/TestimonialSlider';
 import HomeBlog from './components/HomeBlog';
 import ImageGallery from './components/ImageGallery';
 import FooterTwo from './components/FooterTwo';
+import NewsletterForm from "./components/NewsletterForm";
 
 export default class HomeTwo extends Component {
     render() {
@@ -47,8 +48,12 @@ export default class HomeTwo extends Component {
                 {/* Blog Area */}
                 <HomeBlog />
 
+
                 {/* Image Gallery Area */}
                 <ImageGallery />
+
+                {/* Newsletter Form */}
+                < NewsletterForm />
 
                 {/* Footer 2 */}
                 <FooterTwo />

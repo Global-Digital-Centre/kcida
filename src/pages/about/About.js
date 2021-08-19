@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Header from '../../components/Header';
+import HeaderTwo from '../../components/HeaderTwo';
 import {BreadcrumbBox} from '../../components/common/Breadcrumb';
 import AboutUs from '../../components/AboutUs';
 import IconBox from '../../components/IconBox';
@@ -8,7 +8,6 @@ import TestimonialSlider from '../../components/TestimonialSlider';
 import FaqEvent from '../../components/FaqEvent';
 import FooterTwo from '../../components/FooterTwo';
 import {Styles} from "./styles/about.js";
-import ServiceBox from "../../components/ServiceBox";
 
 class About extends Component {
 
@@ -19,31 +18,28 @@ class About extends Component {
                 <div className="main-wrapper about-page">
 
                     {/* Header 2 */}
-                    <Header/>
+                    <HeaderTwo />
 
                     {/* Breadcroumb */}
                     <BreadcrumbBox title="About Us" />
 
                     {/* About Area */}
-                    <AboutUs/>
+                    <AboutUs />
 
                     {/* Icon Box Area */}
-                    <IconBox/>
+                    <IconBox />
 
                     {/* Tab Section */}
-                    <TabBox/>
-
-                    {/* Service Box */}
-                    <ServiceBox/>
+                    <TabBox />
 
                     {/* Testimonial Slider */}
-                    <TestimonialSlider/>
+                    <TestimonialSlider />
 
                     {/* Faq & Event Area */}
-                    <FaqEvent/>
+                    <FaqEvent />
 
                     {/* Footer 2 */}
-                    <FooterTwo/>
+                    <FooterTwo />
 
                 </div>
             </Styles>

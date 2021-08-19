@@ -2,28 +2,19 @@
     "eventDataList": [
         {
             "id": "1",
-            "eventDate": "12 August",
+            "eventDate": "25 March",
             "eventTitle": "COUNTY COMMENCES REHABILITATION OF SPORTS FACILITIES",
-            "eventTime": "5:30pm - 7.00pm",
-            "eventLocation": "Kakamega County",
+            "eventTime": "",
+            "eventLocation": "Kakamega,Kenya",
             "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
             "eventLink": "/event-details"
         },
         {
             "id": "2",
-            "eventDate": "10 August",
+            "eventDate": "25 March",
             "eventTitle": "LAND GRABBERS PUT ON NOTICE",
-            "eventTime": "5:30pm - 7.00pm",
-            "eventLocation": "Kakamega County",
-            "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
-            "eventLink": "/event-details"
-        },
-        {
-            "id": "3",
-            "eventDate": "5 August",
-            "eventTitle": "ATHLETICS KENYA DELEGATES PAY A COURTESY CALL TO COUNTY SPORTS",
-            "eventTime": "5:30pm - 7.00pm",
-            "eventLocation": "Kakamega County",
+            "eventTime": "",
+            "eventLocation": "Kakamega,Kenya",
             "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
             "eventLink": "/event-details"
         }
@@ -31,18 +22,18 @@
     "faqDataList": [
         {
             "id": "1",
-            "faqTitle": "Why Invest in Kakamega?",
-            "faqDesc": "The County has established an Investment Development Agency to guide investors through the investment process.\nThe county can provide incentives in form of land, access to water and 3-\nPhase Electricity, Investor friendly policies, pre-feasibility studies and\nenvironmental impact assessment"
+            "faqTitle": "I don't know What should I write here?",
+            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
         },
         {
             "id": "2",
-            "faqTitle": "How big is Kakamega?",
-            "faqDesc": "Kakamega has a population of 1,867,579 which offers ready market for goods and services produced within and neighboring counties\nwhich have high population."
+            "faqTitle": "I don't know What should I write here?",
+            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid."
         },
         {
             "id": "3",
-            "faqTitle": "What is Kakamega known for?",
-            "faqDesc": "The County enjoys abundant natural resources such as Kakamega Forest which is Kenya’s only tropical rain forest,tourist cultural attraction sites such as the Crying Stone, Na-bongo Shrines\nand Mawe Tatu. There also exists mineral deposits such as gold"
+            "faqTitle": "I don't know What should I write here?",
+            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
         }
     ]
 }

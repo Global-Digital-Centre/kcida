@@ -6,6 +6,7 @@ import HeaderTwo from '../../components/HeaderTwo';
 import {BreadcrumbBox} from '../../components/common/Breadcrumb';
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Quantity from './components/Quantity';
 import ReviewForm from './../courses/components/ReviewForm';
 import FooterTwo from '../../components/FooterTwo';
 import {Styles} from './styles/productDetails.js';
@@ -27,7 +28,7 @@ class ProductDetails extends Component {
                     <HeaderTwo />
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Projects Details"/>
+                    <BreadcrumbBox title="Product Details" />
 
                     {/* Product Details */}
                     <section className="product-details-area">
@@ -50,7 +51,7 @@ class ProductDetails extends Component {
                                 <Col md="7">
                                     <div className="product-information">
                                         <div className="product-title">
-                                            <h4>Projects Details</h4>
+                                            <h4>Xiaomy LED Light Bulb With Verious Model</h4>
                                         </div>
                                         <div className="product-rating d-flex">
                                             <ul className="rating list-unstyled list-inline">
@@ -64,15 +65,14 @@ class ProductDetails extends Component {
                                                 <Link to={process.env.PUBLIC_URL + "/"}>( 07 Review )</Link>
                                             </div>
                                         </div>
-                                        {/*<div className="product-price d-flex">
+                                        <div className="product-price d-flex">
                                             <p className="dc-price">$139.00</p>
                                             <p className="ac-price">$199.00</p>
-                                        </div>*/}
-                                        <div className="product-desc">
-                                            <p>Flagship projects that will create an impact in the County’s economic
-                                                growth.</p>
                                         </div>
-                                        {/*<div className="product-stock">
+                                        <div className="product-desc">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam et dolorem nostrum quos placeat. Quibusdam necessitatibus adipisci dignissimos autem voluptate, dicta ullam, assumenda qui, corporis ut vero neque sapiente possimus.</p>
+                                        </div>
+                                        <div className="product-stock">
                                             <p>Availability : <span className="stock">In Stock</span> <span className="stock-num">(09 Available)</span></p>
                                         </div>
                                         <div className="product-color">
@@ -128,7 +128,7 @@ class ProductDetails extends Component {
                                             <Link to={process.env.PUBLIC_URL + "/product-details"} className="cart-btn">Add To Cart</Link>
                                             <Link to={process.env.PUBLIC_URL + "/product-details"} className="wishlist-btn"><i className="far fa-heart"></i></Link>
                                             <Link to={process.env.PUBLIC_URL + "/product-details"} className="compare-btn"><i className="fas fa-random"></i></Link>
-                                        </div>*/}
+                                        </div>
                                     </div>
                                 </Col>
 

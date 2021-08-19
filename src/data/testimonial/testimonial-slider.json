@@ -8,7 +8,7 @@
             "testimonialDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.",
             "authorImg": "testimonial-1.jpg",
             "authorName": "David Show",
-            "authorTitle": "Investor"
+            "authorTitle": "Ceo"
         },
         {
             "id": "2",
@@ -16,7 +16,7 @@
             "testimonialDesc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitation maior. Placeat repellat, et totam optio. Sequi qui laborum ratione cumque tempo totam voluptatum.",
             "authorImg": "testimonial-2.jpg",
             "authorName": "Tom Parker",
-            "authorTitle": "Ceo"
+            "authorTitle": "Board"
         }
     ]
 }

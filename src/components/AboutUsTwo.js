@@ -20,7 +20,7 @@ class AboutUsTwo extends Component {
                                         Datas.dataList.map((data, i) => (
                                             <div className="cta-box d-flex" key={i}>
                                                 <div className="cta-icon text-center">
-                                                    <i className="las la-thumbs-up"/>
+                                                    <i className="las la-thumbs-up"></i>
                                                 </div>
                                                 <div className="cta-content">
                                                     <h6>{data.iconTitle}</h6>
@@ -35,10 +35,8 @@ class AboutUsTwo extends Component {
                             <Col md="6">
                                 <div className="about-image">
                                     <img src={process.env.PUBLIC_URL + `/assets/images/${Datas.aboutImageOne}`} className="main-img1" alt="" />
-                                    <img src={process.env.PUBLIC_URL + `/assets/images/${Datas.aboutImageTwo}`}
-                                         className="main-img2" alt=""/>
-                                    <p className="exp-box"><span>{Datas.experianceYear}<i
-                                        className="las la-plus"/></span> Yrs Exprience</p>
+                                    <img src={process.env.PUBLIC_URL + `/assets/images/${Datas.aboutImageTwo}`} className="main-img2" alt="" />
+                                    <p className="exp-box"><span>{Datas.experianceYear}<i className="las la-plus"></i></span> Yrs Exprience</p>
                                 </div>
                             </Col>
                         </Row>

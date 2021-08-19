@@ -51,14 +51,12 @@ function FooterTwo() {
                     <Row>
                         <Col md="3">
                             <div className="footer-logo-info">
-                                <img src={process.env.PUBLIC_URL + "/assets/images/f-logo.png"} alt=""
-                                     className="img-fluid"/>
-                                <p>Kakamega County Investment and Development Agency (KCIDA) aims to deliver on its
-                                    mandate of attracting, promoting and facilitating investments in the County.</p>
+                                <img src={process.env.PUBLIC_URL + "/assets/images/f-logo-171.png"} alt="" className="img-fluid" />
+                                <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam null quos.</p>
                                 <ul className="list-unstyled">
-                                    <li><i className="las la-map-marker"></i>Kakamega County, Kenya</li>
-                                    <li><i className="las la-envelope"></i>kcida@kakamega.com</li>
-                                    <li><i className="las la-phone"></i>+1 908 875 7678</li>
+                                    <li><i className="las la-map-marker"/>Kakamega County, Kenya</li>
+                                    <li><i className="las la-envelope"/>kakamega.go.ke</li>
+                                    <li><i className="las la-phone"/>+1 908 875 7678</li>
                                 </ul>
                             </div>
                         </Col>
@@ -66,62 +64,35 @@ function FooterTwo() {
                             <div className="f-links">
                                 <h5>Useful Links</h5>
                                 <ul className="list-unstyled">
-                                    <li><a Using target="_blank" without rel="noreferrer"
-                                           href="https://kakamega.go.ke/"><i
-                                        className="las la-angle-right"></i>Kakamega County</a></li>
-                                    <li><a Using target="_blank" without rel="noreferrer"
-                                           href="http://www.invest.go.ke/"><i
-                                        className="las la-angle-right"></i>Kenya Invest</a></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/about"}><i
-                                        className="las la-angle-right"></i>Our Services</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"></i>Privacy
-                                        Policy</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/contact"}><i
-                                        className="las la-angle-right"></i>Contact Us</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Investment Opportunities</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Invest in Kakamega</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Organisation</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>E-Services</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>About Us</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Privacy Policy</Link></li>
                                 </ul>
                             </div>
                         </Col>
                         <Col md="3">
-                            <div className="f-post">
-                                <h5>Twitter Post</h5>
-                                <div className="post-box d-flex">
-                                    <div className="po-icon">
-                                        <i className="fab fa-twitter"></i>
-                                    </div>
-                                    <div className="po-content">
-                                        <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
-                                        <span>Mar 30, 2019</span>
-                                    </div>
-                                </div>
-                                <div className="post-box d-flex">
-                                    <div className="po-icon">
-                                        <i className="fab fa-twitter"></i>
-                                    </div>
-                                    <div className="po-content">
-                                        <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
-                                        <span>Mar 30, 2019</span>
-                                    </div>
-                                </div>
-                                <div className="post-box d-flex">
-                                    <div className="po-icon">
-                                        <i className="fab fa-twitter"></i>
-                                    </div>
-                                    <div className="po-content">
-                                        <Link to={process.env.PUBLIC_URL + "/blog-details"}>Lorem ipsum dolor sit ...</Link>
-                                        <span>Mar 30, 2019</span>
-                                    </div>
-                                </div>
+                            <div className="f-links">
+                                <h5>Useful Links</h5>
+                                <ul className="list-unstyled">
+                                    <li><a href="https://kakamega.go.ke/" target="_blank" rel="noopener noreferrer"><i className="las la-angle-right"/>Kakamega County</a></li>
+                                    <li><a href="http://www.invest.go.ke/" target="_blank" rel="noopener noreferrer"><i className="las la-angle-right"/>Kenya Invest</a></li>
+                                    <li><a href="https://www.ecitizen.go.ke/" target="_blank" rel="noopener noreferrer"><i className="las la-angle-right"/>Kenya E-Services</a></li>
+
+                                </ul>
                             </div>
                         </Col>
                         <Col md="3">
                             <div className="f-newsletter">
                                 <h5>Newsletter</h5>
-                                <p>Lorem ipsum dolor sit amet, consectet adipisicing elit.</p>
+                                <p>Subscribe to our Newsletter to be upto date with County events, news and Updates.</p>
 
                                 <form id="form4" className="form">
                                     <p className="form-control">
                                         <input type="email" placeholder="Enter email here" id="email4" />
-                                        <span className="input-msg4"></span>
+                                        <span className="input-msg4"/>
                                     </p>
                                     <button>Submit</button>
                                 </form>
@@ -129,20 +100,13 @@ function FooterTwo() {
                         </Col>
                         <Col md="12">
                             <div className="copytext-area text-center">
-                                <p>Copyright &copy; 2021 | Designed by <a
-                                    href="http://gdc-ltd.org/" Using target="_blank" rel="noopener noreferrer">Global
-                                    Digital Centre</a></p>
+                                <p>Copyright &copy; 2021 | Designed by <a href="http://gdc-ltd.org/" target="_blank" rel="noopener noreferrer"> Global Digital Centre </a></p>
                                 <ul className="social list-unstyled list-inline">
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                        className="fab fa-facebook-f"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                        className="fab fa-twitter"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                        className="fab fa-linkedin-in"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                        className="fab fa-youtube"></i></a></li>
-                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                        className="fab fa-dribbble"></i></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"/></a></li>
+                                    <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-dribbble"/></a></li>
                                 </ul>
                             </div>
                         </Col>

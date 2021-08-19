@@ -5,8 +5,7 @@ export const Styles = styled.div`
     button.totop-btn {
         background : ${colors.gr_bg};
         position: fixed;
-        margin-bottom: 100px;
-        bottom : 1px;
+        bottom : 120px;
         right : 30px;
         width : 45px;
         height: 45px;
@@ -28,7 +27,7 @@ export const Styles = styled.div`
     }
 
     button.totop-btn.show {
-        bottom : 40px;
+        bottom : 120px;
         opacity: 1;
         pointer-events : auto;
     }

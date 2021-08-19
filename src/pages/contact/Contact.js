@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import {Col, Container, Row} from 'react-bootstrap';
-import Header from '../../components/Header';
+import HeaderTwo from '../../components/HeaderTwo';
 import {BreadcrumbBox} from '../../components/common/Breadcrumb';
 import GoogleMap from './GoogleMap';
 import FooterTwo from '../../components/FooterTwo';
@@ -74,7 +74,7 @@ function Contact() {
             <div className="main-wrapper contact-page">
 
                 {/* Header 2 */}
-                <Header/>
+                <HeaderTwo />
 
                 {/* Breadcroumb */}
                 <BreadcrumbBox title="Contact Us" />
@@ -89,25 +89,25 @@ function Contact() {
                                 </div>
                                 <div className="contact-icon-box d-flex">
                                     <div className="icon">
-                                        <i className="las la-map-marker"/>
+                                        <i className="las la-map-marker"></i>
                                     </div>
                                     <div className="box-content">
                                         <h5>Our Location</h5>
-                                        <p>Kakamega County, Kenya</p>
+                                        <p>795 South Park Avenue, Long Island, Newyork, NY 94107.</p>
                                     </div>
                                 </div>
                                 <div className="contact-icon-box d-flex">
                                     <div className="icon">
-                                        <i className="las la-envelope-open"/>
+                                        <i className="las la-envelope-open"></i>
                                     </div>
                                     <div className="box-content">
                                         <h5>Email Address</h5>
-                                        <p>kcida@kcida.com<br/>kcida@kcida.com</p>
+                                        <p>info@mydomain.com<br />enquery@edu.com</p>
                                     </div>
                                 </div>
                                 <div className="contact-icon-box d-flex">
                                     <div className="icon">
-                                        <i className="las la-phone"/>
+                                        <i className="las la-phone"></i>
                                     </div>
                                     <div className="box-content">
                                         <h5>Phone Number</h5>
@@ -116,16 +116,11 @@ function Contact() {
                                 </div>
                                 <div className="contact-social">
                                     <ul className="social list-unstyled list-inline">
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                            className="fab fa-facebook-f"/></a></li>
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                            className="fab fa-twitter"/></a></li>
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                            className="fab fa-linkedin-in"/></a></li>
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                            className="fab fa-youtube"/></a></li>
-                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i
-                                            className="fab fa-dribbble"/></a></li>
+                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-facebook-f"></i></a></li>
+                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-twitter"></i></a></li>
+                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-linkedin-in"></i></a></li>
+                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-youtube"></i></a></li>
+                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + "/"}><i className="fab fa-dribbble"></i></a></li>
                                     </ul>
                                 </div>
                             </Col>
@@ -139,28 +134,26 @@ function Contact() {
                                             <Row>
                                                 <Col md="6">
                                                     <p className="form-control">
-                                                        <input type="text" placeholder="Full Name" id="contact_name"/>
-                                                        <span className="contact_input-msg"/>
+                                                        <input type="text" placeholder="Full Name" id="contact_name" />
+                                                        <span className="contact_input-msg"></span>
                                                     </p>
                                                 </Col>
                                                 <Col md="6">
                                                     <p className="form-control">
-                                                        <input type="email" placeholder="Email Address"
-                                                               id="contact_email"/>
-                                                        <span className="contact_input-msg"/>
+                                                        <input type="email" placeholder="Email Address" id="contact_email" />
+                                                        <span className="contact_input-msg"></span>
                                                     </p>
                                                 </Col>
                                                 <Col md="12">
                                                     <p className="form-control">
-                                                        <input type="text" placeholder="Subject" id="contact_subject"/>
-                                                        <span className="contact_input-msg"/>
+                                                        <input type="text" placeholder="Subject" id="contact_subject" />
+                                                        <span className="contact_input-msg"></span>
                                                     </p>
                                                 </Col>
                                                 <Col md="12">
                                                     <p className="form-control">
-                                                        <textarea name="message" id="contact_message"
-                                                                  placeholder="Enter Message"/>
-                                                        <span className="contact_input-msg"/>
+                                                        <textarea name="message" id="contact_message" placeholder="Enter Message"></textarea>
+                                                        <span className="contact_input-msg"></span>
                                                     </p>
                                                 </Col>
                                                 <Col md="12">

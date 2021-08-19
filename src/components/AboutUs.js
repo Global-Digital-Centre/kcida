@@ -31,10 +31,8 @@ class AboutUs extends Component {
                                     <img src={process.env.PUBLIC_URL + `/assets/images/${Datas.mainImage}`} className="main-img" alt="" />
                                     <img src={process.env.PUBLIC_URL + "/assets/images/pattern.png"} className="pattern-img" alt="" />
                                     <div className="video-player" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${Datas.videoBackground})`}}>
-                                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='uXFUl0KcIkA'
-                                                    onClose={() => this.setState({isOpen: false})}/>
-                                        <button onClick={this.openModal} className="play-button"><i
-                                            className="las la-play"/></button>
+                                        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='uXFUl0KcIkA' onClose={() => this.setState({ isOpen: false })} />
+                                        <button onClick={this.openModal} className="play-button"><i className="las la-play"></i></button>
                                     </div>
                                 </div>
                             </Col>
@@ -45,23 +43,20 @@ class AboutUs extends Component {
                                     <Row>
                                         <Col sm="4">
                                             <div className="counter-box box1 text-center">
-                                                <h3><CountUp end={1867579} duration={5} delay={1.5}/><i
-                                                    className="las la-plus"/></h3>
-                                                <p>Population</p>
+                                                <h3><CountUp end={970} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
+                                                <p>Happy Students</p>
                                             </div>
                                         </Col>
                                         <Col sm="4">
                                             <div className="counter-box box2 text-center">
-                                                <h3><CountUp end={430} duration={5} delay={1.5}/><i
-                                                    className="las la-plus"/></h3>
-                                                <p>Projects</p>
+                                                <h3><CountUp end={130} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
+                                                <p>Teachers</p>
                                             </div>
                                         </Col>
                                         <Col sm="4">
                                             <div className="counter-box box3 text-center">
-                                                <h3><CountUp end={340} duration={5} delay={1.5}/><i
-                                                    className="las la-plus"/></h3>
-                                                <p>Projects Completed</p>
+                                                <h3><CountUp end={340} duration={5} delay={1.5} /><i className="las la-plus"></i></h3>
+                                                <p>Courses</p>
                                             </div>
                                         </Col>
                                     </Row>

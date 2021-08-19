@@ -17,7 +17,7 @@ class IconBox extends Component {
                                         <div className="full-icon-box">
                                             <div className="icon-box d-flex">
                                                 <div className={data.uniqClass}>
-                                                    <i className={data.boxIcon}/>
+                                                    <i className={data.boxIcon}></i>
                                                 </div>
                                                 <div className="box-title">
                                                     <h6>{data.title}</h6>

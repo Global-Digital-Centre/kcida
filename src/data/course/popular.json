@@ -2,29 +2,29 @@
     {
         "id": "1",
         "imgUrl": "pop-course-1.jpg",
-        "price": "",
-        "courseTitle": "National Development Plans",
+        "price": "$20.00",
+        "courseTitle": "Php & mySql Adv Programming",
         "courseLink": "/course-details"
     },
     {
         "id": "2",
         "imgUrl": "pop-course-2.jpg",
-        "price": "",
-        "courseTitle": "Session Papers and Master Plans",
+        "price": "$13.00",
+        "courseTitle": "The Crying Stone of Ilesi",
         "courseLink": "/course-details"
     },
     {
         "id": "3",
         "imgUrl": "pop-course-3.jpg",
-        "price": "",
-        "courseTitle": "Investment Promotion Act",
+        "price": "$19.00",
+        "courseTitle": "Kakamega National Forest Reserve",
         "courseLink": "/course-details"
     },
     {
         "id": "4",
         "imgUrl": "pop-course-4.jpg",
-        "price": "",
-        "courseTitle": "East African Community(EAC)",
+        "price": "$16.00",
+        "courseTitle": "Beckend Dev With Wordpress",
         "courseLink": "/course-details"
     }
 ]

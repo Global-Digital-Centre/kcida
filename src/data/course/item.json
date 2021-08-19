@@ -4,9 +4,9 @@
         "imgUrl": "course-1.jpg",
         "authorImg": "author.jpg",
         "authorName": "John Doe",
-        "authorCourses": "13 Investments",
-        "price": "",
-        "courseTitle": "National Development Plans",
+        "authorCourses": "13 Courses",
+        "price": "$20",
+        "courseTitle": "Kakamega Town",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -15,9 +15,9 @@
         "imgUrl": "course-2.jpg",
         "authorImg": "author.jpg",
         "authorName": "Jara Sen",
-        "authorCourses": "21 Investments",
+        "authorCourses": "21 Courses",
         "price": "$13",
-        "courseTitle": "Session Papers and Master Plans",
+        "courseTitle": "The Crying Stone of Ilesi",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -28,7 +28,7 @@
         "authorName": "Kim Chang",
         "authorCourses": "26 Courses",
         "price": "$19",
-        "courseTitle": "Investment Promotion Act",
+        "courseTitle": "Kakamega National Forest Reserve",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -38,8 +38,8 @@
         "authorImg": "author.jpg",
         "authorName": "Jim Hunt",
         "authorCourses": "09 Courses",
-        "price": "",
-        "courseTitle": "The Inter-Governmental Authority on Development (IGAD)",
+        "price": "$15",
+        "courseTitle": "Rosterman Mines",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -49,8 +49,8 @@
         "authorImg": "author.jpg",
         "authorName": "Sara Kim",
         "authorCourses": "17 Courses",
-        "price": "",
-        "courseTitle": "East African Community(EAC)",
+        "price": "$21",
+        "courseTitle": "Kakamega Municipal Market",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     },
@@ -60,8 +60,8 @@
         "authorImg": "author.jpg",
         "authorName": "Shon Doe",
         "authorCourses": "31 Courses",
-        "price": "",
-        "courseTitle": "Investment Promotion Act",
+        "price": "$24",
+        "courseTitle": "Ilesi Pottery Centre",
         "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
         "courseLink": "/course-details"
     }

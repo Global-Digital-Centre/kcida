@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {Col, Container, Row} from 'react-bootstrap';
-import Header from '../../components/Header';
+import HeaderTwo from '../../components/HeaderTwo';
 import {BreadcrumbBox} from '../../components/common/Breadcrumb';
 import BlogSidebar from './components/BlogSidebar';
 import CommentForm from './components/CommentForm';
@@ -16,7 +16,7 @@ class BlogDetails extends Component {
                 <div className="main-wrapper blog-details-page">
 
                     {/* Header 2 */}
-                    <Header/>
+                    <HeaderTwo />
 
                     {/* Breadcroumb */}
                     <BreadcrumbBox title="Blog Details" />
@@ -31,8 +31,7 @@ class BlogDetails extends Component {
                                             <img src={process.env.PUBLIC_URL + `/assets/images/blog_c-04.jpg`} alt="" className="img-fluid" />
                                         </div>
                                         <div className="heading">
-                                            <h4>International Investors coming in Uk from Asian subcontinant for better
-                                                education.</h4>
+                                            <h4>International students coming in Uk from Asian subcontinant for better education.</h4>
                                         </div>
                                         <div className="blog-auth_date d-flex">
                                             <div className="author-img d-flex">

@@ -34,7 +34,7 @@ function FaqEvent() {
                                 <Row>
                                     <Col md="12">
                                         <div className="sec-title">
-                                            <h4>Upcoming <span>Events</span></h4>
+                                            <h4> <span>News</span></h4>
                                         </div>
                                     </Col>
                                     <Col md="12">
@@ -47,8 +47,8 @@ function FaqEvent() {
                                                     <div className="event-details">
                                                         <h6><Link to={eventData.eventLink}>{eventData.eventTitle}</Link></h6>
                                                         <ul className="list-unstyled list-inline">
-                                                            <li className="list-inline-item"><i className="las la-clock"></i>{eventData.eventTime}</li>
-                                                            <li className="list-inline-item"><i className="las la-map-marker"></i>{eventData.eventLocation}</li>
+                                                            <li className="list-inline-item"><i className="las la-clock"/>{eventData.eventTime}</li>
+                                                            <li className="list-inline-item"><i className="las la-map-marker"/>{eventData.eventLocation}</li>
                                                         </ul>
                                                         <p>{eventData.eventdesc}</p>
                                                     </div>
@@ -60,9 +60,37 @@ function FaqEvent() {
                             </div>
                         </Col>
                         <Col md="6">
-                            <div className="faq-area">
+                            <div className="event-area">
+                                <Row>
+                                    <Col md="12">
+                                        <div className="sec-title">
+                                            <h4> <span>Announcements</span></h4>
+                                        </div>
+                                    </Col>
+                                    <Col md="12">
+                                        {
+                                            Datas.eventDataList.map((eventData, i) => (
+                                                <div className="event-box d-flex" key={i}>
+                                                    <div className="event-date text-center">
+                                                        <p>{eventData.eventDate}</p>
+                                                    </div>
+                                                    <div className="event-details">
+                                                        <h6><Link to={eventData.eventLink}>{eventData.eventTitle}</Link></h6>
+                                                        <ul className="list-unstyled list-inline">
+                                                            <li className="list-inline-item"><i className="las la-clock"/>{eventData.eventTime}</li>
+                                                            <li className="list-inline-item"><i className="las la-map-marker"/>{eventData.eventLocation}</li>
+                                                        </ul>
+                                                        <p>{eventData.eventdesc}</p>
+                                                    </div>
+                                                </div>
+                                            ))
+                                        }
+                                    </Col>
+                                </Row>
+                            </div>
+                            {/*<div className="faq-area">
                                 <div className="sec-title">
-                                    <h4>Frequently Ask <span>Questions</span></h4>
+                                    <h4>Frequently Ask <span>Question</span></h4>
                                 </div>
                                 <div className="faq-box">
                                     {
@@ -79,7 +107,7 @@ function FaqEvent() {
                                         ))
                                     }
                                 </div>
-                            </div>
+                            </div>*/}
                         </Col>
                     </Row>
                 </Container>

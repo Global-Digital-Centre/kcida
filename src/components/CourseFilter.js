@@ -48,17 +48,11 @@ function CourseFilter() {
                         <Col md="12">
                             <div className="filter-btns text-center">
                                 <ul className="filter-btn-list list-unstyled list inline">
-                                    <li data-target="*" className="active list-inline-item">All Investment
-                                        Opportunities
-                                    </li>
-                                    <li data-target="seo" className="list-inline-item">Kakamega Investment
-                                        Opportunities
-                                    </li>
-                                    <li data-target="desi" className="list-inline-item">Regional Opportunities</li>
-                                    <li data-target="deve" className="list-inline-item">Alignment with Strategic Plan
-                                        with CIDP
-                                    </li>
-                                    {/*  <li data-target="prog" className="list-inline-item">Programming</li>*/}
+                                    <li data-target="*" className="active list-inline-item">All Visits</li>
+                                    <li data-target="desi" className="list-inline-item">Kakamega Town</li>
+                                    <li data-target="deve" className="list-inline-item">Just Within Kakamega Town</li>
+                                    <li data-target="seo" className="list-inline-item">Forests</li>
+                                    <li data-target="prog" className="list-inline-item">Mining</li>
                                 </ul>
                             </div>
                             <Row className="filter-items">
@@ -68,7 +62,7 @@ function CourseFilter() {
                                             <div className="course-item">
                                                 <Link to={process.env.PUBLIC_URL + data.courseLink}>
                                                     <div className="course-image" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/${data.imgUrl})`}}>
-                                                        <div className="author-img d-flex">
+                                                       {/* <div className="author-img d-flex">
                                                             <div className="img">
                                                                 <img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} alt="" />
                                                             </div>
@@ -79,7 +73,7 @@ function CourseFilter() {
                                                         </div>
                                                         <div className="course-price">
                                                             <p>{data.price}</p>
-                                                        </div>
+                                                        </div>*/}
                                                     </div>
                                                 </Link>
                                                 <div className="course-content">
@@ -87,26 +81,21 @@ function CourseFilter() {
                                                     <p className="desc">{data.courseDesc}</p>
                                                     <div className="course-face d-flex justify-content-between">
                                                         <div className="duration">
-                                                            <p><i className="las la-clock"></i>120</p>
+                                                            <p><i className="las la-clock"/>120</p>
                                                         </div>
                                                         <div className="rating">
                                                             <ul className="list-unstyled list-inline">
-                                                                <li className="list-inline-item"><i
-                                                                    className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i
-                                                                    className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i
-                                                                    className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i
-                                                                    className="las la-star"></i></li>
-                                                                <li className="list-inline-item"><i
-                                                                    className="las la-star-half-alt"></i>
+                                                                <li className="list-inline-item"><i className="las la-star"/></li>
+                                                                <li className="list-inline-item"><i className="las la-star"/></li>
+                                                                <li className="list-inline-item"><i className="las la-star"/></li>
+                                                                <li className="list-inline-item"><i className="las la-star"/></li>
+                                                                <li className="list-inline-item"><i className="las la-star-half-alt"/>
                                                                 </li>
                                                                 <li className="list-inline-item">(4.5)</li>
                                                             </ul>
                                                         </div>
-                                                        <div className="Investors">
-                                                            <p><i className="las la-chair"></i>60</p>
+                                                        <div className="student">
+                                                            <p><i className="las la-chair"/></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -118,7 +107,7 @@ function CourseFilter() {
                         </Col>
                         <Col md="12" className="text-center">
                             <div className="viewall-btn">
-                                <Link to={process.env.PUBLIC_URL + "/course-grid"}>View Investment Opportunities</Link>
+                                <Link to={process.env.PUBLIC_URL + "/course-grid"}>View All</Link>
                             </div>
                         </Col>
                     </Row>

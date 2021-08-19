@@ -10,7 +10,7 @@ export const Styles = styled.div`
         width: 100%;
         z-index: 11;
         animation: 300ms ease-in-out 0s normal none 1 fadeInDown;
-        background: #ffffff;
+        background: ${colors.green};
         height: 75px;
         padding-top: 18px;
         box-shadow: 0 0 20px -10px #222222;
@@ -18,6 +18,7 @@ export const Styles = styled.div`
         .logo {
             a {
                 img {
+                    position: left;
                     @media(max-width: 1199px) {
                         max-width : 100%;
                     }
@@ -46,7 +47,7 @@ export const Styles = styled.div`
                         }
 
                         &:hover {
-                            color: ${colors.green};
+                            color: ${colors.bg2};
                         }
 
                         @media(max-width: 1199px) {

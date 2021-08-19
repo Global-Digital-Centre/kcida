@@ -1,5 +1,5 @@
 /*===========================================
-Template Name: Edulyn - React Education Template
+Template Name: KCIDA
 Author: Md Tahmidur Rahman
 Author URL: http://snazzytheme.com/
 Version: 1.0

@@ -17,7 +17,7 @@ class CourseList extends Component {
                 <HeaderTwo />
 
                 {/* Breadcroumb */}
-                < BreadcrumbBox title="Investment Details"/>
+                <BreadcrumbBox title="Courses" />
 
                 <Styles>
                     {/* Course Grid */}

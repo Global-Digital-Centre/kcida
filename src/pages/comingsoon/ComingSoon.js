@@ -56,7 +56,7 @@ function ComingSoon() {
                                     <Row>
                                         <Col md="12" className="text-center">
                                             <div className="cm-logo">
-                                                <img src={process.env.PUBLIC_URL + "/assets/images/logo.png"} alt="" />
+                                                <img src={process.env.PUBLIC_URL + "/assets/images/logo-171.png"} alt="" />
                                             </div>
                                             <div className="launching-text">
                                                 <p>We are launching soon</p>

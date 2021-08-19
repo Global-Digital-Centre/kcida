@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import ScrollToTop from './helper/ScrollToTop';
-import { GlobalStyle } from "./components/common/styles/global.js";
+import {GlobalStyle} from "./components/common/styles/global.js";
 import HomeOne from './HomeOne';
 import HomeTwo from './HomeTwo';
 import About from './pages/about/About';
@@ -25,6 +25,7 @@ import BlogDetails from './pages/blog/BlogDetails';
 import Product from './pages/shop/Products';
 import ProductDetails from './pages/shop/ProductDetails';
 import Cart from './pages/shop/Cart';
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 function App() {
     return (
@@ -56,6 +57,13 @@ function App() {
                 <Route path={`${process.env.PUBLIC_URL + "/product-details"}`} component={ProductDetails} />
                 <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart} />
             </Switch>
+
+            <MessengerCustomerChat
+                pageId={`${process.env.REACT_FB_PAGE_ID}`}
+                appId={`${process.env.REACT_FB_APP_ID}`}
+                htmlRef="https://kcdia.netlify.app/"
+            />
+
         </Router>
     )
 }

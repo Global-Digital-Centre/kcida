@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.12.1",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -15,9 +17,9 @@
     "html-react-parser": "^1.2.4",
     "jest-environment-jsdom-fourteen": "^1.0.1",
     "moment": "^2.27.0",
-    "next": "latest",
+    "next": "^11.1.0",
     "node-sass": "^6.0.1",
-    "react": "^16.13.1",
+    "react": "^17.0.2",
     "react-bootstrap": "^1.0.1",
     "react-compound-timer": "^1.2.0",
     "react-countup": "^4.3.3",
@@ -26,11 +28,13 @@
     "react-messenger-customer-chat": "^0.8.0",
     "react-modal-image": "^2.5.0",
     "react-modal-video": "^1.2.3",
-    "react-responsive-carousel": "^3.2.9",
+    "react-responsive-carousel": "^3.2.21",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
+    "react-slick": "^0.28.1",
     "styled-components": "^5.1.1",
-    "swiper": "^6.8.1"
+    "swiper": "^6.8.2",
+    "twilio-chat": "^5.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -58,7 +62,7 @@
     "chokidar": "^3.5.2",
     "fslightbox-react": "^1.4.9",
     "postcss": "^8.1.10",
-    "tailwindcss": "^2.0.2",
-    "react-refresh": "^0.10.0"
+    "react-refresh": "^0.10.0",
+    "tailwindcss": "^2.0.2"
   }
 }
