@@ -51,8 +51,12 @@ function FooterTwo() {
                     <Row>
                         <Col md="3">
                             <div className="footer-logo-info">
-                                <img src={process.env.PUBLIC_URL + "/assets/images/f-logo-171.png"} alt="" className="img-fluid" />
-                                <p>Lorem ipsum dolor sit amet, consectet adipisicing elit. Saepe porro neque a nam null quos.</p>
+                                <img src={process.env.PUBLIC_URL + "/assets/images/f-logo-171.png"} alt=""
+                                     className="img-fluid"/>
+                                <p> KCIDA provides the establishment of a legal and institutional framework for
+                                    promotion
+                                    and co-ordination of investment by the county government of Kakamega and for
+                                    connected purposes.</p>
                                 <ul className="list-unstyled">
                                     <li><i className="las la-map-marker"/>Kakamega County, Kenya</li>
                                     <li><i className="las la-envelope"/>kakamega.go.ke</li>
@@ -62,24 +66,33 @@ function FooterTwo() {
                         </Col>
                         <Col md="3">
                             <div className="f-links">
-                                <h5>Useful Links</h5>
+                                <h5>County</h5>
                                 <ul className="list-unstyled">
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Investment Opportunities</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Invest in Kakamega</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Organisation</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>E-Services</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>About Us</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Privacy Policy</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Investment
+                                        Opportunities</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Invest
+                                        in Kakamega</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Organisation</Link>
+                                    </li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>E-Services</Link>
+                                    </li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>About
+                                        Us</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + "/"}><i className="las la-angle-right"/>Privacy
+                                        Policy</Link></li>
                                 </ul>
                             </div>
                         </Col>
                         <Col md="3">
                             <div className="f-links">
-                                <h5>Useful Links</h5>
+                                <h5>Government</h5>
                                 <ul className="list-unstyled">
-                                    <li><a href="https://kakamega.go.ke/" target="_blank" rel="noopener noreferrer"><i className="las la-angle-right"/>Kakamega County</a></li>
-                                    <li><a href="http://www.invest.go.ke/" target="_blank" rel="noopener noreferrer"><i className="las la-angle-right"/>Kenya Invest</a></li>
-                                    <li><a href="https://www.ecitizen.go.ke/" target="_blank" rel="noopener noreferrer"><i className="las la-angle-right"/>Kenya E-Services</a></li>
+                                    <li><a href="https://kakamega.go.ke/" target="_blank" rel="noopener noreferrer"><i
+                                        className="las la-angle-right"/>Kakamega County</a></li>
+                                    <li><a href="http://www.invest.go.ke/" target="_blank" rel="noopener noreferrer"><i
+                                        className="las la-angle-right"/>Kenya Invest</a></li>
+                                    <li><a href="https://www.ecitizen.go.ke/" target="_blank" rel="noopener noreferrer"><i
+                                        className="las la-angle-right"/>Kenya E-Services</a></li>
 
                                 </ul>
                             </div>

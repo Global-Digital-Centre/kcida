@@ -1,29 +1,29 @@
 [
     {
         "id": "1",
-        "imgUrl": "pop-course-1.jpg",
-        "price": "$20.00",
+        "imgUrl": "pop-kakamega-town-650.png",
+        "price": "",
         "courseTitle": "Php & mySql Adv Programming",
         "courseLink": "/course-details"
     },
     {
         "id": "2",
-        "imgUrl": "pop-course-2.jpg",
-        "price": "$13.00",
+        "imgUrl": "pop-crying-stone-650.png",
+        "price": "",
         "courseTitle": "The Crying Stone of Ilesi",
         "courseLink": "/course-details"
     },
     {
         "id": "3",
-        "imgUrl": "pop-course-3.jpg",
-        "price": "$19.00",
+        "imgUrl": "pop-national-forest-650.png",
+        "price": "",
         "courseTitle": "Kakamega National Forest Reserve",
         "courseLink": "/course-details"
     },
     {
         "id": "4",
-        "imgUrl": "pop-course-4.jpg",
-        "price": "$16.00",
+        "imgUrl": "pop-rosterman-mines-650.png",
+        "price": "",
         "courseTitle": "Beckend Dev With Wordpress",
         "courseLink": "/course-details"
     }

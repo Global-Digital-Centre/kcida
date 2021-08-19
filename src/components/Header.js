@@ -142,7 +142,11 @@ class Header extends Component {
                                             <li className="nav-item dropdown">
                                                 <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">E-Services <i className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li><a href="https://www.ecitizen.go.ke/" target="_blank" rel="noopener noreferrer"><i className="las la-angle-right"/>E-Services</a></li>
+                                                    <li className="nav-item"><a className="nav-link"
+                                                                                href="https://www.ecitizen.go.ke/"
+                                                                                target="_blank"
+                                                                                rel="noopener noreferrer">E-Services<i
+                                                        className="las la-angle-right"/></a></li>
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">

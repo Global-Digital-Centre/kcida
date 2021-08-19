@@ -51,30 +51,62 @@ function StickyMenu() {
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Organisation <i className="las la-angle-down"/></Link>
+                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
+                                              data-toggle="dropdown">Organisation <i
+                                            className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>About Us</Link></li>
-                                                </ul>
+                                            <li className="nav-item"><Link className="nav-link"
+                                                                           to={process.env.PUBLIC_URL + "/about"}>About
+                                                Us</Link></li>
+                                        </ul>
 
                                     </li>
+
                                     <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">E-Services <i className="las la-angle-down"/></Link>
+                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
+                                              data-toggle="dropdown">Skills <i className="las la-angle-down"/></Link>
+                                        {/* <ul className="dropdown list-unstyled">
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor"}>Instructors</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor-details"}>Instructor Details</Link></li>
+                                                </ul>*/}
+                                    </li>
+
+                                    <li className="nav-item dropdown">
+                                        <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
+                                              data-toggle="dropdown">E-Services <i
+                                            className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
-                                            <li><a href="https://www.ecitizen.go.ke/" target="_blank" rel="noopener noreferrer"><i className="las la-angle-right"/>E-Services</a></li>
+                                            <li className="nav-item"><a className="nav-link"
+                                                                        href="https://www.ecitizen.go.ke/"
+                                                                        target="_blank" rel="noopener noreferrer">E-Services<i
+                                                className="las la-angle-right"/></a></li>
                                         </ul>
                                     </li>
-                                    {/*<li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Shop <i className="las la-angle-down"></i></Link>
-                                                <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/products"}>Products</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/product-details"}>Product Details</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/cart"}>Cart</Link></li>
-                                                </ul>
-                                            </li>*/}
+
+                                    <li className="nav-item dropdown">
+                                        <Link className="nav-link dropdown-toggle"
+                                              to={process.env.PUBLIC_URL + "/about"} data-toggle="dropdown">About Us<i
+                                            className="las la-angle-down"/></Link>
+                                        <ul className="dropdown list-unstyled">
+                                            <li className="nav-item"><Link className="nav-link"
+                                                                           to={process.env.PUBLIC_URL + "/about"}>About
+                                                Kakamega</Link></li>
+                                            <li className="nav-item"><Link className="nav-link"
+                                                                           to={process.env.PUBLIC_URL + "/about"}>Departments</Link>
+                                            </li>
+                                            <li className="nav-item"><Link className="nav-link"
+                                                                           to={process.env.PUBLIC_URL + "/about"}>vision</Link>
+                                            </li>
+                                        </ul>
+                                    </li>
+
                                 </ul>
+
+
                                 <div className="apply-btn">
                                     <Link to={process.env.PUBLIC_URL + "/contact"}><i className="las la-clipboard-list"/>Talk To Us</Link>
                                 </div>
+
                             </div>
                         </Col>
                     </Row>

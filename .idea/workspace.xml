@@ -21,7 +21,16 @@
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/StickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/StickyMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/blog/recent-post.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/blog/recent-post.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/course/item.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/item.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/course/popular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/popular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/course/slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/slider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/instructor/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/instructor/details.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsGrid.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +108,7 @@
       <workItem from="1629177149486" duration="6703000" />
       <workItem from="1629292474866" duration="6720000" />
       <workItem from="1629299638082" duration="890000" />
-      <workItem from="1629305039767" duration="26578000" />
+      <workItem from="1629305039767" duration="29198000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -199,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629347912191</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="v7.0.3">
+      <created>1629348649729</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1629348649729</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +249,8 @@
     <MESSAGE value="refactoring v2" />
     <MESSAGE value="refactoring v3" />
     <MESSAGE value="v7.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="v7.0.2" />
+    <MESSAGE value="v7.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="v7.0.3" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -267,18 +284,18 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1" y="191" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1629307327579" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629347917484">
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629348652659">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629347917484" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629348652659" />
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1" timestamp="1629189984996">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1629189984996" />
-    <state x="93" y="210" width="662" height="602" key="find.popup" timestamp="1629344105202">
+    <state x="854" y="163" width="662" height="602" key="find.popup" timestamp="1629351074486">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="93" y="210" width="662" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629344105202" />
+    <state x="854" y="163" width="662" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629351074486" />
     <state x="624" y="252" key="run.anything.popup" timestamp="1629089499664">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

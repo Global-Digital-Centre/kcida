@@ -19,14 +19,14 @@ class CourseItemGrid extends Component {
                                             <div className="img">
                                                 <img src={process.env.PUBLIC_URL + `/assets/images/${data.authorImg}`} alt="" />
                                             </div>
-                                            <div className="title">
+                                           {/* <div className="title">
                                                 <p>{data.authorName}</p>
                                                 <span>{data.authorCourses}</span>
-                                            </div>
+                                            </div>*/}
                                         </div>
-                                        <div className="course-price">
+                                        {/*<div className="course-price">
                                             <p>{data.price}</p>
-                                        </div>
+                                        </div>*/}
                                     </div>
                                 </Link>
                                 <div className="course-content">
