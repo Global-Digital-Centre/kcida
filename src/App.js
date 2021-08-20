@@ -26,20 +26,24 @@ import Product from './pages/shop/Products';
 import ProductDetails from './pages/shop/ProductDetails';
 import Cart from './pages/shop/Cart';
 import MessengerCustomerChat from "react-messenger-customer-chat";
+import Invest from "./pages/invest/Invest";
+import Skills from "./pages/skills/Skills";
 
 function App() {
     return (
         <Router>
-            <GlobalStyle />
-            <ScrollToTop />
+            <GlobalStyle/>
+            <ScrollToTop/>
             <Switch>
-                <Route exact path={`${process.env.PUBLIC_URL + "/"}`} component={HomeOne} />
-                <Route path={`${process.env.PUBLIC_URL + "/home-two"}`} component={HomeTwo} />
-                <Route path={`${process.env.PUBLIC_URL + "/about"}`} component={About} />
-                <Route path={`${process.env.PUBLIC_URL + "/course-grid"}`} component={CourseGrid} />
+                <Route exact path={`${process.env.PUBLIC_URL + "/"}`} component={HomeOne}/>
+                <Route path={`${process.env.PUBLIC_URL + "/home-two"}`} component={HomeTwo}/>
+                <Route path={`${process.env.PUBLIC_URL + "/about"}`} component={About}/>
+                <Route path={`${process.env.PUBLIC_URL + "/invest"}`} component={Invest}/>
+                <Route path={`${process.env.PUBLIC_URL + "/course-grid"}`} component={CourseGrid}/>
                 <Route path={`${process.env.PUBLIC_URL + "/course-list"}`} component={CourseList} />
-                <Route path={`${process.env.PUBLIC_URL + "/course-details"}`} component={CourseDetails} />
-                <Route path={`${process.env.PUBLIC_URL + "/instructor"}`} component={Instructor} />
+                <Route path={`${process.env.PUBLIC_URL + "/course-details"}`} component={CourseDetails}/>
+                <Route path={`${process.env.PUBLIC_URL + "/skills"}`} component={Skills}/>
+                <Route path={`${process.env.PUBLIC_URL + "/instructor"}`} component={Instructor}/>
                 <Route path={`${process.env.PUBLIC_URL + "/instructor-details"}`} component={InstructorDetails} />
                 <Route path={`${process.env.PUBLIC_URL + "/gallery"}`} component={Gallery} />
                 <Route path={`${process.env.PUBLIC_URL + "/events"}`} component={Events} />

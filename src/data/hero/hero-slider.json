@@ -1,46 +1,46 @@
 [
-    {
-        "id": "1",
-        "backgroundImage": "kakamega-town-1920.png",
-        "uniqClass": "slider-box slider-box1",
-        "title": "Welcome To Kakamega.",
-        "desc": "",
-        "btnOneLink": "about",
-        "buttonOne": "Learn More",
-        "buttonTwo": "Contact",
-        "btnTwoLink": "contact"
-    },
-    {
-        "id": "2",
-        "backgroundImage": "bukhungu-stadium-1920.png",
-        "uniqClass": "slider-box slider-box2 text-right",
-        "title": "",
-        "desc": "",
-        "btnOneLink": "about",
-        "buttonOne": "",
-        "buttonTwo": "",
-        "btnTwoLink": "contact"
-    },
-    {
-        "id": "3",
-        "backgroundImage": "crying-stone-1920.png",
-        "uniqClass": "slider-box slider-box2 text-right",
-        "title": "",
-        "desc": "",
-        "btnOneLink": "about",
-        "buttonOne": "",
-        "buttonTwo": "",
-        "btnTwoLink": "contact"
-    },
-    {
-        "id": "4",
-        "backgroundImage": "kakamega-forest-1920.png",
-        "uniqClass": "slider-box slider-box2 text-right",
-        "title": "",
-        "desc": "",
-        "btnOneLink": "about",
-        "buttonOne": "",
-        "buttonTwo": "",
-        "btnTwoLink": "contact"
-    }
+  {
+    "id": "1",
+    "backgroundImage": "kakamega-town-1920.png",
+    "uniqClass": "slider-box slider-box1",
+    "title": "Welcome To Kakamega.",
+    "desc": "",
+    "btnOneLink": "about",
+    "buttonOne": "Learn More",
+    "buttonTwo": "Contact",
+    "btnTwoLink": "contact"
+  },
+  {
+    "id": "2",
+    "backgroundImage": "bukhungu-stadium-1920.png",
+    "uniqClass": "slider-box slider-box2 text-right",
+    "title": "",
+    "desc": "",
+    "btnOneLink": "about",
+    "buttonOne": "",
+    "buttonTwo": "",
+    "btnTwoLink": "contact"
+  },
+  {
+    "id": "3",
+    "backgroundImage": "crying-stone-1920.png",
+    "uniqClass": "slider-box slider-box2 text-right",
+    "title": "",
+    "desc": "",
+    "btnOneLink": "about",
+    "buttonOne": "",
+    "buttonTwo": "",
+    "btnTwoLink": "contact"
+  },
+  {
+    "id": "4",
+    "backgroundImage": "kakamega-forest-1920.png",
+    "uniqClass": "slider-box slider-box2 text-right",
+    "title": "",
+    "desc": "",
+    "btnOneLink": "about",
+    "buttonOne": "",
+    "buttonTwo": "",
+    "btnTwoLink": "contact"
+  }
 ]

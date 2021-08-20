@@ -20,12 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/kakamega-town-1920-1161.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/invest/Invest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/invest/styles/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/CourseGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/CourseList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/Skills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseCategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseItemsGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseItemsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/components/CoursePrice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseSidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/components/PopularCourse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/components/ReviewForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/styles/course.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/styles/courseCategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/styles/coursePrice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/styles/courseSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/styles/courseTag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/styles/popularCourse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/skills/styles/reviewForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Anchor/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Carousel/ResCarousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Carousel/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/List/Item.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/List/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/OffCanvas/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/SectionTitles/SectionTitle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Text/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UI/Widget/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/StickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/StickyMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/heroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/heroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/hero/hero-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hero/hero-slider.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +89,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/skills" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -68,13 +101,15 @@
     </force-push-targets>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/blog" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/skills" />
+      <recent name="$PROJECT_DIR$/src/pages/invest" />
       <recent name="$PROJECT_DIR$/public/assets/css" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/pages/about" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/pages/blog" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -103,7 +138,9 @@
       <workItem from="1629177149486" duration="6703000" />
       <workItem from="1629292474866" duration="6720000" />
       <workItem from="1629299638082" duration="890000" />
-      <workItem from="1629305039767" duration="31913000" />
+      <workItem from="1629305039767" duration="32665000" />
+      <workItem from="1629421835986" duration="863000" />
+      <workItem from="1629423477028" duration="3672000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -224,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629352773619</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="v7.0.35">
+      <created>1629354259228</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1629354259228</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +305,8 @@
     <MESSAGE value="v7.0.3" />
     <MESSAGE value="v7.0.3.5" />
     <MESSAGE value="v7.0.3.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="v7.0.3.6" />
+    <MESSAGE value="v7.0.35" />
+    <option name="LAST_COMMIT_MESSAGE" value="v7.0.35" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -295,10 +340,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1" y="191" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1629307327579" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629348652659">
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629354270771">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629348652659" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629354270771" />
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1" timestamp="1629189984996">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

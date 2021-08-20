@@ -236,9 +236,13 @@ class HeaderTwo extends Component {
                                     <div className="menu-box d-flex justify-content-between">
                                         <ul className="nav menu-nav">
                                             <li className="nav-item dropdown active">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Home <i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Home <i
+                                                    className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item active"><Link className="nav-link" to={process.env.PUBLIC_URL + "/"}>Home</Link></li>
+                                                    <li className="nav-item active"><Link className="nav-link"
+                                                                                          to={process.env.PUBLIC_URL + "/"}>Home</Link>
+                                                    </li>
                                                     <li className="nav-item"><Link className="nav-link"
                                                                                    to={process.env.PUBLIC_URL + "/about"}>Vision</Link>
                                                     </li>
@@ -248,15 +252,25 @@ class HeaderTwo extends Component {
                                                 </ul>
                                             </li>
                                             <li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/about"} data-toggle="dropdown">Investment Opportunities<i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/about"} data-toggle="dropdown">Investment
+                                                    Opportunities<i className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>Invest in Kakamega</Link>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/invest"}>Invest
+                                                        in Kakamega</Link>
 
                                                     </li>
 
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/login"}>Investment Opportunities</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/registration"}>One Shop Centre</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/contact"}>Contact Us</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/invest"}>Investment
+                                                        Opportunities</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/invest"}>One
+                                                        Shop Centre</Link></li>
+                                                    <li className="nav-item"><Link className="nav-link"
+                                                                                   to={process.env.PUBLIC_URL + "/contact"}>Contact
+                                                        Us</Link></li>
                                                     {/* <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link></li>
                                                     <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/faq"}>Faq</Link></li>
                                                     <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/404"}>404</Link></li>
@@ -272,7 +286,10 @@ class HeaderTwo extends Component {
                                                 </ul>*/}
                                             </li>
                                             <li className="nav-item dropdown">
-                                                <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"} data-toggle="dropdown">Skills <i className="las la-angle-down"/></Link>
+                                                <Link className="nav-link dropdown-toggle"
+                                                      to={process.env.PUBLIC_URL + "/skills"}
+                                                      data-toggle="dropdown">Skills <i
+                                                    className="las la-angle-down"/></Link>
                                                 {/* <ul className="dropdown list-unstyled">
                                                     <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor"}>Instructors</Link></li>
                                                     <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor-details"}>Instructor Details</Link></li>

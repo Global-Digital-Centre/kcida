@@ -5,34 +5,28 @@ export const Styles = styled.div`
     .hero-slider-area {
         .swiper-container {
             position: relative;
-
             .swiper-wrapper {
                 .swiper-slide.slider-item {
                     position: relative;
-
                     .image-container {
                         width   : 100%;
                         display : block;
                         overflow: hidden;
                         position: relative;
                         height  : 700px;
-
                         img.slider-image {
                             width     : auto;
                             margin-top: 0;
                             transition : all 6000ms linear;
                             transform: scale(1);
                         }
-
                         @media(max-width: 767px) {
                             height  : 450px;
                         }
-
                         @media(max-width: 575px) {
                             height  : 360px;
                         }
                     }
-
                     .slider-table {
                         display : table;
                         width   : 100%;
@@ -41,11 +35,9 @@ export const Styles = styled.div`
                         top     : 0;
                         left    : 0;
                         z-index : 9999;
-
                         .slider-tablecell {
                             display       : table-cell;
                             vertical-align: middle;
-
                             .slider-box {
                                 .slider-title {
                                     p {
@@ -56,7 +48,6 @@ export const Styles = styled.div`
                                         margin-bottom : 8px;
                                     }
                                 }
-
                                 .slider-desc {
                                     h1 {
                                         font-size    : 46px;
@@ -64,14 +55,12 @@ export const Styles = styled.div`
                                         max-width    : 700px;
                                         margin-bottom: 32px;
                                         font-weight  : 600;
-
                                         @media(max-width: 767px) {
                                             font-size    : 26px;
                                             font-weight  : 500;
                                         }
                                     }
                                 }
-
                                 .slider-btn {
                                     a.slider-btn1 {
                                         font-size : 14px;
@@ -83,12 +72,10 @@ export const Styles = styled.div`
                                         text-align: center;
                                         padding   : 11px;
                                         border-radius : 5px;
-
                                         &:hover {
                                             background: ${colors.gr_bg2};
                                         }
                                     }
-
                                     a.slider-btn2 {
                                         font-size : 14px;
                                         color     : #fff;
@@ -100,7 +87,6 @@ export const Styles = styled.div`
                                         padding   : 11px;
                                         border-radius : 5px;
                                         margin-left: 15px;
-
                                         &:hover {
                                             background: ${colors.bg1};
                                             border    : none;
@@ -112,7 +98,6 @@ export const Styles = styled.div`
                                     text-align  : center !important;
                                 }
                             }
-
                             .slider-box2 {
                                 .slider-desc {
                                     h1 {
@@ -123,14 +108,12 @@ export const Styles = styled.div`
                         }
                     }
                 }
-
                 .swiper-slide.slider-item.swiper-slide-visible.swiper-slide-active {
                     .image-container {
                         img.slider-image {
                             transform: scale(1.15);
                         }
                     }
-
                     .slider-table {
                         .slider-tablecell {
                             .slider-title {
@@ -139,14 +122,12 @@ export const Styles = styled.div`
                                 animation-delay    : 0.2s;
                                 animation-fill-mode: both;
                             }
-
                             .slider-desc {
                                 animation-name     : fadeInUp;
                                 animation-duration : 1.5s;
                                 animation-delay    : 0.2s;
                                 animation-fill-mode: both;
                             }
-
                             .slider-btn {
                                 animation-name     : fadeInUp;
                                 animation-duration : 2s;
@@ -157,7 +138,6 @@ export const Styles = styled.div`
                     }
                 }
             }
-
             .swiper-btn {
                 position   : absolute;
                 top        : 50%;
@@ -172,15 +152,12 @@ export const Styles = styled.div`
                 transition : all 0.3s ease;
                 margin-top: -35px;
                 z-index   : 111;
-
                 i {}
-
                 &:hover {
                     background: ${colors.gr_bg};
                     color     : #ffffff;
                 }
             }
-
             .swiper-btn.slider-button-next {
                 left : inherit;
                 right: 40px;
