@@ -55,6 +55,9 @@ function StickyMenu() {
                                                                            to={process.env.PUBLIC_URL + "/invest-in-kakamega"}>One
                                                 Shop Centre</Link></li>
                                             <li className="nav-item"><Link className="nav-link"
+                                                                           to={process.env.PUBLIC_URL + "/"}>Projects</Link>
+                                            </li>
+                                            <li className="nav-item"><Link className="nav-link"
                                                                            to={process.env.PUBLIC_URL + "/contact"}>Contact
                                                 Us</Link></li>
                                             {/* <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/gallery"}>Gallery</Link></li>
@@ -110,6 +113,9 @@ function StickyMenu() {
                                             </li>
                                             <li className="nav-item"><Link className="nav-link"
                                                                            to={process.env.PUBLIC_URL + "/about"}>vision</Link>
+                                            </li>
+                                            <li className="nav-item"><Link className="nav-link"
+                                                                           to={process.env.PUBLIC_URL + "/about"}>Mission</Link>
                                             </li>
                                         </ul>
                                     </li>
