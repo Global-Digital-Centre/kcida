@@ -40,7 +40,7 @@ export const Styles = styled.div`
                             vertical-align: middle;
                             .slider-box {
                                 .slider-title {
-                                    p {
+                                    h1 {
                                         font-size     : 46px;
                                          font-weight  : bold;
                                         color         : white;
@@ -49,14 +49,14 @@ export const Styles = styled.div`
                                     }
                                 }
                                 .slider-desc {
-                                    h1 {
-                                        font-size    : 46px;
+                                    p {
+                                        font-size    : 20px;
                                         color        : #ffffff;
                                         max-width    : 700px;
                                         margin-bottom: 32px;
                                         font-weight  : 600;
                                         @media(max-width: 767px) {
-                                            font-size    : 26px;
+                                            font-size    : 18px;
                                             font-weight  : 500;
                                         }
                                     }

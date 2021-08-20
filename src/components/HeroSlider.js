@@ -15,8 +15,8 @@ class HeroSlider extends Component {
                 delay: 3000,
                 disableOnInteraction: false
             },
-            watchSlidesVisibility: true,
-            effect: 'fade',
+            /*watchSlidesVisibility: true,*/
+            effect: 'slide',
             navigation: {
                 nextEl: '.slider-button-next',
                 prevEl: '.slider-button-prev'
@@ -47,10 +47,10 @@ class HeroSlider extends Component {
                                                     <Col md="12">
                                                         <div className={data.uniqClass}>
                                                             <div className="slider-title">
-                                                                <p>{data.title}</p>
+                                                                <h1>{data.title}</h1>
                                                             </div>
                                                             <div className="slider-desc">
-                                                                <h1>{data.desc}</h1>
+                                                                <p>{data.desc}</p>
                                                             </div>
                                                             <div className="slider-btn">
                                                                 <Link className="slider-btn1" to={process.env.PUBLIC_URL + `/${data.btnOneLink}`}>{data.buttonOne}</Link>

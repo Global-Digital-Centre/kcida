@@ -22,8 +22,9 @@
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/StickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/StickyMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/heroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/heroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/hero/hero-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hero/hero-slider.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +109,7 @@
       <workItem from="1629299638082" duration="890000" />
       <workItem from="1629305039767" duration="32665000" />
       <workItem from="1629421835986" duration="863000" />
-      <workItem from="1629423477028" duration="10771000" />
+      <workItem from="1629423477028" duration="14157000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -257,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1629433481049</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="skills, Opportunities">
+      <created>1629434376602</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1629434376602</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Slider">
+      <created>1629435111312</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1629435111312</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,12 +312,17 @@
     <MESSAGE value="v7.0.35" />
     <MESSAGE value="skills" />
     <MESSAGE value="skills, Opportunities" />
-    <option name="LAST_COMMIT_MESSAGE" value="skills, Opportunities" />
+    <MESSAGE value="Slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="Slider" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="392" y="420" width="251" height="273" key="#Notifications" timestamp="1629434863278">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="392" y="420" width="251" height="273" key="#Notifications/0.27.1920.1053@0.27.1920.1053" timestamp="1629434863278" />
     <state x="248" y="287" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629295968917">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -331,10 +351,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1" y="191" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1629434250310" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629354270771">
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629436675246">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629354270771" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629436675246" />
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1" timestamp="1629189984996">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
