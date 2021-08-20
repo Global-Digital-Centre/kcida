@@ -55,7 +55,8 @@ class TabBox extends Component {
                                             </ul>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="mission">
-                                            <h4 className="tab-title">Investment Opportunities</h4>
+                                            <a href={process.env.PUBLIC_URL + "/investment-opportunities"}><h4
+                                                className="tab-title">Investment Opportunities</h4></a>
 
                                             <p className="tab-desc">All sectors open to investors with no restrictions.Safe, peaceful and attractive location for investors</p>
 
@@ -63,11 +64,23 @@ class TabBox extends Component {
                                                 <div className="col-md-12">
                                                     <li><i className="fa fa-check"/>Agriculture.</li>
                                                     <li><i className="fa fa-check"/>Health Services.</li>
-                                                    <li><i className="fa fa-check"/>Water, Environment and Natural Resources.</li>
-                                                    <li><i className="fa fa-check"/>Trade, Industrialisation and Tourism.</li>
-                                                    <li><i className="fa fa-check"/>Land, Housing, Urban Areas and Physical Planning.</li>
+                                                    <li><i className="fa fa-check"/>Water, Environment and Natural
+                                                        Resources.
+                                                    </li>
+                                                    <li><i className="fa fa-check"/>Trade, Industrialisation and
+                                                        Tourism.
+                                                    </li>
+                                                    <li><i className="fa fa-check"/>Land, Housing, Urban Areas and
+                                                        Physical Planning.
+                                                    </li>
                                                     <li><i className="fa fa-check"/>Roads,Public Works and Energy.</li>
-                                                    <li><i className="fa fa-check"/>ICT, E-Government and Communication.</li>
+                                                    <li><i className="fa fa-check"/>ICT, E-Government and Communication.
+                                                    </li>
+                                                    <li>
+                                                        <Link className="learnmore-btn"
+                                                              to={process.env.PUBLIC_URL + "/investment-opportunities"}>Learn
+                                                            More</Link>
+                                                    </li>
                                                 </div>
 
                                             </ul>
@@ -90,20 +103,50 @@ class TabBox extends Component {
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="ranking">
                                             <h4 className="tab-title">Our Ranking</h4>
-                                            <p className="tab-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere a nisi fuga rem quas molestias, eveniet minima molestiae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, recusandae? Assumenda, error. Quam dicta iusto saepe. Odit minus voluptas, fuga ipsum quia debitis totam, tempore laudantium quasi dicta dolorem deleniti.</p>
+                                            <p className="tab-desc">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus
+                                                facere a nisi fuga rem quas molestias, eveniet minima molestiae. Lorem
+                                                ipsum dolor, sit amet consectetur adipisicing elit. Ea, recusandae?
+                                                Assumenda, error. Quam dicta iusto saepe. Odit minus voluptas, fuga
+                                                ipsum quia debitis totam, tempore laudantium quasi dicta dolorem
+                                                deleniti.</p>
                                             <ul className="list-unstyled check-list">
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere.</li>
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere.</li>
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere.</li>
+                                                <li><i className="fa fa-check"/>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Voluptatum amet quo eius saepe et quis
+                                                    necessitatibus hic natus facere.
+                                                </li>
+                                                <li><i className="fa fa-check"/>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Voluptatum amet quo eius saepe et quis
+                                                    necessitatibus hic natus facere.
+                                                </li>
+                                                <li><i className="fa fa-check"/>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Voluptatum amet quo eius saepe et quis
+                                                    necessitatibus hic natus facere.
+                                                </li>
                                             </ul>
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="research">
                                             <h4 className="tab-title">Our Research</h4>
-                                            <p className="tab-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere a nisi fuga rem quas molestias, eveniet minima molestiae. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, recusandae? Assumenda, error. Quam dicta iusto saepe. Odit minus voluptas, fuga ipsum quia debitis totam, tempore laudantium quasi dicta dolorem deleniti.</p>
+                                            <p className="tab-desc">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                                elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus
+                                                facere a nisi fuga rem quas molestias, eveniet minima molestiae. Lorem
+                                                ipsum dolor, sit amet consectetur adipisicing elit. Ea, recusandae?
+                                                Assumenda, error. Quam dicta iusto saepe. Odit minus voluptas, fuga
+                                                ipsum quia debitis totam, tempore laudantium quasi dicta dolorem
+                                                deleniti.</p>
                                             <ul className="list-unstyled check-list">
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere.</li>
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere.</li>
-                                                <li><i className="fa fa-check"></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet quo eius saepe et quis necessitatibus hic natus facere.</li>
+                                                <li><i className="fa fa-check"/>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Voluptatum amet quo eius saepe et quis
+                                                    necessitatibus hic natus facere.
+                                                </li>
+                                                <li><i className="fa fa-check"/>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Voluptatum amet quo eius saepe et quis
+                                                    necessitatibus hic natus facere.
+                                                </li>
+                                                <li><i className="fa fa-check"/>Lorem ipsum dolor sit amet, consectetur
+                                                    adipisicing elit. Voluptatum amet quo eius saepe et quis
+                                                    necessitatibus hic natus facere.
+                                                </li>
                                             </ul>
                                         </Tab.Pane>
                                     </Tab.Content>

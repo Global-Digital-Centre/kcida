@@ -253,20 +253,21 @@ class HeaderTwo extends Component {
                                             </li>
                                             <li className="nav-item dropdown">
                                                 <Link className="nav-link dropdown-toggle"
-                                                      to={process.env.PUBLIC_URL + "/about"} data-toggle="dropdown">Investment
+                                                      to={process.env.PUBLIC_URL + "/investment-opportunities"}
+                                                      data-toggle="dropdown">Investment
                                                     Opportunities<i className="las la-angle-down"/></Link>
                                                 <ul className="dropdown list-unstyled">
                                                     <li className="nav-item"><Link className="nav-link"
-                                                                                   to={process.env.PUBLIC_URL + "/invest"}>Invest
+                                                                                   to={process.env.PUBLIC_URL + "/invest-in-kakamega"}>Invest
                                                         in Kakamega</Link>
 
                                                     </li>
 
                                                     <li className="nav-item"><Link className="nav-link"
-                                                                                   to={process.env.PUBLIC_URL + "/invest"}>Investment
+                                                                                   to={process.env.PUBLIC_URL + "/investment-opportunities"}>Investment
                                                         Opportunities</Link></li>
                                                     <li className="nav-item"><Link className="nav-link"
-                                                                                   to={process.env.PUBLIC_URL + "/invest"}>One
+                                                                                   to={process.env.PUBLIC_URL + "/invest-in-kakamega"}>One
                                                         Shop Centre</Link></li>
                                                     <li className="nav-item"><Link className="nav-link"
                                                                                    to={process.env.PUBLIC_URL + "/contact"}>Contact

@@ -1,8 +1,12 @@
 [
     {
         "id": "1",
-        "faqTitle": "I don't know What should I write here?",
-        "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon officia aute."
+        "faqTitle": "AGRICULTURE",
+        "faqDesc": "A Farm inputs subsidy programme in place\n - Subsidized; farm mechanization, seeds and fertilizer, pest and\n disease control and free agricultural extension services",
+        "faqDesc1": "Livestock and veterinary services\n - Kakamega Dairy Development Corporation in place\n - One cow initiative program is on course to boost dairy farming\n - Subsidized County Artificial Insemination Service\n - Subsidized Poultry and fish farming",
+        "faqDesc2": "Youth agribusiness training and empowerment",
+        "faqDesc3": "",
+        "faqDesc4": ""
     },
     {
         "id": "2",

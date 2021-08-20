@@ -26,7 +26,7 @@ class Faq extends Component {
                                 <Col md="12">
                                     <Tab.Container defaultActiveKey="general">
                                         <Nav className="justify-content-center">
-                                            <Nav.Item><Nav.Link eventKey="general">General </Nav.Link></Nav.Item>
+                                            <Nav.Item><Nav.Link eventKey="general">Investment Opportunities </Nav.Link></Nav.Item>
                                             <Nav.Item><Nav.Link eventKey="author">Author</Nav.Link></Nav.Item>
                                             <Nav.Item><Nav.Link eventKey="buyer">Buyer</Nav.Link></Nav.Item>
                                             <Nav.Item><Nav.Link eventKey="price">Pricing</Nav.Link></Nav.Item>
@@ -41,10 +41,23 @@ class Faq extends Component {
                                                                 <div className="faq-item">
                                                                     <div className="faq-title d-flex">
                                                                         <div className="title-icon"><span>Q</span></div>
-                                                                        <div className="title-text"><p>{data.faqTitle}</p></div>
+                                                                        <div className="title-text">
+                                                                            <p>{data.faqTitle}</p></div>
                                                                     </div>
                                                                     <div className="faq-desc">
                                                                         <p>{data.faqDesc}</p>
+                                                                    </div>
+                                                                    <div className="faq-desc">
+                                                                        <p>{data.faqDesc1}</p>
+                                                                    </div>
+                                                                    <div className="faq-desc">
+                                                                        <p>{data.faqDesc2}</p>
+                                                                    </div>
+                                                                    <div className="faq-desc">
+                                                                        <p>{data.faqDesc3}</p>
+                                                                    </div>
+                                                                    <div className="faq-desc">
+                                                                        <p>{data.faqDesc4}</p>
                                                                     </div>
                                                                 </div>
                                                             </Col>

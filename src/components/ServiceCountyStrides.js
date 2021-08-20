@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Datas from '../data/service/service-box.json';
+import Datas from '../data/service/service-box2.json';
 import {Col, Container, Row} from 'react-bootstrap';
 import {Styles} from "./styles/serviceBox.js";
 

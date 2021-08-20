@@ -139,6 +139,7 @@ export const Styles = styled.div`
 
                 p {
                     font-size: 14px;
+                    text-transform: capitalize;
                     color    : ${colors.text3};
 
                     @media(max-width: 991px) {

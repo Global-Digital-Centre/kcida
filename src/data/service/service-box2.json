@@ -1,0 +1,77 @@
+{
+  "secTitle": "COUNTY STRIDES 2013/2019",
+  "dataList": [
+    {
+      "id": "1",
+      "boxIcon": "flaticon-thumbs-like",
+      "title": "Ranked top, 5 times in KCPE Natioal Examinations",
+      "subTitle": ""
+    },
+    {
+      "id": "2",
+      "boxIcon": "flaticon-reading",
+      "title": "Held 1st pre-Devolution Youth Conference",
+      "subTitle": ""
+    },
+    {
+      "id": "3",
+      "boxIcon": "flaticon-teacher",
+      "title": "Host 5th Devolution Conference",
+      "subTitle": ""
+    },
+    {
+      "id": "4",
+      "boxIcon": "flaticon-unlimited",
+      "title": "Host 55th Mashujaa Day Celebrations",
+      "subTitle": ""
+    },
+    {
+      "id": "5",
+      "boxIcon": "flaticon-locations",
+      "title": "Host 1st Lake Region Economic Bloc (LREB) Summit",
+      "subTitle": ""
+    },
+    {
+      "id": "6",
+      "boxIcon": "flaticon-support",
+      "title": "Host CECAFA regional soccer championship",
+      "subTitle": ""
+    },
+    {
+      "id": "7",
+      "boxIcon": "flaticon-support",
+      "title": "Host Chapa Dimba",
+      "subTitle": ""
+    },
+    {
+      "id": "8",
+      "boxIcon": "flaticon-support",
+      "title": "Host KECOSO games for communication organizations",
+      "subTitle": ""
+    },
+    {
+      "id": "9",
+      "boxIcon": "flaticon-support",
+      "title": "Host African Cup Winners",
+      "subTitle": ""
+    },
+    {
+      "id": "10",
+      "boxIcon": "flaticon-support",
+      "title": "Host Youth in Agribusiness Conference",
+      "subTitle": ""
+    },
+    {
+      "id": "11",
+      "boxIcon": "flaticon-support",
+      "title": "Host 4th Kenya National Music and Cultural Festivals",
+      "subTitle": ""
+    },
+    {
+      "id": "12",
+      "boxIcon": "flaticon-support",
+      "title": "Host Kenya National Inter-county Amputee Sports",
+      "subTitle": ""
+    }
+  ]
+}

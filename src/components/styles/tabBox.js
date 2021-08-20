@@ -6,6 +6,8 @@ export const Styles = styled.div`
     .tab-section {
         background: ${colors.bg2};
         padding   : 70px 0 65px;
+        text-transform: capitalize;
+        
 
         .nav {
             background-color: #ffffff;
@@ -51,6 +53,7 @@ export const Styles = styled.div`
                 h4.tab-title {
                     color        : ${colors.black1};
                     font-weight  : 600;
+                    text-transform: capitalize;
                     margin-bottom: 25px;
 
                     @media(max-width: 575px) {
@@ -63,6 +66,7 @@ export const Styles = styled.div`
                     font-size    : 15px;
                     color        : ${colors.text2};
                     line-height  : 30px;
+                    text-transform: capitalize;
                     margin-bottom: 25px;
 
                     @media(max-width: 575px) {
@@ -75,12 +79,34 @@ export const Styles = styled.div`
                 color     : #fff;
                 background: ${colors.gr_bg};
                 display   : inline-block;
-                width     : 145px;
+                width     : 125px;
                 height    : 80px;
                 text-align: center;
                 padding   : 11px;
                 border-radius : 5px;
                 margin-top: 40px;
+                
+
+                &:hover {
+                    background: ${colors.gr_bg2};
+                }
+
+                @media(max-width: 575px) {
+                    margin-top : 0;
+                }
+            }
+            a.learnmore-btn {
+                font-size : 14px;
+                color     : #fff;
+                background: ${colors.gr_bg};
+                display   : inline-block;
+                width     : 100px;
+                height    : 40px;
+                text-align: center;
+                padding   : 11px;
+                border-radius : 5px;
+                margin-top: 40px;
+                
 
                 &:hover {
                     background: ${colors.gr_bg2};

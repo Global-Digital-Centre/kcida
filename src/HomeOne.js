@@ -36,7 +36,7 @@ export default class HomeOne extends Component {
                 < CourseFilter />
 
                 {/* Testimonial Slider */}
-                < TestimonialSlider/>
+                <TestimonialSlider/>
 
                 {/* Image Gallery Area */}
                 <ImageGallery/>

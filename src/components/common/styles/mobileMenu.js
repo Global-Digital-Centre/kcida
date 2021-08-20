@@ -3,7 +3,7 @@ import {colors} from "../element/elements.js";
 
 export const Styles = styled.div`
 .mobile-menu-area {
-    background : ${colors.bg1};
+    background : ${colors.green};
     display: none;
     .mb-topbar {
         border-bottom: 1px solid ${colors.black2};

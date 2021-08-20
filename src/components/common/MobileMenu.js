@@ -103,13 +103,13 @@ function MobileMenu() {
                 <div className="mb-sidebar-menu">
                     <div className="mb-menu-item">
                         <button className="mb-menu-button active">
-                            <p>Home <i className="las la-plus"></i></p>
+                            <p>Home <i className="las la-plus"/></p>
                         </button>
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
                                 <li><Link to={process.env.PUBLIC_URL + "/"}>Home</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/home-two"}>Vision</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/home-two"}>Mission</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/about"}>Vision</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/about"}>Mission</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -120,16 +120,18 @@ function MobileMenu() {
                         <div className="mb-menu-content show">
                             <ul className="list-unstyled">
                                 <li className="nav-item"><Link className="nav-link"
-                                                               to={process.env.PUBLIC_URL + "/about"}>Invest in
+                                                               to={process.env.PUBLIC_URL + "/invest-in-kakamega"}>Invest
+                                    in
                                     Kakamega</Link>
 
                                 </li>
 
                                 <li className="nav-item"><Link className="nav-link"
-                                                               to={process.env.PUBLIC_URL + "/login"}>Investment
+                                                               to={process.env.PUBLIC_URL + "/investment-opportunities"}>Investment
                                     Opportunities</Link></li>
                                 <li className="nav-item"><Link className="nav-link"
-                                                               to={process.env.PUBLIC_URL + "/registration"}>One Shop
+                                                               to={process.env.PUBLIC_URL + "/invest-in-kakamega"}>One
+                                    Shop
                                     Centre</Link></li>
                                 <li className="nav-item"><Link className="nav-link"
                                                                to={process.env.PUBLIC_URL + "/contact"}>Contact
@@ -153,12 +155,11 @@ function MobileMenu() {
                         <button className="mb-menu-button">
                             <p>Skills<i className="las la-plus"/></p>
                         </button>
-                        {/*<div className="mb-menu-content">
+                        <div className="mb-menu-content">
                             <ul className="list-unstyled">
-                                <li><Link to={process.env.PUBLIC_URL + "/instructor"}>Instructors</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/instructor-details"}>Instructor Details</Link></li>
+                                <li><Link to={process.env.PUBLIC_URL + "/skills"}>Skills</Link></li>
                             </ul>
-                        </div>*/}
+                        </div>
                     </div>
                     <div className="mb-menu-item">
                         <button className="mb-menu-button">
