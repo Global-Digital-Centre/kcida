@@ -1,39 +1,39 @@
 {
-    "eventDataList": [
-        {
-            "id": "1",
-            "eventDate": "25 March",
-            "eventTitle": "COUNTY COMMENCES REHABILITATION OF SPORTS FACILITIES",
-            "eventTime": "",
-            "eventLocation": "Kakamega,Kenya",
-            "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
-            "eventLink": "/event-details"
-        },
-        {
-            "id": "2",
-            "eventDate": "25 March",
-            "eventTitle": "LAND GRABBERS PUT ON NOTICE",
-            "eventTime": "",
-            "eventLocation": "Kakamega,Kenya",
-            "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
-            "eventLink": "/event-details"
-        }
-    ],
-    "faqDataList": [
-        {
-            "id": "1",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
-        },
-        {
-            "id": "2",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid."
-        },
-        {
-            "id": "3",
-            "faqTitle": "I don't know What should I write here?",
-            "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
-        }
-    ]
+  "eventDataList": [
+    {
+      "id": "1",
+      "eventDate": "25 March",
+      "eventTitle": "COUNTY COMMENCES REHABILITATION OF SPORTS FACILITIES",
+      "eventTime": "",
+      "eventLocation": "Kakamega,Kenya",
+      "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
+      "eventLink": "/event-details"
+    },
+    {
+      "id": "2",
+      "eventDate": "25 March",
+      "eventTitle": "LAND GRABBERS PUT ON NOTICE",
+      "eventTime": "",
+      "eventLocation": "Kakamega,Kenya",
+      "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
+      "eventLink": "/event-details"
+    }
+  ],
+  "faqDataList": [
+    {
+      "id": "1",
+      "faqTitle": "I don't know What should I write here?",
+      "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
+    },
+    {
+      "id": "2",
+      "faqTitle": "I don't know What should I write here?",
+      "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid."
+    },
+    {
+      "id": "3",
+      "faqTitle": "I don't know What should I write here?",
+      "faqDesc": "Anim pariatur cliche reprehenderit, enim eiusm high life accusamus terry richardson ad squid. 3 wolf moon."
+    }
+  ]
 }

@@ -1,50 +1,47 @@
-import React, {Component} from 'react';
-import HeaderTwo from '../../components/HeaderTwo';
-import {BreadcrumbBox} from '../../components/common/Breadcrumb';
-import AboutUs from '../../components/AboutUs';
-import IconBox from '../../components/IconBox';
-import TabBox from './../../components/TabBox';
-import TestimonialSlider from '../../components/TestimonialSlider';
-import FaqEvent from '../../components/FaqEvent';
-import FooterTwo from '../../components/FooterTwo';
+import React, {Component} from "react";
+import HeaderTwo from "../../components/HeaderTwo";
+import {BreadcrumbBox} from "../../components/common/Breadcrumb";
+import AboutUs from "../../components/AboutUs";
+import IconBox from "../../components/IconBox";
+import TabBox from "./../../components/TabBox";
+import TestimonialSlider from "../../components/TestimonialSlider";
+import FaqEvent from "../../components/FaqEvent";
+import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/about.js";
 
 class About extends Component {
+  render() {
+    return (
+      <Styles>
+        {/* Main Wrapper */}
+        <div className="main-wrapper about-page">
+          {/* Header 2 */}
+          <HeaderTwo />
 
-    render() {
-        return (
-            <Styles>
-                {/* Main Wrapper */}
-                <div className="main-wrapper about-page">
+          {/* Breadcroumb */}
+          <BreadcrumbBox title="About Us" />
 
-                    {/* Header 2 */}
-                    <HeaderTwo />
+          {/* About Area */}
+          <AboutUs />
 
-                    {/* Breadcroumb */}
-                    <BreadcrumbBox title="About Us" />
+          {/* Icon Box Area */}
+          <IconBox />
 
-                    {/* About Area */}
-                    <AboutUs />
+          {/* Tab Section */}
+          <TabBox />
 
-                    {/* Icon Box Area */}
-                    <IconBox />
+          {/* Testimonial Slider */}
+          <TestimonialSlider />
 
-                    {/* Tab Section */}
-                    <TabBox />
+          {/* Faq & Event Area */}
+          <FaqEvent />
 
-                    {/* Testimonial Slider */}
-                    <TestimonialSlider />
-
-                    {/* Faq & Event Area */}
-                    <FaqEvent />
-
-                    {/* Footer 2 */}
-                    <FooterTwo />
-
-                </div>
-            </Styles>
-        )
-    }
+          {/* Footer 2 */}
+          <FooterTwo />
+        </div>
+      </Styles>
+    );
+  }
 }
 
-export default About
+export default About;

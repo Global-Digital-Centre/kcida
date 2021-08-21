@@ -1,15 +1,15 @@
 [
-    {
-      "id": "1",
-      "imgUrl": "kakamega-town-650.png",
-      "authorImg": "author-280_x_280.png",
-      "authorName": "John Doe",
-      "authorCourses": "13 Courses",
-      "price": "$20",
-      "courseTitle": "Kakamega Town",
-      "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
-      "courseLink": "/course-details"
-    },
+  {
+    "id": "1",
+    "imgUrl": "kakamega-town-650.png",
+    "authorImg": "author-280_x_280.png",
+    "authorName": "John Doe",
+    "authorCourses": "13 Courses",
+    "price": "$20",
+    "courseTitle": "Kakamega Town",
+    "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
+    "courseLink": "/course-details"
+  },
   {
     "id": "2",
     "imgUrl": "crying-stone-650.png",

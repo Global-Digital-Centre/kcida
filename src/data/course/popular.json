@@ -1,30 +1,30 @@
 [
-    {
-        "id": "1",
-        "imgUrl": "pop-kakamega-town-650.png",
-        "price": "",
-        "courseTitle": "Kakamega Town",
-        "courseLink": "/course-details"
-    },
-    {
-        "id": "2",
-        "imgUrl": "pop-crying-stone-650.png",
-        "price": "",
-        "courseTitle": "The Crying Stone of Ilesi",
-        "courseLink": "/course-details"
-    },
-    {
-        "id": "3",
-        "imgUrl": "pop-national-forest-650.png",
-        "price": "",
-        "courseTitle": "Kakamega National Forest Reserve",
-        "courseLink": "/course-details"
-    },
-    {
-        "id": "4",
-        "imgUrl": "pop-rosterman-mines-650.png",
-        "price": "",
-        "courseTitle": "Rosterman Mines",
-        "courseLink": "/course-details"
-    }
+  {
+    "id": "1",
+    "imgUrl": "pop-kakamega-town-650.png",
+    "price": "",
+    "courseTitle": "Kakamega Town",
+    "courseLink": "/course-details"
+  },
+  {
+    "id": "2",
+    "imgUrl": "pop-crying-stone-650.png",
+    "price": "",
+    "courseTitle": "The Crying Stone of Ilesi",
+    "courseLink": "/course-details"
+  },
+  {
+    "id": "3",
+    "imgUrl": "pop-national-forest-650.png",
+    "price": "",
+    "courseTitle": "Kakamega National Forest Reserve",
+    "courseLink": "/course-details"
+  },
+  {
+    "id": "4",
+    "imgUrl": "pop-rosterman-mines-650.png",
+    "price": "",
+    "courseTitle": "Rosterman Mines",
+    "courseLink": "/course-details"
+  }
 ]

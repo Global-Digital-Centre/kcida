@@ -1,24 +1,23 @@
 [
-    {
-        "id": "1",
-        "uniqClass": "box-icon box1",
-        "boxIcon": "flaticon-thumbs-like",
-        "title": "Investment focused",
-        "subTitle": "We put our investors at the centre of our operations and strive to continuously meet and exceed their expectations."
-    },
-    {
-        "id": "2",
-        "uniqClass": "box-icon box3",
-        "boxIcon": "flaticon-teacher",
-        "title": "Integrity",
-        "subTitle": "We show impartiality, fairness and honesty while upholding the highest ethical standards."
-    },
-    {
-        "id": "3",
-        "uniqClass": "box-icon box2",
-        "boxIcon": "flaticon-reading",
-        "title": "Diversity",
-        "subTitle": "We recognize rights of all individuals to mutual respect & acceptance of others without biases based on differences of any kind."
-    }
-
+  {
+    "id": "1",
+    "uniqClass": "box-icon box1",
+    "boxIcon": "flaticon-thumbs-like",
+    "title": "Investment focused",
+    "subTitle": "We put our investors at the centre of our operations and strive to continuously meet and exceed their expectations."
+  },
+  {
+    "id": "2",
+    "uniqClass": "box-icon box3",
+    "boxIcon": "flaticon-teacher",
+    "title": "Integrity",
+    "subTitle": "We show impartiality, fairness and honesty while upholding the highest ethical standards."
+  },
+  {
+    "id": "3",
+    "uniqClass": "box-icon box2",
+    "boxIcon": "flaticon-reading",
+    "title": "Diversity",
+    "subTitle": "We recognize rights of all individuals to mutual respect & acceptance of others without biases based on differences of any kind."
+  }
 ]

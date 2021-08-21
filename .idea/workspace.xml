@@ -20,16 +20,137 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-75.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/swiper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/logo-171.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/logo-171.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/offline.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/offline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/serviceworker.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/serviceworker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CourseFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlacesFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutUsTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutUsTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CampusTour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CampusTour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FaqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FaqEvent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FreeCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FreeCourse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeaderTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HelpArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HelpArea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeBlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/IconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewsletterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsletterForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NumberCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NumberCounter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServiceBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServiceBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ServiceCountyStrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ServiceCountyStrides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TestimonialSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TestimonialSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/BackToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/BackToTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/StickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/StickyMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/course/filter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/filter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/styles/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/global.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/styles/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/styles/stickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/stickyMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/aboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/aboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/aboutUsTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/aboutUsTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/footerTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/footerTwo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/heroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/heroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/homeContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/homeContact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/iconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/iconBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/imageGallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/imageGallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/numberCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/numberCounter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/about-us/about-us2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/about-us/about-us2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/blog/classic.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/blog/classic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/blog/grid.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/blog/grid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/blog/recent-post.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/blog/recent-post.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/coming-soon/coming-soon.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/coming-soon/coming-soon.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/counter/number-counter.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/counter/number-counter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/course/item.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/item.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/course/popular.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/popular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/course/slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/course/slider.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/event/events.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/event/events.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/footer/footer2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/footer/footer2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/gallery/gallery-page.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/gallery/gallery-page.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/gallery/gallery.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/gallery/gallery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/hero/hero-image.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hero/hero-image.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/hero/hero-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hero/hero-slider.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/instructor/Instructors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instructor/Board.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/instructor/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/instructor/details.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/instructor/instructor.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/instructor/instructor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/service/service-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/service/service-box.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/service/service-box2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/service/service-box2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/shop/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/shop/details.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/account/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/account/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/Register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/account/styles/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/styles/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/BlogGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/BlogGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/components/BlogSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/components/BlogSidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/components/CommentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/components/CommentForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/components/RecentPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/components/RecentPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/styles/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/styles/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/styles/blogDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/styles/blogDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/styles/commentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/styles/commentForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog/styles/recentPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/styles/recentPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/comingsoon/ComingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/comingsoon/ComingSoon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/GoogleMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/CourseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseItemsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/ReviewForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/ReviewForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/styles/courseSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/styles/courseSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/styles/courseTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/styles/courseTag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/courses/styles/popularCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/styles/popularCourse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/events/Events.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/events/Events.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/events/styles/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/events/styles/event.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/events/styles/eventDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/events/styles/eventDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/faq/Faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/faq/Faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/faq/styles/faq.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/faq/styles/faq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/gallery/Gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gallery/Gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/gallery/styles/gallery.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/gallery/styles/gallery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instructor/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instructor/Board.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/instructor/styles/instructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/instructor/styles/instructor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/invest/styles/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/invest/styles/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/opportunities/Opportunities.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/opportunities/Opportunities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/opportunities/styles/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/opportunities/styles/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/components/Quantity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/components/Quantity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/styles/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/priceFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/styles/priceFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/styles/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/productDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/styles/productDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/quantity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/styles/quantity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/CourseGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/CourseGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/CourseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/CourseList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/Skills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/components/CourseCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/components/CourseItemsGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseItemsGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/components/CourseItemsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseItemsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/components/CourseSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/components/CourseTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseTag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/components/ReviewForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/components/ReviewForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/styles/coursePrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/styles/coursePrice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/styles/courseSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/styles/courseSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/styles/courseTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/styles/courseTag.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/skills/styles/popularCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/styles/popularCourse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +166,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="georgethedeveloper77 &lt;georgekarani77@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1wLf4V4KboKTKl93BAaLNAXDpzD" />
@@ -61,13 +187,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editorconfig.notification" value="lf;" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.0" />
     <property name="last_opened_file_path" value="/usr/bin" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.files.pattern" value="{**/*,*}.{js,ts,jsx,tsx,css,scss,sass} " />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
     <property name="run.prettier.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="Push.Settings">
@@ -115,7 +249,8 @@
       <workItem from="1629299638082" duration="890000" />
       <workItem from="1629305039767" duration="32665000" />
       <workItem from="1629421835986" duration="863000" />
-      <workItem from="1629423477028" duration="18190000" />
+      <workItem from="1629423477028" duration="21062000" />
+      <workItem from="1629540771002" duration="2352000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -285,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629448834083</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="header">
+      <created>1629535165111</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1629535165111</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +469,8 @@
     <MESSAGE value="skills, Opportunities" />
     <MESSAGE value="Slider" />
     <MESSAGE value="Slider 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Slider 2" />
+    <MESSAGE value="header" />
+    <option name="LAST_COMMIT_MESSAGE" value="header" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -337,6 +480,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="392" y="420" width="251" height="273" key="#Notifications/0.27.1920.1053@0.27.1920.1053" timestamp="1629434863278" />
+    <state x="555" y="197" width="800" height="719" key="#Plugins" timestamp="1629541130796">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="197" width="800" height="719" key="#Plugins/0.27.1920.1053@0.27.1920.1053" timestamp="1629541130796" />
     <state x="248" y="287" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629295968917">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -361,10 +508,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="869" height="273" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1628841675375" />
-    <state x="1" y="191" width="1022" height="737" key="SettingsEditor" timestamp="1629535077585">
+    <state x="1" y="191" width="1022" height="737" key="SettingsEditor" timestamp="1629541168609">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1" y="191" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1629535077585" />
+    <state x="1" y="191" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1629541168609" />
     <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629448836286">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

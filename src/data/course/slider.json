@@ -1,49 +1,49 @@
 {
-    "secTitle": "We Do What We Love To Do. Find the Best Course To Fit Your Needs.",
-    "dataList": [
-        {
-            "id": "1",
-            "imgUrl": "kakamega-town-650.png",
-            "authorImg": "author-280_x_280.png",
-            "authorName": "John Doe",
-            "authorCourses": "13 Courses",
-            "price": "",
-            "courseTitle": "Kakamega Town",
-            "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
-            "courseLink": "/course-details"
-        },
-        {
-            "id": "2",
-            "imgUrl": "crying-stone-650.png",
-            "authorImg": "author-280_x_280.png",
-            "authorName": "Jara Sen",
-            "authorCourses": "21 Courses",
-            "price": "",
-            "courseTitle": "The Crying Stone of Ilesi",
-            "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
-            "courseLink": "/course-details"
-        },
-        {
-            "id": "3",
-            "imgUrl": "national-forest-650.png",
-            "authorImg": "author-280_x_280.png",
-            "authorName": "Kim Chang",
-            "authorCourses": "26 Courses",
-            "price": "",
-            "courseTitle": "Kakamega National Forest Reserve",
-            "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
-            "courseLink": "/course-details"
-        },
-        {
-            "id": "4",
-            "imgUrl": "rosterman-mines-650.png",
-            "authorImg": "author-280_x_280.png",
-            "authorName": "Jim Hunt",
-            "authorCourses": "09 Courses",
-            "price": "",
-            "courseTitle": "Rosterman Mines",
-            "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
-            "courseLink": "/course-details"
-        }
-    ]
+  "secTitle": "We Do What We Love To Do. Find the Best Course To Fit Your Needs.",
+  "dataList": [
+    {
+      "id": "1",
+      "imgUrl": "kakamega-town-650.png",
+      "authorImg": "author-280_x_280.png",
+      "authorName": "John Doe",
+      "authorCourses": "13 Courses",
+      "price": "",
+      "courseTitle": "Kakamega Town",
+      "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
+      "courseLink": "/course-details"
+    },
+    {
+      "id": "2",
+      "imgUrl": "crying-stone-650.png",
+      "authorImg": "author-280_x_280.png",
+      "authorName": "Jara Sen",
+      "authorCourses": "21 Courses",
+      "price": "",
+      "courseTitle": "The Crying Stone of Ilesi",
+      "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
+      "courseLink": "/course-details"
+    },
+    {
+      "id": "3",
+      "imgUrl": "national-forest-650.png",
+      "authorImg": "author-280_x_280.png",
+      "authorName": "Kim Chang",
+      "authorCourses": "26 Courses",
+      "price": "",
+      "courseTitle": "Kakamega National Forest Reserve",
+      "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
+      "courseLink": "/course-details"
+    },
+    {
+      "id": "4",
+      "imgUrl": "rosterman-mines-650.png",
+      "authorImg": "author-280_x_280.png",
+      "authorName": "Jim Hunt",
+      "authorCourses": "09 Courses",
+      "price": "",
+      "courseTitle": "Rosterman Mines",
+      "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
+      "courseLink": "/course-details"
+    }
+  ]
 }
