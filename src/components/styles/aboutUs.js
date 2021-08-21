@@ -194,19 +194,19 @@ export const Styles = styled.div`
 
       .counter-box.box1 {
         h3 {
-          color: ${colors.red};
+          color: ${colors.green};
         }
       }
 
       .counter-box.box2 {
         h3 {
-          color: ${colors.purple};
+          color: ${colors.green};
         }
       }
 
       .counter-box.box3 {
         h3 {
-          color: ${colors.blue};
+          color: ${colors.green};
         }
       }
 

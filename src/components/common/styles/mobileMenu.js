@@ -4,17 +4,19 @@ import {colors} from "../element/elements.js";
 export const Styles = styled.div`
   .mobile-menu-area {
     background: ${colors.green};
+    position: sticky;
     display: none;
     .mb-topbar {
-      border-bottom: 1px solid ${colors.black2};
+      border-bottom: 1px solid ${colors.white};
+      text-align: right;
       .topbar-item {
         p {
           font-size: 13px;
-          color: ${colors.text4};
+          color: ${colors.white};
           padding: 8px 0;
           i {
             font-size: 16px;
-            color: ${colors.green};
+            color: ${colors.white};
             vertical-align: text-top;
             margin-right: 5px;
           }
@@ -24,7 +26,7 @@ export const Styles = styled.div`
           li {
             a {
               font-size: 13px;
-              color: ${colors.green};
+              color: ${colors.white};
               font-weight: 500;
               text-transform: uppercase;
               &:hover {
@@ -32,7 +34,7 @@ export const Styles = styled.div`
               }
             }
             &:nth-child(2) {
-              color: ${colors.text3};
+              color: ${colors.white};
             }
           }
         }
@@ -49,7 +51,7 @@ export const Styles = styled.div`
           &:before {
             position: absolute;
             content: "";
-            background: ${colors.text1};
+            background: ${colors.white};
             width: 1px;
             height: 25px;
             top: -4px;
@@ -58,7 +60,7 @@ export const Styles = styled.div`
           a#mb-sidebar-btn {
             i {
               font-size: 20px;
-              color: ${colors.green};
+              color: ${colors.white};
             }
           }
 
@@ -75,7 +77,7 @@ export const Styles = styled.div`
             img {
               max-width: 150px;
               @media (max-width: 480px) {
-                max-width: 120px;
+                max-width: 380px;
               }
             }
           }
@@ -89,14 +91,14 @@ export const Styles = styled.div`
           input {
             width: 100%;
             height: 35px;
-            border: 1px solid ${colors.text2};
+            border: 1px solid ${colors.white};
             background: transparent;
             color: #ffffff;
             border-radius: 5px;
             padding-left: 15px;
             &::placeholder {
               font-size: 14px;
-              color: ${colors.text3};
+              color: ${colors.white};
             }
             &:focus {
               border-color: ${colors.green};
@@ -152,7 +154,7 @@ export const Styles = styled.div`
     transition: all 400ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
     display: none;
     .mb-sidebar-heading {
-      background: ${colors.gr_bg};
+      background: ${colors.green};
       padding: 25px;
       h5 {
         color: #ffffff;
@@ -168,9 +170,9 @@ export const Styles = styled.div`
     .mb-sidebar-menu {
       padding: 25px;
       .mb-menu-item {
-        border-top: 1px solid ${colors.border1};
+        border-top: 1px solid ${colors.white};
         &:last-child {
-          border-bottom: 1px solid ${colors.border1};
+          border-bottom: 1px solid ${colors.white};
         }
         button.mb-menu-button {
           border: none;
@@ -187,7 +189,7 @@ export const Styles = styled.div`
             i {
               font-size: 13px;
               float: right;
-              border: 1px solid ${colors.border3};
+              border: 1px solid ${colors.white};
               border-radius: 25px;
               padding: 3px;
             }
@@ -207,7 +209,7 @@ export const Styles = styled.div`
 
           ul {
             li {
-              border-top: 1px solid ${colors.border1};
+              border-top: 1px solid ${colors.white};
               a {
                 font-size: 13px;
                 color: ${colors.black2};

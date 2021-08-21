@@ -57,7 +57,7 @@ function MobileMenu() {
         <Container>
           <Row>
             <Col md="0" sm="12">
-              <div className="mb-topbar d-flex justify-content-between">
+              {/*<div className="mb-topbar d-flex justify-content-between">
                 <div className="topbar-item">
                   <p>
                     <i className="las la-phone" />
@@ -73,12 +73,12 @@ function MobileMenu() {
                         rel="noopener noreferrer"
                       >
                         <i className="fab fa-internet-explorer" />
-                        Kakamega Official Site
+                         Kakamega Official Site
                       </a>
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div>*/}
               <div className="mb-logo-area d-flex justify-content-between">
                 <div className="mb-logo-box d-flex">
                   <div className="hm-button">
@@ -91,14 +91,14 @@ function MobileMenu() {
                       <img
                         src={
                           process.env.PUBLIC_URL +
-                          "/assets/images/f-logo-171.png"
+                          "/assets/images/logo-171.png"
                         }
                         alt=""
                       />
                     </Link>
                   </div>
                 </div>
-                <div className="mb-search-box">
+                {/*<div className="mb-search-box">
                   <form action="#">
                     <input
                       type="text"
@@ -109,7 +109,7 @@ function MobileMenu() {
                       <i className="las la-search" />
                     </button>
                   </form>
-                </div>
+                </div>*/}
               </div>
             </Col>
           </Row>
@@ -168,16 +168,25 @@ function MobileMenu() {
 
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
-                    to={process.env.PUBLIC_URL + "/investment-opportunities"}
+                      className="nav-link"
+                      to={process.env.PUBLIC_URL + "/investment-opportunities"}
                   >
                     Investment Opportunities
                   </Link>
                 </li>
+
                 <li className="nav-item">
                   <Link
-                    className="nav-link"
-                    to={process.env.PUBLIC_URL + "/invest-in-kakamega"}
+                      className="nav-link"
+                      to={process.env.PUBLIC_URL + "/invest-in-kakamega"}
+                  >
+                    Projects
+                  </Link>
+                </li>
+                <li className="nav-item">
+                  <Link
+                      className="nav-link"
+                      to={process.env.PUBLIC_URL + "/invest-in-kakamega"}
                   >
                     One Shop Centre
                   </Link>
@@ -194,35 +203,30 @@ function MobileMenu() {
             </div>
           </div>
           <div className="mb-menu-item">
-            <button className="mb-menu-button active">
-              <p>
-                Organisation
-                <i className="las la-plus" />
-              </p>
-            </button>
-            <div className="mb-menu-content show">
-              {/*<ul className="list-unstyled">
-                                <li><Link to={process.env.PUBLIC_URL + "/course-grid"}>Course Grid</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/course-list"}>Course List</Link></li>
-                                <li><Link to={process.env.PUBLIC_URL + "/course-details"}>Course Details</Link></li>
-                            </ul>*/}
-            </div>
-          </div>
-          <div className="mb-menu-item">
             <button className="mb-menu-button">
               <p>
-                Skills
-                <i className="las la-plus" />
+                Organisation <i className="las la-plus"/>
               </p>
             </button>
             <div className="mb-menu-content">
               <ul className="list-unstyled">
                 <li>
-                  <Link to={process.env.PUBLIC_URL + "/skills"}>Skills</Link>
+                  <Link to={process.env.PUBLIC_URL + "/about"}>
+                    Structure of Organisation
+                  </Link>
+                </li>
+                <li>
+                  <Link to={process.env.PUBLIC_URL + "/about"}>
+                    About Kakamega
+                  </Link>
+                </li>
+                <li>
+                  <Link to={process.env.PUBLIC_URL + "/about"}>The Board</Link>
                 </li>
               </ul>
             </div>
           </div>
+
           <div className="mb-menu-item">
             <button className="mb-menu-button">
               <p>
@@ -246,30 +250,31 @@ function MobileMenu() {
               </ul>
             </div>
           </div>
+
           <div className="mb-menu-item">
             <button className="mb-menu-button">
               <p>
-                About Us <i className="las la-plus" />
+                News
+                <i className="las la-plus"/>
               </p>
             </button>
             <div className="mb-menu-content">
               <ul className="list-unstyled">
-                <li>
-                  <Link to={process.env.PUBLIC_URL + "/about"}>
-                    About Kakamega
-                  </Link>
-                </li>
-                <li>
-                  <Link to={process.env.PUBLIC_URL + "/about"}>
-                    Departments
-                  </Link>
-                </li>
-                <li>
-                  <Link to={process.env.PUBLIC_URL + "/about"}>vision</Link>
+                <li className="nav-item">
+                  <a
+                      className="nav-link"
+                      href="https://www.ecitizen.go.ke/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    Announcements
+                    <i className="las la-angle-right"/>
+                  </a>
                 </li>
               </ul>
             </div>
           </div>
+
         </div>
       </section>
       <div className="mb-sidebar-overlay" id="mb-sidebar-overlay" />

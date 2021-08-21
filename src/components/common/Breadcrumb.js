@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import {Breadcrumb, Col, Container, Row} from "react-bootstrap";
 import {Styles} from "./styles/breadcrumb.js";
+import {Link} from "react-router-dom";
 
 export class BreadcrumbBox extends Component {
   state = {
@@ -22,7 +23,7 @@ export class BreadcrumbBox extends Component {
                 <div className="breadcrumb-box">
                   <h2 className="breadcrumb-title">{this.props.title}</h2>
                   <Breadcrumb>
-                    <Breadcrumb.Item>Home</Breadcrumb.Item>
+                    <Breadcrumb.Item><Link to={`${process.env.PUBLIC_URL + "/"}`}>Home</Link></Breadcrumb.Item>
                     <Breadcrumb.Item active>{this.props.title}</Breadcrumb.Item>
                   </Breadcrumb>
                 </div>

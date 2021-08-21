@@ -5,14 +5,14 @@
     "uniqClass": "slider-box slider-box1",
     "title": "",
     "desc": "",
-    "btnOneLink": "about",
-    "buttonOne": "Learn More",
-    "buttonTwo": "Contact",
+    "btnOneLink": "",
+    "buttonOne": "",
+    "buttonTwo": "",
     "btnTwoLink": "contact"
   },
   {
     "id": "2",
-    "backgroundImage": "kakamega-forest-1920.png",
+    "backgroundImage": "industrial-1920.png",
     "uniqClass": "slider-box slider-box1",
     "title": "",
     "desc": "",
@@ -24,6 +24,39 @@
   {
     "id": "3",
     "backgroundImage": "bukhungu-stadium-1920.png",
+    "uniqClass": "slider-box slider-box1",
+    "title": "",
+    "desc": "",
+    "btnOneLink": "about",
+    "buttonOne": "",
+    "buttonTwo": "",
+    "btnTwoLink": "contact"
+  },
+  {
+    "id": "4",
+    "backgroundImage": "kakamega-forest-1920.png",
+    "uniqClass": "slider-box slider-box1",
+    "title": "",
+    "desc": "",
+    "btnOneLink": "about",
+    "buttonOne": "",
+    "buttonTwo": "",
+    "btnTwoLink": "contact"
+  },
+  {
+    "id": "5",
+    "backgroundImage": "kctrh-1920.png",
+    "uniqClass": "slider-box slider-box1",
+    "title": "",
+    "desc": "",
+    "btnOneLink": "about",
+    "buttonOne": "",
+    "buttonTwo": "",
+    "btnTwoLink": "contact"
+  },
+  {
+    "id": "5",
+    "backgroundImage": "kctrh-teaching.png",
     "uniqClass": "slider-box slider-box1",
     "title": "",
     "desc": "",

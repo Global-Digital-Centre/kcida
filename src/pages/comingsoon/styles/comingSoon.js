@@ -144,7 +144,7 @@ export const Styles = styled.div`
                 }
 
                 span {
-                  color: ${colors.red};
+                  color: ${colors.green};
                   position: absolute;
                   bottom: -20px;
                   left: 0;
@@ -171,7 +171,7 @@ export const Styles = styled.div`
 
               p.form-control.error {
                 input {
-                  border: 2px solid ${colors.red};
+                  border: 2px solid ${colors.green};
                 }
 
                 &::before {
@@ -179,7 +179,7 @@ export const Styles = styled.div`
                   content: "\f06a";
                   font-family: "Line Awesome Free";
                   font-size: 24px;
-                  color: ${colors.red};
+                  color: ${colors.green};
                   font-weight: 900;
                   top: 9px;
                   right: 120px;

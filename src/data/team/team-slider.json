@@ -3,9 +3,9 @@
   "dataList": [
     {
       "id": "1",
-      "personImage": "team-1.jpg",
-      "personName": "Emily Perrey",
-      "personTitle": "Teacher",
+      "personImage": "team-1.png",
+      "personName": "",
+      "personTitle": "",
       "socialLinks": {
         "facebook": "//www.facebook.com",
         "twitter": "//www.twitter.com",
@@ -15,9 +15,9 @@
     },
     {
       "id": "2",
-      "personImage": "team-2.jpg",
-      "personName": "Justin Timbr",
-      "personTitle": "Teacher",
+      "personImage": "team-2.png",
+      "personName": "",
+      "personTitle": "",
       "socialLinks": {
         "facebook": "//www.facebook.com",
         "twitter": "//www.twitter.com",
@@ -27,9 +27,9 @@
     },
     {
       "id": "3",
-      "personImage": "team-3.jpg",
-      "personName": "Medison White",
-      "personTitle": "Teacher",
+      "personImage": "team-3.png",
+      "personName": "",
+      "personTitle": "",
       "socialLinks": {
         "facebook": "//www.facebook.com",
         "twitter": "//www.twitter.com",
@@ -39,9 +39,9 @@
     },
     {
       "id": "4",
-      "personImage": "team-4.jpg",
-      "personName": "Mark Shadow",
-      "personTitle": "Teacher",
+      "personImage": "team-4.png",
+      "personName": "",
+      "personTitle": "",
       "socialLinks": {
         "facebook": "//www.facebook.com",
         "twitter": "//www.twitter.com",
@@ -51,9 +51,57 @@
     },
     {
       "id": "5",
-      "personImage": "team-5.jpg",
-      "personName": "Katy Perrey",
-      "personTitle": "Teacher",
+      "personImage": "team-5.png",
+      "personName": "",
+      "personTitle": "",
+      "socialLinks": {
+        "facebook": "//www.facebook.com",
+        "twitter": "//www.twitter.com",
+        "linkedin": "//www.linkedin.com",
+        "youtube": "//www.youtube.com"
+      }
+    },
+    {
+      "id": "6",
+      "personImage": "team-6.png",
+      "personName": "",
+      "personTitle": "",
+      "socialLinks": {
+        "facebook": "//www.facebook.com",
+        "twitter": "//www.twitter.com",
+        "linkedin": "//www.linkedin.com",
+        "youtube": "//www.youtube.com"
+      }
+    },
+    {
+      "id": "7",
+      "personImage": "team-7.png",
+      "personName": "",
+      "personTitle": "",
+      "socialLinks": {
+        "facebook": "//www.facebook.com",
+        "twitter": "//www.twitter.com",
+        "linkedin": "//www.linkedin.com",
+        "youtube": "//www.youtube.com"
+      }
+    },
+    {
+      "id": "8",
+      "personImage": "team-8.png",
+      "personName": "",
+      "personTitle": "",
+      "socialLinks": {
+        "facebook": "//www.facebook.com",
+        "twitter": "//www.twitter.com",
+        "linkedin": "//www.linkedin.com",
+        "youtube": "//www.youtube.com"
+      }
+    },
+    {
+      "id": "9",
+      "personImage": "team-9.png",
+      "personName": "",
+      "personTitle": "",
       "socialLinks": {
         "facebook": "//www.facebook.com",
         "twitter": "//www.twitter.com",

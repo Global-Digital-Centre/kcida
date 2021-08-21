@@ -30,10 +30,14 @@ export const Styles = styled.div`
             font-size: 34px;
             color: #ffffff;
             width: 60px;
-            display: inline-block;
+           
+            text-align: center;
+            vertical-align: bottom;
+            display: block;
+            text-align: center;
             position: relative;
             z-index: 111;
-            margin-top: -8px;
+            margin-top: 0px;
 
             @media (max-width: 991px) {
               font-size: 24px;
@@ -106,38 +110,38 @@ export const Styles = styled.div`
         }
 
         .box-icon.box1 {
-          background: ${colors.red};
+          background: ${colors.green};
 
           &:before {
-            border-bottom-color: ${colors.red};
+            border-bottom-color: ${colors.green};
           }
 
           &:after {
-            border-top-color: ${colors.red};
+            border-top-color: ${colors.green};
           }
         }
 
         .box-icon.box2 {
-          background: ${colors.purple};
+          background: ${colors.green};
 
           &:before {
-            border-bottom-color: ${colors.purple};
+            border-bottom-color: ${colors.green};
           }
 
           &:after {
-            border-top-color: ${colors.purple};
+            border-top-color: ${colors.green};
           }
         }
 
         .box-icon.box3 {
-          background: ${colors.blue};
+          background: ${colors.green};
 
           &:before {
-            border-bottom-color: ${colors.blue};
+            border-bottom-color: ${colors.green};
           }
 
           &:after {
-            border-top-color: ${colors.blue};
+            border-top-color: ${colors.green};
           }
         }
 
