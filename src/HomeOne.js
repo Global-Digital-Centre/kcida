@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Header from './components/Header';
 import HeroSlider from './components/HeroSlider';
 import IconBox from './components/IconBox';
-import CourseFilter from './components/CourseFilter';
+import PlacesFilter from './components/PlacesFilter';
 import TestimonialSlider from './components/TestimonialSlider';
 import FaqEvent from './components/FaqEvent';
 import HelpArea from './components/HelpArea';
@@ -33,7 +33,7 @@ export default class HomeOne extends Component {
                 < IconBox />
 
                 {/* Course Filter */}
-                < CourseFilter />
+                < PlacesFilter/>
 
                 {/* Testimonial Slider */}
                 <TestimonialSlider/>

@@ -21,8 +21,6 @@ class Header extends Component {
                                         <li className="list-inline-item"><i className="las la-map-marker"/>Kakamega
                                             County, Kenya.
                                         </li>
-                                        <li className="list-inline-item"><Link to={process.env.PUBLIC_URL + "/contact"}>Have
-                                            Questions</Link></li>
                                     </ul>
                                 </div>
                             </Col>
@@ -37,19 +35,33 @@ class Header extends Component {
                                     <ul className="list-unstyled list-inline bar-lang">
                                         <li className="list-inline-item">
                                             <Dropdown>
-                                                <Dropdown.Toggle as="a"><img src={process.env.PUBLIC_URL + "/assets/images/us.png"} alt="" />English<i className="las la-angle-down"></i></Dropdown.Toggle>
+                                                <Dropdown.Toggle as="a"><img
+                                                    src={process.env.PUBLIC_URL + "/assets/images/us.png"} alt=""/>English<i
+                                                    className="las la-angle-down"/></Dropdown.Toggle>
                                                 <Dropdown.Menu as="ul">
-                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/us.png"} alt="" /> English</Dropdown.Item>
-                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/fra.png"} alt="" /> French</Dropdown.Item>
-                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/ger.png"} alt="" /> German</Dropdown.Item>
-                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/spa.png"} alt="" /> Spanish</Dropdown.Item>
-                                                    <Dropdown.Item as="li"><img src={process.env.PUBLIC_URL + "/assets/images/bra.png"} alt="" /> Brazilian</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img
+                                                        src={process.env.PUBLIC_URL + "/assets/images/us.png"}
+                                                        alt=""/> English</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img
+                                                        src={process.env.PUBLIC_URL + "/assets/images/fra.png"}
+                                                        alt=""/> French</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img
+                                                        src={process.env.PUBLIC_URL + "/assets/images/ger.png"}
+                                                        alt=""/> German</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img
+                                                        src={process.env.PUBLIC_URL + "/assets/images/spa.png"}
+                                                        alt=""/> Spanish</Dropdown.Item>
+                                                    <Dropdown.Item as="li"><img
+                                                        src={process.env.PUBLIC_URL + "/assets/images/bra.png"}
+                                                        alt=""/> Brazilian</Dropdown.Item>
                                                 </Dropdown.Menu>
                                             </Dropdown>
                                         </li>
                                     </ul>
                                     <ul className="list-unstyled list-inline bar-login">
-                                        <li  className="list-inline-item"><a href="https://kakamega.go.ke/" target="_blank" rel="noopener noreferrer"><i className="fab fa-internet-explorer"/>Kakamega Official Site</a></li>
+                                        <li className="list-inline-item"><a href="https://kakamega.go.ke/"
+                                                                            target="_blank" rel="noopener noreferrer"><i
+                                            className="fab fa-internet-explorer"/> Kakamega Official Site</a></li>
                                     </ul>
                                 </div>
                             </Col>
@@ -68,25 +80,8 @@ class Header extends Component {
                             </Col>
                             <Col md="9">
                                 <div className="logo-contact-box d-flex justify-content-end">
-                                    <div className="emcontact-box d-flex">
-                                        <div className="box-icon">
-                                            <i className="flaticon-phone-call"/>
-                                        </div>
-                                        <div className="box-content">
-                                            <p>Call Us Now</p>
-                                            <span>(908) 875 7678</span>
-                                        </div>
-                                    </div>
-                                    <div className="emcontact-box d-flex">
-                                        <div className="box-icon">
-                                            <i className="flaticon-envelope"/>
-                                        </div>
-                                        <div className="box-content">
-                                            <p>Enquiry Us</p>
-                                            <span>kakamega.go.ke</span>
-                                        </div>
-                                    </div>
-                                    <div className="apply-btn">
+
+                                <div className="apply-btn">
                                         <Link to={process.env.PUBLIC_URL + "/contact"}><i className="las la-clipboard-list"/>Talk To Us</Link>
                                     </div>
                                 </div>

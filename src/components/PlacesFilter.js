@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import {Col, Container, Row} from 'react-bootstrap';
 import {Styles} from "./styles/courseFilter.js";
 
-function CourseFilter() {
+function PlacesFilter() {
     useEffect(() => {
         const buttons = document.querySelector(".filter-btn-list").children;
         const items = document.querySelector(".filter-items").children;
@@ -117,4 +117,4 @@ function CourseFilter() {
     )
 }
 
-export default CourseFilter
+export default PlacesFilter

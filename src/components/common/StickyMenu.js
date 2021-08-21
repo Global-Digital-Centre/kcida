@@ -35,7 +35,12 @@ function StickyMenu() {
                                         <ul className="dropdown list-unstyled">
                                             <li className="nav-item active"><Link className="nav-link" to={process.env.PUBLIC_URL + "/"}>Home</Link></li>
                                             <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>Vision</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/about"}>Mission</Link></li>
+                                            <li className="nav-item"><Link className="nav-link"
+                                                                           to={process.env.PUBLIC_URL + "/about"}>Mission</Link>
+                                            </li>
+                                            <li className="nav-item"><Link className="nav-link"
+                                                                           to={process.env.PUBLIC_URL + "/about"}>About
+                                                us</Link></li>
                                         </ul>
                                     </li>
                                     <li className="nav-item dropdown">
@@ -72,21 +77,21 @@ function StickyMenu() {
                                             className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
                                             <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/about"}>About
-                                                Us</Link></li>
+                                            >Structure of Organisation<i
+                                                className="las la-angle-right"/></Link></li>
                                         </ul>
-
+                                        <ul className="dropdown list-unstyled">
+                                            <li className="nav-item"><Link className="nav-link"
+                                            >Board<i
+                                                className="las la-angle-right"/></Link></li>
+                                        </ul>
+                                        <ul className="dropdown list-unstyled">
+                                            <li className="nav-item"><Link className="nav-link"
+                                            >Management Team<i
+                                                className="las la-angle-right"/></Link></li>
+                                        </ul>
                                     </li>
 
-                                    <li className="nav-item dropdown">
-                                        <Link className="nav-link dropdown-toggle"
-                                              to={process.env.PUBLIC_URL + "/skills"}
-                                              data-toggle="dropdown">Skills <i className="las la-angle-down"/></Link>
-                                        {/* <ul className="dropdown list-unstyled">
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor"}>Instructors</Link></li>
-                                                    <li className="nav-item"><Link className="nav-link" to={process.env.PUBLIC_URL + "/instructor-details"}>Instructor Details</Link></li>
-                                                </ul>*/}
-                                    </li>
 
                                     <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle" to={process.env.PUBLIC_URL + "/"}
@@ -102,21 +107,16 @@ function StickyMenu() {
 
                                     <li className="nav-item dropdown">
                                         <Link className="nav-link dropdown-toggle"
-                                              to={process.env.PUBLIC_URL + "/about"} data-toggle="dropdown">About Us<i
+                                              to={process.env.PUBLIC_URL + "/news"} data-toggle="dropdown">News<i
                                             className="las la-angle-down"/></Link>
                                         <ul className="dropdown list-unstyled">
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/about"}>About
-                                                Kakamega</Link></li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/about"}>Departments</Link>
-                                            </li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/about"}>vision</Link>
-                                            </li>
-                                            <li className="nav-item"><Link className="nav-link"
-                                                                           to={process.env.PUBLIC_URL + "/about"}>Mission</Link>
-                                            </li>
+                                            <ul className="dropdown list-unstyled">
+                                                <li className="nav-item"><a className="nav-link"
+                                                                            href="https://www.ecitizen.go.ke/"
+                                                                            target="_blank"
+                                                                            rel="noopener noreferrer">Announcements<i
+                                                    className="las la-angle-right"/></a></li>
+                                            </ul>
                                         </ul>
                                     </li>
 

@@ -8,7 +8,7 @@ import Pagination from './../../components/Pagination';
 import FooterTwo from '../../components/FooterTwo';
 import {Styles} from './styles/instructor.js';
 
-class Instructor extends Component {
+class Board extends Component {
     render() {
         return (
             <Styles>
@@ -16,10 +16,10 @@ class Instructor extends Component {
                 <div className="main-wrapper instructor-page">
 
                     {/* Header 2 */}
-                    <HeaderTwo />
+                    <HeaderTwo/>
 
                     {/* Breadcroumb */}
-                    <BreadcrumbBox title="Instructors" />
+                    <BreadcrumbBox title="The  Board"/>
 
                     {/* Instructor Area */}
                     <section className="instructor-area">
@@ -34,9 +34,15 @@ class Instructor extends Component {
                                                     <h5><Link to={process.env.PUBLIC_URL + "/instructor-details"}>{data.personName}</Link></h5>
                                                     <p>{data.personTitle}</p>
                                                     <ul className="list-unstyled list-inline">
-                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.facebook}><i className="fab fa-facebook-f"></i></a></li>
-                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.twitter}><i className="fab fa-twitter"></i></a></li>
-                                                        <li className="list-inline-item"><a href={process.env.PUBLIC_URL + data.socialLinks.youtube}><i className="fab fa-youtube"></i></a></li>
+                                                        <li className="list-inline-item"><a
+                                                            href={process.env.PUBLIC_URL + data.socialLinks.facebook}><i
+                                                            className="fab fa-facebook-f"/></a></li>
+                                                        <li className="list-inline-item"><a
+                                                            href={process.env.PUBLIC_URL + data.socialLinks.twitter}><i
+                                                            className="fab fa-twitter"/></a></li>
+                                                        <li className="list-inline-item"><a
+                                                            href={process.env.PUBLIC_URL + data.socialLinks.youtube}><i
+                                                            className="fab fa-youtube"/></a></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -60,4 +66,4 @@ class Instructor extends Component {
     }
 }
 
-export default Instructor
+export default Board

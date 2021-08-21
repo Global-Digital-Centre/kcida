@@ -10,8 +10,8 @@
             "authorCourses": "13 Courses",
             "price": "",
             "courseTitle": "Kakamega Town",
-            "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
-            "courseLink": "/course-details"
+            "courseDesc": "Kakamega is a town in western Kenya lying about 30 km north of the Equator. It is the headquarters of Kakamega County that has a population of 1,867,579 (2019 census)",
+            "courseLink": ""
         },
         {
             "id": "2",
@@ -23,7 +23,7 @@
             "price": "",
             "courseTitle": "The Crying Stone of Ilesi",
             "courseDesc": "It is a rock formation about 40 m high, with a small rock perched on top. There is a stream of water which flows between the two rocks, creating an impression of a crying stone.",
-            "courseLink": "/course-details"
+            "courseLink": ""
         },
         {
             "id": "3",
@@ -35,7 +35,7 @@
             "price": "",
             "courseTitle": "Kakamega National Forest Reserve",
             "courseDesc": "It is Kenya’s only tropical rainforest and the last remnant of the ancient Guineo-congolian rainforest that once stretched all across the continent.",
-            "courseLink": "/course-details"
+            "courseLink": ""
         },
         {
             "id": "4",
@@ -47,7 +47,7 @@
             "price": "",
             "courseTitle": "Rosterman Mines",
             "courseDesc": "It is a gold mining site located off the Kakamega-Mumias Road. You can visit the site to have a glimpse of the local gold mining industry.",
-            "courseLink": "/course-details"
+            "courseLink": ""
         },
         {
             "id": "5",
@@ -58,8 +58,8 @@
             "authorCourses": "17 Courses",
             "price": "",
             "courseTitle": "Kakamega Municipal Market",
-            "courseDesc": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur accusamus hic ea in autem debitis minima.",
-            "courseLink": "/course-details"
+            "courseDesc": "Located along Kisumu-Kakamega road, this market operates every day but is usually busiest on Saturdays and Wednesday Mornings.",
+            "courseLink": ""
         },
         {
             "id": "6",
@@ -71,7 +71,7 @@
             "price": "",
             "courseTitle": "Ilesi Pottery Centre",
             "courseDesc": "It is located along the Kakamega-Kisumu highway. It is one of the biggest pottery-making centres in western Kenya.",
-            "courseLink": "/course-details"
+            "courseLink": ""
         },
         {
             "id": "7",
@@ -83,7 +83,7 @@
             "price": "",
             "courseTitle": "Bukhungu Stadium",
             "courseDesc": "An event and sporting facility located in Kakamega town. It is a multipurpose stadium where you can visit to watch local football matches and cultural events. The stadium has a capacity of 5,000 people.",
-            "courseLink": "/course-details"
+            "courseLink": ""
         },
         {
             "id": "9",
@@ -95,7 +95,7 @@
             "price": "",
             "courseTitle": "Savona Island",
             "courseDesc": "It is a retreat and events centre that features swimming pools, well-manicured lawns, luxury guest rooms and a modern restaurant.",
-            "courseLink": "/course-details"
+            "courseLink": ""
         }
     ]
 }
