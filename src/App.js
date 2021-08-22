@@ -29,6 +29,7 @@ import MessengerCustomerChat from "react-messenger-customer-chat";
 import Invest from "./pages/invest/Invest";
 import Skills from "./pages/skills/Skills";
 import Opportunities from "./pages/opportunities/Opportunities";
+import AboutKakamega from "./components/AboutKakamega";
 
 function App() {
   return (
@@ -41,24 +42,28 @@ function App() {
               path={`${process.env.PUBLIC_URL + "/"}`}
               component={HomeOne}
           />
-          <Route
-              path={`${process.env.PUBLIC_URL + "/home-two"}`}
-              component={HomeTwo}
-          />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/about"}`}
-          component={About}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/invest-in-kakamega"}`}
-          component={Invest}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/investment-opportunities"}`}
-          component={Opportunities}
-        />
-        <Route
-          path={`${process.env.PUBLIC_URL + "/places-grid"}`}
+            <Route
+                path={`${process.env.PUBLIC_URL + "/home-two"}`}
+                component={HomeTwo}
+            />
+            <Route
+                path={`${process.env.PUBLIC_URL + "/about"}`}
+                component={About}
+            />
+            <Route
+                path={`${process.env.PUBLIC_URL + "/about-kakamega"}`}
+                component={AboutKakamega}
+            />
+            <Route
+                path={`${process.env.PUBLIC_URL + "/invest-in-kakamega"}`}
+                component={Invest}
+            />
+            <Route
+                path={`${process.env.PUBLIC_URL + "/investment-opportunities"}`}
+                component={Opportunities}
+            />
+            <Route
+                path={`${process.env.PUBLIC_URL + "/places-grid"}`}
           component={CourseGrid}
         />
         <Route

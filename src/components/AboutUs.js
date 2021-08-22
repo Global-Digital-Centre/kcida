@@ -48,13 +48,13 @@ class AboutUs extends Component {
                     }}
                   >
                     <ModalVideo
-                      channel="youtube"
-                      isOpen={this.state.isOpen}
-                      videoId="uXFUl0KcIkA"
-                      onClose={() => this.setState({ isOpen: false })}
+                        channel="youtube"
+                        isOpen={this.state.isOpen}
+                        videoId="bCXEJYb64DM"
+                        onClose={() => this.setState({isOpen: false})}
                     />
                     <button onClick={this.openModal} className="play-button">
-                      <i className="las la-play"></i>
+                      <i className="las la-play"/>
                     </button>
                   </div>
                 </div>
@@ -70,36 +70,36 @@ class AboutUs extends Component {
                     <Col sm="4">
                       <div className="counter-box box1 text-center">
                         <h3>
-                          <CountUp end={970} duration={5} delay={1.5} />
-                          <i className="las la-plus"></i>
+                          <CountUp end={1867579} duration={5} delay={1.5}/>
+                          <i className="las la-plus"/>
                         </h3>
-                        <p>Happy Students</p>
+                        <p>Kakamega County Population</p>
                       </div>
                     </Col>
                     <Col sm="4">
                       <div className="counter-box box2 text-center">
                         <h3>
-                          <CountUp end={130} duration={5} delay={1.5} />
-                          <i className="las la-plus"></i>
+                          <CountUp end={230} duration={5} delay={1.5}/>
+                          <i className="las la-plus"/>
                         </h3>
-                        <p>Teachers</p>
+                        <p>Projects</p>
                       </div>
                     </Col>
-                    <Col sm="4">
+                    {/*<Col sm="4">
                       <div className="counter-box box3 text-center">
                         <h3>
                           <CountUp end={340} duration={5} delay={1.5} />
-                          <i className="las la-plus"></i>
+                          <i className="las la-plus"/>
                         </h3>
                         <p>Courses</p>
                       </div>
-                    </Col>
+                    </Col>*/}
                   </Row>
                   <Link
-                    className="readmore-btn"
-                    to={process.env.PUBLIC_URL + "/about"}
+                      className="readmore-btn"
+                      to={process.env.PUBLIC_URL + "/contact"}
                   >
-                    Read More
+                    Talk to Us
                   </Link>
                 </div>
               </Col>

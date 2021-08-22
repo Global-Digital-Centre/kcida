@@ -23,16 +23,16 @@ class CampusTour extends Component {
               <Col lg="2" md="3">
                 <div className="tour-box">
                   <ModalImage
-                    small={process.env.PUBLIC_URL + "/assets/images/tour-1.jpg"}
-                    large={process.env.PUBLIC_URL + "/assets/images/tour-1.jpg"}
-                    alt=""
+                      small={process.env.PUBLIC_URL + "/assets/images/tour-1.png"}
+                      large={process.env.PUBLIC_URL + "/assets/images/tour-1.png"}
+                      alt=""
                   />
                 </div>
                 <div className="tour-box">
                   <ModalImage
-                    small={process.env.PUBLIC_URL + "/assets/images/tour-2.jpg"}
-                    large={process.env.PUBLIC_URL + "/assets/images/tour-2.jpg"}
-                    alt=""
+                      small={process.env.PUBLIC_URL + "/assets/images/tour-2.png"}
+                      large={process.env.PUBLIC_URL + "/assets/images/tour-2.png"}
+                      alt=""
                   />
                 </div>
               </Col>
@@ -42,10 +42,10 @@ class CampusTour extends Component {
                     <div className="tour-box">
                       <ModalImage
                         small={
-                          process.env.PUBLIC_URL + "/assets/images/tour-3.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-3.png"
                         }
                         large={
-                          process.env.PUBLIC_URL + "/assets/images/tour-3.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-3.png"
                         }
                         alt=""
                       />
@@ -55,10 +55,10 @@ class CampusTour extends Component {
                     <div className="tour-box">
                       <ModalImage
                         small={
-                          process.env.PUBLIC_URL + "/assets/images/tour-4.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-4.png"
                         }
                         large={
-                          process.env.PUBLIC_URL + "/assets/images/tour-4.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-4.png"
                         }
                         alt=""
                       />
@@ -68,10 +68,10 @@ class CampusTour extends Component {
                     <div className="tour-box">
                       <ModalImage
                         small={
-                          process.env.PUBLIC_URL + "/assets/images/tour-wt1.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-wt1.png"
                         }
                         large={
-                          process.env.PUBLIC_URL + "/assets/images/tour-wt1.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-wt1.png"
                         }
                         alt=""
                       />
@@ -83,10 +83,10 @@ class CampusTour extends Component {
                 <div className="tour-box">
                   <ModalImage
                     small={
-                      process.env.PUBLIC_URL + "/assets/images/tour-ht.jpg"
+                      process.env.PUBLIC_URL + "/assets/images/tour-ht.png"
                     }
                     large={
-                      process.env.PUBLIC_URL + "/assets/images/tour-ht.jpg"
+                      process.env.PUBLIC_URL + "/assets/images/tour-ht.png"
                     }
                     alt=""
                   />
@@ -98,10 +98,10 @@ class CampusTour extends Component {
                     <div className="tour-box">
                       <ModalImage
                         small={
-                          process.env.PUBLIC_URL + "/assets/images/tour-wt2.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-wt2.png"
                         }
                         large={
-                          process.env.PUBLIC_URL + "/assets/images/tour-wt2.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-wt2.png"
                         }
                         alt=""
                       />
@@ -111,10 +111,10 @@ class CampusTour extends Component {
                     <div className="tour-box">
                       <ModalImage
                         small={
-                          process.env.PUBLIC_URL + "/assets/images/tour-5.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-5.png"
                         }
                         large={
-                          process.env.PUBLIC_URL + "/assets/images/tour-5.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-5.png"
                         }
                         alt=""
                       />
@@ -124,10 +124,10 @@ class CampusTour extends Component {
                     <div className="tour-box">
                       <ModalImage
                         small={
-                          process.env.PUBLIC_URL + "/assets/images/tour-6.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-6.png"
                         }
                         large={
-                          process.env.PUBLIC_URL + "/assets/images/tour-6.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/tour-6.png"
                         }
                         alt=""
                       />

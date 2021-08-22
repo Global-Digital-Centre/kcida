@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import HeaderTwo from "./components/HeaderTwo";
 import HeroImage from "./components/HeroImage";
 import ServiceBox from "./components/ServiceBox";
-import AboutUsTwo from "./components/AboutUsTwo";
+import AboutKakamega from "./components/AboutUsTwo";
 import CourseSlider from "./components/CourseSlider";
 import NumberCounter from "./components/NumberCounter";
 import FreeCourse from "./components/FreeCourse";
@@ -27,7 +27,7 @@ export default class HomeTwo extends Component {
         <ServiceBox />
 
         {/* About Us 2 */}
-        <AboutUsTwo />
+          <AboutKakamega/>
 
         {/* Course Slider */}
         <CourseSlider />
