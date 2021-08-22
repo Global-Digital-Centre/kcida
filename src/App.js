@@ -30,6 +30,7 @@ import Invest from "./pages/invest/Invest";
 import Skills from "./pages/skills/Skills";
 import Opportunities from "./pages/opportunities/Opportunities";
 import AboutKakamega from "./pages/aboutKakamega/AboutKakamega";
+import KommunicateChat from "./Chat";
 
 function App() {
   return (
@@ -132,20 +133,22 @@ function App() {
           component={BlogDetails}
         />
         <Route
-          path={`${process.env.PUBLIC_URL + "/projects"}`}
-          component={Projects}
+            path={`${process.env.PUBLIC_URL + "/projects"}`}
+            component={Projects}
         />
         <Route
-          path={`${process.env.PUBLIC_URL + "/projects-details"}`}
-          component={ProjectsDetails}
+            path={`${process.env.PUBLIC_URL + "/projects-details"}`}
+            component={ProjectsDetails}
         />
-        <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart} />
+        <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart}/>
       </Switch>
 
+      <KommunicateChat/>
+
       <MessengerCustomerChat
-        pageId="101857828882888"
-        appId="891567418072170"
-        htmlRef="https://kcdia.netlify.app/"
+          pageId="101857828882888"
+          appId="891567418072170"
+          htmlRef="https://kcdia.netlify.app/"
       />
     </Router>
   );
