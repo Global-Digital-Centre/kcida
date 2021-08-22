@@ -20,71 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/industrial-1920.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/kctrh-1920.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/kctrh-teaching.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-bg-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/team-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/team-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/team-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/team-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/team-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/team-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/team-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/team-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/team-9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/flaticon.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/flaticon.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bukhungu-stadium-1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/bukhungu-stadium-1920.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/kakamega-forest-1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/kakamega-forest-1920.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/kakamega-town-1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/kakamega-town-1920.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/logo-171.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/logo-171.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/logo-75.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/logo-75.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/IconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/StickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/StickyMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/element/elements.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/element/elements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/styles/mobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/mobileMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/aboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/aboutUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/footerTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/footerTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/freeCourse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/freeCourse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/homeContact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/homeContact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/iconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/iconBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/newsletterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/newsletterForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/hero/hero-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/hero/hero-slider.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/icon-box/icon-box.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/instructor/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/board/details.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/instructor/instructor.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/board/board.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/shop/details.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/projects/details.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/shop/product.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/projects/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/team/team-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/team/team-slider.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/testimonial/testimonial-slider.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/testimonial/testimonial-slider.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/account/styles/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/styles/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog/styles/commentForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog/styles/commentForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/comingsoon/styles/comingSoon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/comingsoon/styles/comingSoon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/styles/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/styles/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/styles/reviewForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/styles/reviewForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/instructor/Board.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/board/Board.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/instructor/InstructorDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/board/BoardDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/instructor/styles/instructor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/board/styles/instructor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/ProjectsDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/components/PriceFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/components/PriceFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/components/Quantity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/components/Quantity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/components/ShopSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/components/ShopSidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/styles/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/priceFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/styles/priceFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/styles/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/productDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/styles/productDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/styles/quantity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/styles/quantity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/skills/styles/reviewForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/styles/reviewForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +124,8 @@
       <workItem from="1629305039767" duration="32665000" />
       <workItem from="1629421835986" duration="863000" />
       <workItem from="1629423477028" duration="21062000" />
-      <workItem from="1629540771002" duration="12826000" />
+      <workItem from="1629540771002" duration="14163000" />
+      <workItem from="1629586056434" duration="891000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -368,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629545400537</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="formatted with prettier&#10;Projects">
+      <created>1629559499139</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1629559499139</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +360,8 @@
     <MESSAGE value="Slider 2" />
     <MESSAGE value="header" />
     <MESSAGE value="formatted with prettier" />
-    <option name="LAST_COMMIT_MESSAGE" value="formatted with prettier" />
+    <MESSAGE value="formatted with prettier&#10;Projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="formatted with prettier&#10;Projects" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -458,10 +407,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1" y="191" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1629541168609" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629448836286">
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629559501925">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629448836286" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629559501925" />
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1" timestamp="1629189984996">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
