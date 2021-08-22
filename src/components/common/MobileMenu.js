@@ -120,7 +120,7 @@ function MobileMenu() {
       <section className="mb-sidebar" id="mb-sidebar-body">
         <div className="mb-sidebar-heading d-flex justify-content-between">
           <div>
-            <h5>Menu</h5>
+            <h5>KCIDA</h5>
           </div>
           <div>
             <a href={process.env.PUBLIC_URL + "/"} id="close-mb-sidebar">
@@ -216,12 +216,12 @@ function MobileMenu() {
                   </Link>
                 </li>
                 <li>
-                  <Link to={process.env.PUBLIC_URL + "/about"}>
+                  <Link to={process.env.PUBLIC_URL + "/about-kakamega"}>
                     About Kakamega
                   </Link>
                 </li>
                 <li>
-                  <Link to={process.env.PUBLIC_URL + "/about"}>The Board</Link>
+                  <Link to={process.env.PUBLIC_URL + "/board"}>The Board</Link>
                 </li>
               </ul>
             </div>

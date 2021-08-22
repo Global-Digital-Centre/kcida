@@ -301,7 +301,7 @@ class Header extends Component {
                             <Link
                                 className="nav-link"
                                 to={
-                                  process.env.PUBLIC_URL + "/kakamega"
+                                  process.env.PUBLIC_URL + "/about-kakamega"
                                 }
                             >
                               About Kakamega

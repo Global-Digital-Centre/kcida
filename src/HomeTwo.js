@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import HeaderTwo from "./components/HeaderTwo";
 import HeroImage from "./components/HeroImage";
 import ServiceBox from "./components/ServiceBox";
-import AboutKakamega from "./components/AboutUsTwo";
+import AboutKakamega from "./components/AboutKakamega";
 import CourseSlider from "./components/CourseSlider";
 import NumberCounter from "./components/NumberCounter";
 import FreeCourse from "./components/FreeCourse";
