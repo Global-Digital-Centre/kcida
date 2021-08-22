@@ -10,7 +10,7 @@ class Pagination extends Component {
         <ul className="pagination-box list-unstyled list-inline">
           <li className="list-inline-item">
             <Link to={process.env.PUBLIC_URL + "/"}>
-              <i className="las la-angle-double-left"></i>
+              <i className="las la-angle-double-left" />
             </Link>
           </li>
           <li className="list-inline-item">

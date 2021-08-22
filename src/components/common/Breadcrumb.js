@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 
 export class BreadcrumbBox extends Component {
   state = {
-    backgroundImage: "breadcrumb-bg.jpg",
+    backgroundImage: "breadcrumb-bg.png",
   };
 
   render() {
@@ -23,7 +23,9 @@ export class BreadcrumbBox extends Component {
                 <div className="breadcrumb-box">
                   <h2 className="breadcrumb-title">{this.props.title}</h2>
                   <Breadcrumb>
-                    <Breadcrumb.Item><Link to={`${process.env.PUBLIC_URL + "/"}`}>Home</Link></Breadcrumb.Item>
+                    <Breadcrumb.Item>
+                      <Link to={`${process.env.PUBLIC_URL + "/"}`}>Home</Link>
+                    </Breadcrumb.Item>
                     <Breadcrumb.Item active>{this.props.title}</Breadcrumb.Item>
                   </Breadcrumb>
                 </div>

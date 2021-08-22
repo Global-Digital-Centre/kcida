@@ -12,24 +12,24 @@ import {Styles} from "./styles/product.js";
 class Projects extends Component {
   render() {
     return (
-        <Styles>
-          {/* Main Wrapper */}
-          <div className="main-wrapper product-page">
-            {/* Header 2 */}
-            <HeaderTwo/>
+      <Styles>
+        {/* Main Wrapper */}
+        <div className="main-wrapper product-page">
+          {/* Header 2 */}
+          <HeaderTwo />
 
-            {/* Breadcroumb */}
-            <BreadcrumbBox title="Projects"/>
+          {/* Breadcroumb */}
+          <BreadcrumbBox title="Projects" />
 
-            {/* Products */}
-            <section className="product-area">
-              <Container>
-                <Row>
-                  <Col lg="9" md="8" sm="7">
-                    <Row>
-                      {Datas.map((data, i) => (
-                          <Col lg="4" md="6" key={i}>
-                            <div className="product-box">
+          {/* Products */}
+          <section className="product-area">
+            <Container>
+              <Row>
+                <Col lg="9" md="8" sm="7">
+                  <Row>
+                    {Datas.map((data, i) => (
+                      <Col lg="4" md="6" key={i}>
+                        <div className="product-box">
                           <div className="product-img">
                             <img
                               src={
@@ -40,16 +40,16 @@ class Projects extends Component {
                               className="img-fluid"
                             />
                             <span>{data.discount}</span>
-                            <div className="layer-box"/>
+                            <div className="layer-box" />
                             <Link
-                                className="add_cart"
-                                to={process.env.PUBLIC_URL + data.productUrl}
+                              className="add_cart"
+                              to={process.env.PUBLIC_URL + data.productUrl}
                             >
                               Add To Cart
                             </Link>
                             <Link
-                                className="item_view"
-                                to={process.env.PUBLIC_URL + data.productUrl}
+                              className="item_view"
+                              to={process.env.PUBLIC_URL + data.productUrl}
                             >
                               View Item
                             </Link>
@@ -67,19 +67,19 @@ class Projects extends Component {
                             <div className="pro-rating">
                               <ul className="list-unstyled list-inline">
                                 <li className="list-inline-item">
-                                  <i className="las la-star"/>
+                                  <i className="las la-star" />
                                 </li>
                                 <li className="list-inline-item">
-                                  <i className="las la-star"/>
+                                  <i className="las la-star" />
                                 </li>
                                 <li className="list-inline-item">
-                                  <i className="las la-star"/>
+                                  <i className="las la-star" />
                                 </li>
                                 <li className="list-inline-item">
-                                  <i className="las la-star"/>
+                                  <i className="las la-star" />
                                 </li>
                                 <li className="list-inline-item">
-                                  <i className="las la-star-half-alt"/>
+                                  <i className="las la-star-half-alt" />
                                 </li>
                               </ul>
                             </div>

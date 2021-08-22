@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import Datas from "../data/course/filter.json";
+import Datas from "../data/places/filter.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
 import {Styles} from "./styles/courseFilter.js";

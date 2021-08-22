@@ -153,7 +153,7 @@ export const Styles = styled.div`
 
       p.about-para {
         font-size: 15px;
-        color: ${colors.text3};
+        color: ${colors.black1};
         line-height: 25px;
         margin-bottom: 40px;
 
@@ -183,7 +183,7 @@ export const Styles = styled.div`
 
         p {
           font-size: 14px;
-          color: ${colors.text3};
+          color: ${colors.black1};
           font-weight: 500;
         }
 

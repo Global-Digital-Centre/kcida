@@ -33,37 +33,37 @@ import AboutKakamega from "./pages/aboutKakamega/AboutKakamega";
 
 function App() {
   return (
-      <Router>
-        <GlobalStyle/>
-        <ScrollToTop/>
-        <Switch>
-          <Route
-              exact
-              path={`${process.env.PUBLIC_URL + "/"}`}
-              component={HomeOne}
-          />
-            <Route
-                path={`${process.env.PUBLIC_URL + "/home-two"}`}
-                component={HomeTwo}
-            />
-            <Route
-                path={`${process.env.PUBLIC_URL + "/about"}`}
-                component={About}
-            />
-            <Route
-                path={`${process.env.PUBLIC_URL + "/about-kakamega"}`}
-                component={AboutKakamega}
-            />
-            <Route
-                path={`${process.env.PUBLIC_URL + "/invest-in-kakamega"}`}
-                component={Invest}
-            />
-            <Route
-                path={`${process.env.PUBLIC_URL + "/investment-opportunities"}`}
-                component={Opportunities}
-            />
-            <Route
-                path={`${process.env.PUBLIC_URL + "/places-grid"}`}
+    <Router>
+      <GlobalStyle />
+      <ScrollToTop />
+      <Switch>
+        <Route
+          exact
+          path={`${process.env.PUBLIC_URL + "/"}`}
+          component={HomeOne}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/home-two"}`}
+          component={HomeTwo}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/about"}`}
+          component={About}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/about-kakamega"}`}
+          component={AboutKakamega}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/invest-in-kakamega"}`}
+          component={Invest}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/investment-opportunities"}`}
+          component={Opportunities}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/places-grid"}`}
           component={CourseGrid}
         />
         <Route
@@ -78,18 +78,18 @@ function App() {
           path={`${process.env.PUBLIC_URL + "/skills"}`}
           component={Skills}
         />
-          <Route
-              path={`${process.env.PUBLIC_URL + "/board"}`}
-              component={Board}
-          />
-          <Route
-              path={`${process.env.PUBLIC_URL + "/instructor-details"}`}
-              component={BoardDetails}
-          />
-          <Route
-              path={`${process.env.PUBLIC_URL + "/gallery"}`}
-              component={Gallery}
-          />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/board"}`}
+          component={Board}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/instructor-details"}`}
+          component={BoardDetails}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/gallery"}`}
+          component={Gallery}
+        />
         <Route
           path={`${process.env.PUBLIC_URL + "/events"}`}
           component={Events}
@@ -123,23 +123,23 @@ function App() {
           path={`${process.env.PUBLIC_URL + "/blog-classic"}`}
           component={BlogClassic}
         />
-          <Route
-              path={`${process.env.PUBLIC_URL + "/blog-grid"}`}
-              component={BlogGrid}
-          />
-          <Route
-              path={`${process.env.PUBLIC_URL + "/blog-details"}`}
-              component={BlogDetails}
-          />
-          <Route
-              path={`${process.env.PUBLIC_URL + "/projects"}`}
-              component={Projects}
-          />
-          <Route
-              path={`${process.env.PUBLIC_URL + "/projects-details"}`}
-              component={ProjectsDetails}
-          />
-          <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart}/>
+        <Route
+          path={`${process.env.PUBLIC_URL + "/blog-grid"}`}
+          component={BlogGrid}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/blog-details"}`}
+          component={BlogDetails}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/projects"}`}
+          component={Projects}
+        />
+        <Route
+          path={`${process.env.PUBLIC_URL + "/projects-details"}`}
+          component={ProjectsDetails}
+        />
+        <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart} />
       </Switch>
 
       <MessengerCustomerChat

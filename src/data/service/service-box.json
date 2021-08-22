@@ -1,41 +1,36 @@
 {
-  "secTitle": "Checkout Our Features To Know Why We Are Best In This Business",
+  "secTitle": "Our Core Values",
   "dataList": [
     {
       "id": "1",
-      "boxIcon": "flaticon-thumbs-like",
-      "title": "Popular Courses",
-      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+      "boxIcon": "fas fa-chart-line",
+      "title": "Investment focused",
+      "subTitle": "We put our investors at the centre of our operations and strive to continuously meet and exceed their expectations."
     },
     {
       "id": "2",
-      "boxIcon": "flaticon-reading",
-      "title": "Modern Library",
-      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+      "boxIcon": "fas fa-hands-helping",
+      "title": "Integrity",
+      "subTitle": "We show impartiality, fairness and honesty while upholding the\nhighest ethical standards."
     },
     {
       "id": "3",
-      "boxIcon": "flaticon-teacher",
-      "title": "Qualified Teacher",
-      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+      "boxIcon": "fas fa-users",
+      "title": "Diversity",
+      "subTitle": "We recognize rights of all individuals to mutual respect;\nacceptance of others without biases based on differences of any kind."
     },
+
     {
       "id": "4",
-      "boxIcon": "flaticon-unlimited",
-      "title": "Unlimited Courses",
-      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+      "boxIcon": "fas fa-users-cog",
+      "title": "Teamwork",
+      "subTitle": "We contribute fully to the activities of the Agency to address\nshared challenges through common effort by sharing information and\nresources."
     },
     {
       "id": "5",
-      "boxIcon": "flaticon-locations",
-      "title": "Many Locations",
-      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
-    },
-    {
-      "id": "6",
-      "boxIcon": "flaticon-support",
-      "title": "Online Support",
-      "subTitle": "Lorem ipsum dolor sit, amet consectetur elit."
+      "boxIcon": "fas fa-user-tie",
+      "title": "Professionalism",
+      "subTitle": "We exhibit highest standards of professionalism in our\nengagement with stakeholders."
     }
   ]
 }

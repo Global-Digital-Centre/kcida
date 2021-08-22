@@ -20,18 +20,18 @@ class ProjectsDetails extends Component {
     };
 
     return (
-        <Styles>
-          {/* Main Wrapper */}
-          <div className="main-wrapper product-details-page">
-            {/* Header 2 */}
-            <HeaderTwo/>
+      <Styles>
+        {/* Main Wrapper */}
+        <div className="main-wrapper product-details-page">
+          {/* Header 2 */}
+          <HeaderTwo />
 
-            {/* Breadcroumb */}
-            <BreadcrumbBox title="Project Details"/>
+          {/* Breadcroumb */}
+          <BreadcrumbBox title="Project Details" />
 
-            {/* Product Details */}
-            <section className="product-details-area">
-              <Container>
+          {/* Product Details */}
+          <section className="product-details-area">
+            <Container>
               <Row>
                 <Col md="5">
                   <div className="product-slider">
@@ -60,19 +60,19 @@ class ProjectsDetails extends Component {
                     <div className="product-rating d-flex">
                       <ul className="rating list-unstyled list-inline">
                         <li className="list-inline-item">
-                          <i className="las la-star"/>
+                          <i className="las la-star" />
                         </li>
                         <li className="list-inline-item">
-                          <i className="las la-star"/>
+                          <i className="las la-star" />
                         </li>
                         <li className="list-inline-item">
-                          <i className="las la-star"/>
+                          <i className="las la-star" />
                         </li>
                         <li className="list-inline-item">
-                          <i className="las la-star"/>
+                          <i className="las la-star" />
                         </li>
                         <li className="list-inline-item">
-                          <i className="las la-star-half-alt"/>
+                          <i className="las la-star-half-alt" />
                         </li>
                       </ul>
                       <div className="review-num">
@@ -112,7 +112,7 @@ class ProjectsDetails extends Component {
                           />
                           <label htmlFor="color-1">
                             <span>
-                              <i className="las la-check"/>
+                              <i className="las la-check" />
                             </span>
                           </label>
                         </li>
@@ -125,7 +125,7 @@ class ProjectsDetails extends Component {
                           />
                           <label htmlFor="color-2">
                             <span>
-                              <i className="las la-check"/>
+                              <i className="las la-check" />
                             </span>
                           </label>
                         </li>
@@ -138,7 +138,7 @@ class ProjectsDetails extends Component {
                           />
                           <label htmlFor="color-3">
                             <span>
-                              <i className="las la-check"/>
+                              <i className="las la-check" />
                             </span>
                           </label>
                         </li>
@@ -151,7 +151,7 @@ class ProjectsDetails extends Component {
                           />
                           <label htmlFor="color-4">
                             <span>
-                              <i className="las la-check"/>
+                              <i className="las la-check" />
                             </span>
                           </label>
                         </li>
@@ -164,7 +164,7 @@ class ProjectsDetails extends Component {
                           />
                           <label htmlFor="color-5">
                             <span>
-                              <i className="las la-check"/>
+                              <i className="las la-check" />
                             </span>
                           </label>
                         </li>
@@ -216,22 +216,22 @@ class ProjectsDetails extends Component {
 
                     <div className="product-cart-wh-com-btn">
                       <Link
-                          to={process.env.PUBLIC_URL + "/projects-details"}
-                          className="cart-btn"
+                        to={process.env.PUBLIC_URL + "/projects-details"}
+                        className="cart-btn"
                       >
                         Add To Cart
                       </Link>
                       <Link
-                          to={process.env.PUBLIC_URL + "/projects-details"}
-                          className="wishlist-btn"
+                        to={process.env.PUBLIC_URL + "/projects-details"}
+                        className="wishlist-btn"
                       >
-                        <i className="far fa-heart"/>
+                        <i className="far fa-heart" />
                       </Link>
                       <Link
-                          to={process.env.PUBLIC_URL + "/projects-details"}
-                          className="compare-btn"
+                        to={process.env.PUBLIC_URL + "/projects-details"}
+                        className="compare-btn"
                       >
-                        <i className="fas fa-random"/>
+                        <i className="fas fa-random" />
                       </Link>
                     </div>
                   </div>

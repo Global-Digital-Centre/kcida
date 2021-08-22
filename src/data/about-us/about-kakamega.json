@@ -1,21 +1,23 @@
 {
-  "secTitle": "We Have Experienced Professionals & We Do Our Best To Achieve Your Goal. Your Happiness Is Our First Priority.",
-  "secDesc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam, mollitia tempora neque voluptate debitis illum veniam.",
+  "secTitle": "KAKAMEGA COUNTY",
+  "secDesc": "Kakamega County is located in the Western part of Kenya\nand is one of the 47 counties established under the\nConstitution of Kenya, 2010.",
+  "secDesc2": "The County covers an area of 3,051.3 Km2\n and is the\nsecond populous county after Nairobi with the largest\nrural population at 1,832,359 residents as per 2019 census\nprojected to 2,288,365 in 2018 at 2.5% growth rate.",
+  "secDesc3":"The County borders Vihiga County to the South, Siaya\nCounty to the West, Bungoma and Trans Nzoia Counties\nto the North and Nandi and Uasin Gishu Counties to the\nEast. It has 12 sub counties namely Lugari, Likuyani, Malava,\nLurambi, Navakholo, Shinyalu, Ikolomani, Mumias East,\nMumias West, Matungu, Butere and Khwisero, 60 electoral\nWards and 400 Community Areas",
   "dataList": [
     {
-      "iconTitle": "Best Quality Courses",
-      "iconSubtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam"
+      "iconTitle": "Community",
+      "iconSubtitle": "The county is inhabited majorly by the Abaluhya community\nmade up of 18 sub-groups with common background,\ncustoms, and who speak closely related dialects as well as\nEnglish and East Africa’s Swahili languages."
     },
     {
-      "iconTitle": "Best Quality Courses",
-      "iconSubtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam"
+      "iconTitle": "Economic Activity",
+      "iconSubtitle": "Agriculture is the main economic activity with sugar cane\nbeing the principal cash crop. Other crops include tea, maize,\nbeans, millet, sorghum, sun flower and groundnuts."
     },
     {
-      "iconTitle": "Best Quality Courses",
-      "iconSubtitle": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis error ut provident vel repellendus nihil atque possimus aliquam"
+      "iconTitle": "Culture",
+      "iconSubtitle": "The county hosts six heritage/ Cultural sites namely: Misango\nHills, Chesuluni/ Mukai Stone and Cave, the Wanga Kingdom,\nKambiri Hills, Mawe Tatu, and the Ikhongo Murwi (the Crying\nstone). "
     }
   ],
-  "aboutImageOne": "about-2.jpg",
-  "aboutImageTwo": "about-3.jpg",
-  "experianceYear": "15"
+  "aboutImageOne": "about-2.png",
+  "aboutImageTwo": "about-3.png",
+  "experianceYear": "1,832,359"
 }

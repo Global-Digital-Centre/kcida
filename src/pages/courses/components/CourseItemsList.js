@@ -1,5 +1,5 @@
 import React, {Component, Fragment} from "react";
-import Datas from "../../../data/course/item.json";
+import Datas from "../../../data/places/item.json";
 import {Link} from "react-router-dom";
 import {Col} from "react-bootstrap";
 import Pagination from "./../../../components/Pagination";

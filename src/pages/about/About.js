@@ -2,12 +2,13 @@ import React, {Component} from "react";
 import HeaderTwo from "../../components/HeaderTwo";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import AboutUs from "../../components/AboutUs";
-import IconBox from "../../components/IconBox";
 import TabBox from "./../../components/TabBox";
 import TestimonialSlider from "../../components/TestimonialSlider";
 import FaqEvent from "../../components/FaqEvent";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/about.js";
+import IconMission from "../../components/IconMission";
+import CoreValuesBox from "../../components/CoreValuesBox";
 
 class About extends Component {
   render() {
@@ -25,7 +26,10 @@ class About extends Component {
           <AboutUs />
 
           {/* Icon Box Area */}
-          <IconBox />
+          <IconMission />
+
+          {/* Service Box */}
+          <CoreValuesBox />
 
           {/* Tab Section */}
           <TabBox />

@@ -48,13 +48,13 @@ class AboutUs extends Component {
                     }}
                   >
                     <ModalVideo
-                        channel="youtube"
-                        isOpen={this.state.isOpen}
-                        videoId="bCXEJYb64DM"
-                        onClose={() => this.setState({isOpen: false})}
+                      channel="youtube"
+                      isOpen={this.state.isOpen}
+                      videoId="bCXEJYb64DM"
+                      onClose={() => this.setState({ isOpen: false })}
                     />
                     <button onClick={this.openModal} className="play-button">
-                      <i className="las la-play"/>
+                      <i className="las la-play" />
                     </button>
                   </div>
                 </div>
@@ -70,8 +70,8 @@ class AboutUs extends Component {
                     <Col sm="4">
                       <div className="counter-box box1 text-center">
                         <h3>
-                          <CountUp end={1867579} duration={5} delay={1.5}/>
-                          <i className="las la-plus"/>
+                          <CountUp end={1867579} duration={5} delay={1.5} />
+                          <i className="las la-plus" />
                         </h3>
                         <p>Kakamega County Population</p>
                       </div>
@@ -79,8 +79,8 @@ class AboutUs extends Component {
                     <Col sm="4">
                       <div className="counter-box box2 text-center">
                         <h3>
-                          <CountUp end={230} duration={5} delay={1.5}/>
-                          <i className="las la-plus"/>
+                          <CountUp end={230} duration={5} delay={1.5} />
+                          <i className="las la-plus" />
                         </h3>
                         <p>Projects</p>
                       </div>
@@ -96,8 +96,8 @@ class AboutUs extends Component {
                     </Col>*/}
                   </Row>
                   <Link
-                      className="readmore-btn"
-                      to={process.env.PUBLIC_URL + "/contact"}
+                    className="readmore-btn"
+                    to={process.env.PUBLIC_URL + "/contact"}
                   >
                     Talk to Us
                   </Link>

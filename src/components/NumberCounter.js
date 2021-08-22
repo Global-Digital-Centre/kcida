@@ -25,7 +25,7 @@ class NumberCounter extends Component {
               <Col md="3" xs="6">
                 <div className="counter-box">
                   <div className="counter-icon">
-                    <i className="las la-university"></i>
+                    <i className="las la-university" />
                   </div>
                   <div className="counter-number">
                     <h4>

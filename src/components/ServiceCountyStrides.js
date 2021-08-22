@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Datas from "../data/service/service-box2.json";
 import {Col, Container, Row} from "react-bootstrap";
-import {Styles} from "./styles/serviceBox.js";
+import {Styles} from "./styles/coreValuesBox.js";
 
 class ServiceBox extends Component {
   render() {

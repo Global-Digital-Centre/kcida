@@ -97,7 +97,7 @@ function Contact() {
                 </div>
                 <div className="contact-icon-box d-flex">
                   <div className="icon">
-                    <i className="las la-envelope-open"/>
+                    <i className="las la-envelope-open" />
                   </div>
                   <div className="box-content">
                     <h5>Email Address</h5>
@@ -110,7 +110,7 @@ function Contact() {
                 </div>
                 <div className="contact-icon-box d-flex">
                   <div className="icon">
-                    <i className="las la-phone"/>
+                    <i className="las la-phone" />
                   </div>
                   <div className="box-content">
                     <h5>Phone Number</h5>

@@ -47,8 +47,8 @@ function Sidebar() {
           <div>
             <Link to={process.env.PUBLIC_URL + "/"}>
               <img
-                  src={process.env.PUBLIC_URL + "/assets/images/logo-200.png"}
-                  alt=""
+                src={process.env.PUBLIC_URL + "/assets/images/logo-200.png"}
+                alt=""
               />
             </Link>
           </div>

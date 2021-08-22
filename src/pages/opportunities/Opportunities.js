@@ -6,7 +6,7 @@ import FaqEvent from "../../components/FaqEvent";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/about.js";
 import TabOpportunities from "../../components/TabOpportunities";
-import ServiceCountyStrides from "../../components/ServiceCountyStrides";
+import IconBox from "../../components/IconBox";
 
 class Opportunities extends Component {
   render() {
@@ -24,7 +24,7 @@ class Opportunities extends Component {
           <TabOpportunities />
 
           {/*County Strides*/}
-          <ServiceCountyStrides />
+          <IconBox />
 
           {/* Testimonial Slider */}
           <TestimonialSlider />

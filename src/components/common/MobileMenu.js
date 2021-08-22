@@ -90,8 +90,7 @@ function MobileMenu() {
                     <Link to={process.env.PUBLIC_URL + "/"}>
                       <img
                         src={
-                          process.env.PUBLIC_URL +
-                          "/assets/images/logo-171.png"
+                          process.env.PUBLIC_URL + "/assets/images/logo-171.png"
                         }
                         alt=""
                       />
@@ -168,8 +167,8 @@ function MobileMenu() {
 
                 <li className="nav-item">
                   <Link
-                      className="nav-link"
-                      to={process.env.PUBLIC_URL + "/investment-opportunities"}
+                    className="nav-link"
+                    to={process.env.PUBLIC_URL + "/investment-opportunities"}
                   >
                     Investment Opportunities
                   </Link>
@@ -177,16 +176,16 @@ function MobileMenu() {
 
                 <li className="nav-item">
                   <Link
-                      className="nav-link"
-                      to={process.env.PUBLIC_URL + "/invest-in-kakamega"}
+                    className="nav-link"
+                    to={process.env.PUBLIC_URL + "/invest-in-kakamega"}
                   >
                     Projects
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                      className="nav-link"
-                      to={process.env.PUBLIC_URL + "/invest-in-kakamega"}
+                    className="nav-link"
+                    to={process.env.PUBLIC_URL + "/invest-in-kakamega"}
                   >
                     One Shop Centre
                   </Link>
@@ -205,7 +204,7 @@ function MobileMenu() {
           <div className="mb-menu-item">
             <button className="mb-menu-button">
               <p>
-                Organisation <i className="las la-plus"/>
+                Organisation <i className="las la-plus" />
               </p>
             </button>
             <div className="mb-menu-content">
@@ -255,26 +254,25 @@ function MobileMenu() {
             <button className="mb-menu-button">
               <p>
                 News
-                <i className="las la-plus"/>
+                <i className="las la-plus" />
               </p>
             </button>
             <div className="mb-menu-content">
               <ul className="list-unstyled">
                 <li className="nav-item">
                   <a
-                      className="nav-link"
-                      href="https://www.ecitizen.go.ke/"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                    className="nav-link"
+                    href="https://www.ecitizen.go.ke/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Announcements
-                    <i className="las la-angle-right"/>
+                    <i className="las la-angle-right" />
                   </a>
                 </li>
               </ul>
             </div>
           </div>
-
         </div>
       </section>
       <div className="mb-sidebar-overlay" id="mb-sidebar-overlay" />

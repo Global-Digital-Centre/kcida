@@ -23,16 +23,16 @@ class CampusTour extends Component {
               <Col lg="2" md="3">
                 <div className="tour-box">
                   <ModalImage
-                      small={process.env.PUBLIC_URL + "/assets/images/tour-1.png"}
-                      large={process.env.PUBLIC_URL + "/assets/images/tour-1.png"}
-                      alt=""
+                    small={process.env.PUBLIC_URL + "/assets/images/tour-1.png"}
+                    large={process.env.PUBLIC_URL + "/assets/images/tour-1.png"}
+                    alt=""
                   />
                 </div>
                 <div className="tour-box">
                   <ModalImage
-                      small={process.env.PUBLIC_URL + "/assets/images/tour-2.png"}
-                      large={process.env.PUBLIC_URL + "/assets/images/tour-2.png"}
-                      alt=""
+                    small={process.env.PUBLIC_URL + "/assets/images/tour-2.png"}
+                    large={process.env.PUBLIC_URL + "/assets/images/tour-2.png"}
+                    alt=""
                   />
                 </div>
               </Col>

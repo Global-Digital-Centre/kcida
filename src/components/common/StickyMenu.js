@@ -37,17 +37,17 @@ function StickyMenu() {
                 <ul className="nav menu-nav">
                   <li className="nav-item dropdown active">
                     <Link
-                        className="nav-link dropdown-toggle"
-                        to={process.env.PUBLIC_URL + "/"}
-                        data-toggle="dropdown"
+                      className="nav-link dropdown-toggle"
+                      to={process.env.PUBLIC_URL + "/"}
+                      data-toggle="dropdown"
                     >
-                      Home <i className="las la-angle-down"/>
+                      Home <i className="las la-angle-down" />
                     </Link>
                     <ul className="dropdown list-unstyled">
                       <li className="nav-item active">
                         <Link
-                            className="nav-link"
-                            to={process.env.PUBLIC_URL + "/"}
+                          className="nav-link"
+                          to={process.env.PUBLIC_URL + "/"}
                         >
                           Home
                         </Link>
@@ -108,16 +108,16 @@ function StickyMenu() {
                       </li>
                       <li className="nav-item">
                         <Link
-                            className="nav-link"
-                            to={process.env.PUBLIC_URL + "/projects"}
+                          className="nav-link"
+                          to={process.env.PUBLIC_URL + "/projects"}
                         >
                           Projects
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                            className="nav-link"
-                            to={process.env.PUBLIC_URL + "/contact"}
+                          className="nav-link"
+                          to={process.env.PUBLIC_URL + "/contact"}
                         >
                           Contact Us
                         </Link>
@@ -127,51 +127,48 @@ function StickyMenu() {
 
                   <li className="nav-item dropdown">
                     <Link
-                        className="nav-link dropdown-toggle"
-                        to={process.env.PUBLIC_URL + "/about"}
-                        data-toggle="dropdown"
+                      className="nav-link dropdown-toggle"
+                      to={process.env.PUBLIC_URL + "/about"}
+                      data-toggle="dropdown"
                     >
                       Organisation
-                      <i className="las la-angle-down"/>
+                      <i className="las la-angle-down" />
                     </Link>
                     <ul className="dropdown list-unstyled">
                       <li className="nav-item">
                         <Link
-                            className="nav-link"
-                            to={process.env.PUBLIC_URL + "/about"}
+                          className="nav-link"
+                          to={process.env.PUBLIC_URL + "/about"}
                         >
                           Structure of Organisation
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                            className="nav-link"
-                            to={
-                              process.env.PUBLIC_URL + "/about-kakamega"
-                            }
+                          className="nav-link"
+                          to={process.env.PUBLIC_URL + "/about-kakamega"}
                         >
                           About Kakamega
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                            className="nav-link"
-                            to={process.env.PUBLIC_URL + "/about"}
+                          className="nav-link"
+                          to={process.env.PUBLIC_URL + "/about"}
                         >
                           About Us
                         </Link>
                       </li>
                       <li className="nav-item">
                         <Link
-                            className="nav-link"
-                            to={process.env.PUBLIC_URL + "/board"}
+                          className="nav-link"
+                          to={process.env.PUBLIC_URL + "/board"}
                         >
                           The Board
                         </Link>
                       </li>
                     </ul>
                   </li>
-
 
                   <li className="nav-item dropdown">
                     <Link

@@ -25,29 +25,29 @@ class Board extends Component {
             <Container>
               <Row>
                 {Datas.map((data, i) => (
-                    <Col lg="4" md="6" sm="6" key={i}>
-                      <div className="instructor-item">
-                        <Link to={process.env.PUBLIC_URL + "/board-details"}>
-                          <img
-                              src={
-                                process.env.PUBLIC_URL +
-                                `/assets/images/${data.personImage}`
-                              }
-                              alt=""
-                              className="img-fluid"
-                          />
-                        </Link>
-                        <div className="img-content text-center">
-                          <h5>
-                            <Link
-                                to={process.env.PUBLIC_URL + "/instructor-details"}
-                            >
-                              {data.personName}
-                            </Link>
-                          </h5>
-                          <p>{data.personTitle}</p>
-                          <ul className="list-unstyled list-inline">
-                            <li className="list-inline-item">
+                  <Col lg="4" md="6" sm="6" key={i}>
+                    <div className="instructor-item">
+                      <Link to={process.env.PUBLIC_URL + "/board-details"}>
+                        <img
+                          src={
+                            process.env.PUBLIC_URL +
+                            `/assets/images/${data.personImage}`
+                          }
+                          alt=""
+                          className="img-fluid"
+                        />
+                      </Link>
+                      <div className="img-content text-center">
+                        <h5>
+                          <Link
+                            to={process.env.PUBLIC_URL + "/instructor-details"}
+                          >
+                            {data.personName}
+                          </Link>
+                        </h5>
+                        <p>{data.personTitle}</p>
+                        <ul className="list-unstyled list-inline">
+                          <li className="list-inline-item">
                             <a
                               href={
                                 process.env.PUBLIC_URL +

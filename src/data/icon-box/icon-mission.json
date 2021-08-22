@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "uniqClass": "box-icon box1",
+    "boxIcon": "fas fa-eye",
+    "title": "Vision",
+    "subTitle": "The hub of choice for investments in Kenya"
+  },
+  {
+    "id": "2",
+    "uniqClass": "box-icon box3",
+    "boxIcon": "fas fa-bullseye",
+    "title": "Mission",
+    "subTitle": "To attract, promote and facilitate investments in the County"
+  }
+]

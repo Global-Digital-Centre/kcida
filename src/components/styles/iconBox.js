@@ -20,7 +20,7 @@ export const Styles = styled.div`
         border-radius: 5px;
 
         .box-icon {
-          background: ${colors.bg1};
+          background: ${colors.green};
           height: 36px;
           text-align: center;
           margin-right: 20px;
@@ -30,7 +30,7 @@ export const Styles = styled.div`
             font-size: 34px;
             color: #ffffff;
             width: 60px;
-           
+
             text-align: center;
             vertical-align: bottom;
             display: block;

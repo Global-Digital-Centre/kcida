@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import HeaderTwo from "./components/HeaderTwo";
 import HeroImage from "./components/HeroImage";
-import ServiceBox from "./components/ServiceBox";
 import AboutKakamega from "./components/AboutUsKakamega";
 import NumberCounter from "./components/NumberCounter";
 import FreeCourse from "./components/FreeCourse";
@@ -22,14 +21,12 @@ export default class HomeTwo extends Component {
         {/* Hero Image */}
         <HeroImage />
 
-        {/* Service Box */}
-        <ServiceBox />
+
 
         {/* About Us 2 */}
-          <AboutKakamega/>
+        <AboutKakamega />
 
-
-          {/* Counter Area */}
+        {/* Counter Area */}
         <NumberCounter />
 
         {/* Free Course Area */}

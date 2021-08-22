@@ -11,19 +11,19 @@ import TabBox from "./components/TabBox";
 import FooterTwo from "./components/FooterTwo";
 import ImageGallery from "./components/ImageGallery";
 import GoogleMap from "./pages/contact/GoogleMap";
-import LogRocket from 'logrocket';
+import LogRocket from "logrocket";
 
-LogRocket.init('3m4hsk/kcdia');
+LogRocket.init("3m4hsk/kcdia");
 
 export default class HomeOne extends Component {
-    render() {
-        return (
-            <div className="main-wrapper">
-                {/* Header */}
-                <Header/>
+  render() {
+    return (
+      <div className="main-wrapper">
+        {/* Header */}
+        <Header />
 
-                {/* Hero Slider */}
-                <HeroSlider/>
+        {/* Hero Slider */}
+        <HeroSlider />
 
         {/* Faq & Event Area */}
         <FaqEvent />

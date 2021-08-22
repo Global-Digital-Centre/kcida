@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Datas from "../../../data/course/popular.json";
+import Datas from "../../../data/places/popular.json";
 import {Link} from "react-router-dom";
 import {Styles} from "../styles/popularCourse.js";
 

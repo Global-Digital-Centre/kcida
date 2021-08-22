@@ -21,9 +21,9 @@ export const Styles = styled.div`
 
       p.about-para {
         font-size: 15px;
-        color: ${colors.text3};
+        color: ${colors.black1};
         line-height: 28px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
 
         @media (max-width: 991px) {
           font-size: 14px;
@@ -56,7 +56,7 @@ export const Styles = styled.div`
 
           p {
             font-size: 14px;
-            color: ${colors.text3};
+            color: ${colors.black1};
             line-height: 25px;
 
             @media (max-width: 991px) {
@@ -104,8 +104,8 @@ export const Styles = styled.div`
         right: 20%;
         margin-bottom: -30px;
         margin-right: -20px;
-        width: 120px;
-        height: 120px;
+        width: 170px;
+        height: 100px;
         z-index: 1;
         border-radius: 50%;
         text-align: center;
@@ -113,9 +113,10 @@ export const Styles = styled.div`
         padding-top: 24px;
 
         span {
-          display: block;
-          font-size: 30px;
+          display: inline-grid;
+          font-size: 28px;
           font-weight: 800;
+          position: center;
           margin-bottom: -5px;
 
           i {

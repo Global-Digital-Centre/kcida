@@ -51,7 +51,7 @@ export const Styles = styled.div`
         .tab-content {
             .tab-pane {
                 h4.tab-title {
-                    color        : ${colors.black1};
+                    color        : ${colors.green};
                     font-weight  : 600;
                     text-transform: capitalize;
                     margin-bottom: 25px;
@@ -64,7 +64,7 @@ export const Styles = styled.div`
 
                 p.tab-desc {
                     font-size    : 15px;
-                    color        : ${colors.text2};
+                    color        : ${colors.black1};
                     line-height  : 30px;
                     text-transform: capitalize;
                     margin-bottom: 25px;
