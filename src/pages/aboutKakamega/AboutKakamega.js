@@ -9,36 +9,41 @@ import TestimonialSlider from "../../components/TestimonialSlider";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/about.js";
 import GoogleMap from "../contact/GoogleMap";
+import CourseSlider from "../../components/CourseSlider";
+import AboutUsKakamega from "../../components/AboutUsKakamega";
 
 class AboutKakamega extends Component {
-  render() {
-    return (
-        <Styles>
-          {/* Main Wrapper */}
-          <div className="main-wrapper about-page">
-            {/* Header 2 */}
-            <HeaderTwo/>
+    render() {
+        return (
+            <Styles>
+                {/* Main Wrapper */}
+                <div className="main-wrapper about-page">
+                    {/* Header 2 */}
+                    <HeaderTwo/>
 
-            {/* Breadcroumb */}
-            <BreadcrumbBox title="About Kakamega"/>
+                    {/* Breadcroumb */}
+                    <BreadcrumbBox title="About Kakamega"/>
 
-            {/* About Area */}
-            <AboutKakamega/>
-
-
-            {/* Icon Box Area */}
-            <IconBox/>
+                    {/* About Area */}
+                    <AboutUsKakamega/>
 
 
-            {/* Testimonial Slider */}
-            <TestimonialSlider/>
+                    {/* Icon Box Area */}
+                    <IconBox/>
 
-            {/*google maps*/}
-            <GoogleMap/>
+                    {/* Course Slider */}
+                    <CourseSlider/>
 
-            {/* Footer 2 */}
-            <FooterTwo/>
-          </div>
+
+                    {/* Testimonial Slider */}
+                    <TestimonialSlider/>
+
+                    {/* Google Map */}
+                    <GoogleMap/>
+
+                    {/* Footer 2 */}
+                    <FooterTwo/>
+                </div>
         </Styles>
     );
   }

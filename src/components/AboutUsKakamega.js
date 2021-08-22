@@ -3,7 +3,7 @@ import Datas from "../data/about-us/about-kakamega.json";
 import {Col, Container, Row} from "react-bootstrap";
 import {Styles} from "./styles/aboutUsTwo.js";
 
-class AboutKakamega extends Component {
+class AboutUsKakamega extends Component {
   render() {
     return (
         <Styles>
@@ -50,7 +50,7 @@ class AboutKakamega extends Component {
                   <p className="exp-box">
                     <span>
                       {Datas.experianceYear}
-                      <i className="las la-plus"></i>
+                      <i className="las la-plus"/>
                     </span>{" "}
                     Yrs Exprience
                   </p>
@@ -64,4 +64,4 @@ class AboutKakamega extends Component {
   }
 }
 
-export default AboutKakamega;
+export default AboutUsKakamega;

@@ -2,8 +2,7 @@ import React, {Component} from "react";
 import HeaderTwo from "./components/HeaderTwo";
 import HeroImage from "./components/HeroImage";
 import ServiceBox from "./components/ServiceBox";
-import AboutKakamega from "./components/AboutKakamega";
-import CourseSlider from "./components/CourseSlider";
+import AboutKakamega from "./components/AboutUsKakamega";
 import NumberCounter from "./components/NumberCounter";
 import FreeCourse from "./components/FreeCourse";
 import TeamSlider from "./components/TeamSlider";
@@ -29,10 +28,8 @@ export default class HomeTwo extends Component {
         {/* About Us 2 */}
           <AboutKakamega/>
 
-        {/* Course Slider */}
-        <CourseSlider />
 
-        {/* Counter Area */}
+          {/* Counter Area */}
         <NumberCounter />
 
         {/* Free Course Area */}

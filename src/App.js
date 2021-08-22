@@ -29,7 +29,7 @@ import MessengerCustomerChat from "react-messenger-customer-chat";
 import Invest from "./pages/invest/Invest";
 import Skills from "./pages/skills/Skills";
 import Opportunities from "./pages/opportunities/Opportunities";
-import AboutKakamega from "./components/AboutKakamega";
+import AboutKakamega from "./pages/aboutKakamega/AboutKakamega";
 
 function App() {
   return (
