@@ -57,7 +57,7 @@ class Projects extends Component {
                             <div className="pro-title">
                               <h5>
                                 <Link
-                                  to={process.env.PUBLIC_URL + data.productUrl}
+                                    to={process.env.PUBLIC_URL + data.productUrl}
                                 >
                                   {data.productTitle}
                                 </Link>
@@ -67,8 +67,8 @@ class Projects extends Component {
                         </div>
                       </Col>
                     ))}
-
-                    {/*<Col md="12" className="text-center">
+                    {/*
+                    <Col md="12" className="text-center">
                       <Pagination />
                     </Col>*/}
                   </Row>
