@@ -4,7 +4,6 @@ import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
 import HeaderTwo from "../../components/HeaderTwo";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
-import Pagination from "./../../components/Pagination";
 import ShopSidebar from "./components/ShopSidebar";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/product.js";
@@ -69,9 +68,9 @@ class Projects extends Component {
                       </Col>
                     ))}
 
-                    <Col md="12" className="text-center">
+                    {/*<Col md="12" className="text-center">
                       <Pagination />
-                    </Col>
+                    </Col>*/}
                   </Row>
                 </Col>
 
