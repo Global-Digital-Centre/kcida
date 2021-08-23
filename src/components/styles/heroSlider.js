@@ -15,7 +15,8 @@ export const Styles = styled.div`
             position: relative;
             height: 700px;
             img.slider-image {
-              width: auto;
+              width: 100%;
+              height: 360px;
               margin-top: 0;
               transition: all 6000ms linear;
               transform: scale(1);
