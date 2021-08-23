@@ -33,7 +33,8 @@ export const Styles = styled.div`
           border-radius: 50%;
           color: #fff;
           margin-top: 8px;
-          margin-right: 2px;
+          margin-right: 0px;
+          margin-left: 0px;
           position: relative;
 
           &::before {
@@ -48,6 +49,7 @@ export const Styles = styled.div`
             transform: rotate(45deg);
             z-index: -1;
           }
+          
 
           p {
             font-size: 17px;
@@ -78,6 +80,19 @@ export const Styles = styled.div`
                 color: ${colors.green};
               }
             }
+             @media (max-width: 480px) {
+                a {
+              color: ${colors.black1};
+              display: inline-block;
+              font-weight: 600;
+              font-size: 15px;
+              margin-bottom: 10px;
+
+              &:hover {
+                color: ${colors.green};
+              }
+            }
+              }
           }
 
           ul {

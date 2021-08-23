@@ -75,9 +75,9 @@ export const Styles = styled.div`
         .mb-logo {
           a {
             img {
-              max-width: 150px;
+              max-width: 120px;
               @media (max-width: 480px) {
-                max-width: 380px;
+                max-width: 340px;
               }
             }
           }

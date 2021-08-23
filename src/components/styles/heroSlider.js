@@ -22,9 +22,23 @@ export const Styles = styled.div`
             }
             @media (max-width: 767px) {
               height: 450px;
+              img.slider-image {
+                width: 100%;
+                height: 450px;
+                margin-top: 0;
+                transition: all 6000ms linear;
+                transform: scale(1);
+              }
             }
             @media (max-width: 575px) {
-              height: 360px;
+              height: 300px;
+              img.slider-image {
+                width: 100%;
+                height: 300px;
+                margin-top: 0;
+                transition: all 6000ms linear;
+                transform: scale(1);
+              }
             }
           }
           .slider-table {
@@ -162,6 +176,11 @@ export const Styles = styled.div`
       .swiper-btn.slider-button-next {
         left: inherit;
         right: 40px;
+      }
+      @media (max-width: 575px) {
+        .swiper-btn {
+          display: none;
+        }
       }
     }
   }
