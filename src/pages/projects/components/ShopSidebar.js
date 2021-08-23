@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import {Col, Row} from "react-bootstrap";
 import CourseSearch from "./../../courses/components/CourseSearch";
-import PriceFilter from "./PriceFilter";
 import PopularCourse from "./../../courses/components/PopularCourse";
 import CourseTag from "./../../courses/components/CourseTag";
 
@@ -13,9 +12,9 @@ class ShopSidebar extends Component {
           <Col md="12">
             <CourseSearch />
           </Col>
-          <Col md="12">
+          {/*<Col md="12">
             <PriceFilter />
-          </Col>
+          </Col>*/}
           <Col md="12">
             <PopularCourse />
           </Col>

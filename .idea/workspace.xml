@@ -20,7 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/images/Untitled design.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/project-industrial-park.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/project-kcrh-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/project-maize-milling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/project-sugar industry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/images/project-tea-factory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/maize.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/sugar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/tea.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/projects/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/projects/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/components/PriceFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/components/PriceFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/projects/components/ShopSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/projects/components/ShopSidebar.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +143,7 @@
       <workItem from="1629540771002" duration="14163000" />
       <workItem from="1629586056434" duration="891000" />
       <workItem from="1629621802358" duration="5637000" />
-      <workItem from="1629642624951" duration="12641000" />
+      <workItem from="1629642624951" duration="14657000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -363,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629656201912</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="kommunicate">
+      <created>1629662798078</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1629662798078</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,10 +489,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1629189984996" />
-    <state x="854" y="163" width="662" height="602" key="find.popup" timestamp="1629647847912">
+    <state x="781" y="191" width="662" height="602" key="find.popup" timestamp="1629700302819">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="854" y="163" width="662" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629647847912" />
+    <state x="781" y="191" width="662" height="602" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1629700302819" />
     <state x="624" y="252" key="run.anything.popup" timestamp="1629089499664">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

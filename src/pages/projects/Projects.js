@@ -39,19 +39,19 @@ class Projects extends Component {
                               alt=""
                               className="img-fluid"
                             />
-                            <span>{data.discount}</span>
+                            {/*<span>{data.discount}</span>*/}
                             <div className="layer-box" />
-                            <Link
+                            {/*<Link
                               className="add_cart"
                               to={process.env.PUBLIC_URL + data.productUrl}
                             >
                               Add To Cart
-                            </Link>
+                            </Link>*/}
                             <Link
-                              className="item_view"
-                              to={process.env.PUBLIC_URL + data.productUrl}
+                                className="item_view"
+                                to={process.env.PUBLIC_URL + data.productUrl}
                             >
-                              View Item
+                              View Project
                             </Link>
                           </div>
                           <div className="product-content text-center">
@@ -63,28 +63,6 @@ class Projects extends Component {
                                   {data.productTitle}
                                 </Link>
                               </h5>
-                            </div>
-                            <div className="pro-rating">
-                              <ul className="list-unstyled list-inline">
-                                <li className="list-inline-item">
-                                  <i className="las la-star" />
-                                </li>
-                                <li className="list-inline-item">
-                                  <i className="las la-star" />
-                                </li>
-                                <li className="list-inline-item">
-                                  <i className="las la-star" />
-                                </li>
-                                <li className="list-inline-item">
-                                  <i className="las la-star" />
-                                </li>
-                                <li className="list-inline-item">
-                                  <i className="las la-star-half-alt" />
-                                </li>
-                              </ul>
-                            </div>
-                            <div className="pro-price">
-                              <p>{data.price}</p>
                             </div>
                           </div>
                         </div>

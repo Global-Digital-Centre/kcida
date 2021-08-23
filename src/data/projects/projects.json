@@ -1,74 +1,50 @@
 [
   {
     "id": "1",
-    "productImg": "product-01.jpg",
-    "productTitle": "Product 01",
-    "productUrl": "/projects-details",
-    "price": "$99.00",
-    "discount": "-30%"
+    "productImg": "project-kcrh-1.png",
+    "productTitle": "Kakamega County Teaching and Referral Hospital(KCTRH)",
+    "productUrl": "",
+    "price": "",
+    "discount": ""
   },
   {
     "id": "2",
-    "productImg": "product-02.jpg",
-    "productTitle": "Product 02",
-    "productUrl": "/projects-details",
-    "price": "$99.00",
-    "discount": "-25%"
+    "productImg": "project-tea-factory.png",
+    "productTitle": "Dairy factory in Malava",
+    "productUrl": "",
+    "price": "",
+    "discount": ""
   },
   {
     "id": "3",
-    "productImg": "product-03.jpg",
-    "productTitle": "Product 03",
-    "productUrl": "/projects-details",
-    "price": "$99.00",
-    "discount": "-27%"
+    "productImg": "project-maize-milling.png",
+    "productTitle": "Tea Factory in Shinyalu",
+    "productUrl": "",
+    "price": "",
+    "discount": ""
   },
   {
     "id": "4",
-    "productImg": "product-04.jpg",
-    "productTitle": "Product 04",
-    "productUrl": "/projects-details",
-    "price": "$99.00",
-    "discount": "-15%"
+    "productImg": "project-maize-milling.png",
+    "productTitle": "Maize milling plant in Lugari",
+    "productUrl": "",
+    "price": "",
+    "discount": ""
   },
   {
     "id": "5",
-    "productImg": "product-05.jpg",
-    "productTitle": "Product 05",
-    "productUrl": "/projects-details",
-    "price": "$99.00",
-    "discount": "-21%"
+    "productImg": "project-industrial-park.png",
+    "productTitle": "Industrial park",
+    "productUrl": "",
+    "price": "",
+    "discount": ""
   },
   {
     "id": "6",
-    "productImg": "product-06.jpg",
-    "productTitle": "Product 06",
-    "productUrl": "/projects-details",
-    "price": "$99.00",
-    "discount": "-17%"
-  },
-  {
-    "id": "7",
-    "productImg": "product-07.jpg",
-    "productTitle": "Product 07",
-    "productUrl": "/projects-details",
-    "price": "$99.00",
-    "discount": "-36%"
-  },
-  {
-    "id": "8",
-    "productImg": "product-08.jpg",
-    "productTitle": "Product 08",
-    "productUrl": "/projects-details",
-    "price": "$99.00",
-    "discount": "-29%"
-  },
-  {
-    "id": "9",
-    "productImg": "product-09.jpg",
-    "productTitle": "Product 09",
-    "productUrl": "/projects-details",
-    "price": "$99.00",
-    "discount": "-33%"
+    "productImg": "project-sugar industry.png",
+    "productTitle": "Revival of the sugar industry",
+    "productUrl": "",
+    "price": "",
+    "discount": ""
   }
 ]
