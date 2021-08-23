@@ -11,7 +11,11 @@ class HeroSlider extends Component {
       slidesPerView: 1,
       loop: true,
       speed: 3000,
-
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true
+      },
       autoplay: {
         delay: 3000,
         disableOnInteraction: false,

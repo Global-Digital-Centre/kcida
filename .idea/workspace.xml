@@ -19,21 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/kakamega-town-1920.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/Untitled design.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bukhungu-stadium-1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/bukhungu-stadium-1920.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/industrial-1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/industrial-1920.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/kakamega-forest-1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/kakamega-forest-1920.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/kakamega-town-1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/kakamega-town-1920.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/kctrh-1920.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/kctrh-1920.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/kctrh-teaching.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/kctrh-teaching.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/faqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/faqEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/heroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/heroSlider.js" afterDir="false" />
-    </list>
+    <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +128,7 @@
       <workItem from="1629540771002" duration="14163000" />
       <workItem from="1629586056434" duration="891000" />
       <workItem from="1629621802358" duration="5637000" />
-      <workItem from="1629642624951" duration="16939000" />
+      <workItem from="1629642624951" duration="17492000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -389,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629700908283</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="kommunicate">
+      <created>1629703856901</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1629703856901</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

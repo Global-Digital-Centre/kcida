@@ -19,7 +19,7 @@ export const Styles = styled.div`
 
           @media (max-width: 575px) {
             margin-bottom: 15px;
-            font-size: 18px;
+            font-size: 20px;
           }
         }
       }
@@ -57,7 +57,7 @@ export const Styles = styled.div`
             padding-top: 13px;
 
             @media (max-width: 991px) {
-              font-size: 12px;
+              font-size: 15px;
               max-width: 56px;
               padding-left: 14px;
             }
@@ -73,7 +73,6 @@ export const Styles = styled.div`
               display: inline-block;
               font-weight: 600;
               margin-bottom: 10px;
-              font-size: 15px;
 
               &:hover {
                 color: ${colors.green};
@@ -85,12 +84,12 @@ export const Styles = styled.div`
             margin-bottom: 5px;
 
             li {
-              font-size: 10px;
+              font-size: 14px;
               color: ${colors.text3};
               font-weight: 500;
 
               i {
-                font-size: 13px;
+                font-size: 15px;
                 margin-right: 3px;
                 color: ${colors.green};
               }
@@ -135,7 +134,7 @@ export const Styles = styled.div`
 
           @media (max-width: 575px) {
             margin-bottom: 15px;
-            font-size: 15px;
+            font-size: 20px;
           }
         }
       }
