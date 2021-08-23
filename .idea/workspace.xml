@@ -21,11 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/styles/mobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/mobileMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FaqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FaqEvent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/faqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/faqEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/heroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/heroSlider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/styles/iconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/iconBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/data/faq-event/faq-event.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/faq-event/faq-event.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +135,7 @@
       <workItem from="1629586056434" duration="891000" />
       <workItem from="1629621802358" duration="5637000" />
       <workItem from="1629642624951" duration="17492000" />
-      <workItem from="1629704013758" duration="4183000" />
+      <workItem from="1629704013758" duration="6041000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -419,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629705853887</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="refactoring-slider">
+      <created>1629708390177</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1629708390177</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +448,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="v2.0.0" />
     <MESSAGE value="v2.0.2" />
     <MESSAGE value="v2.0.3" />
     <MESSAGE value="v2.0.4" />
@@ -468,7 +472,8 @@
     <MESSAGE value="kommunicate" />
     <MESSAGE value="refactoring" />
     <MESSAGE value="refactoring-projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring-projects" />
+    <MESSAGE value="refactoring-slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring-slider" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -518,10 +523,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1" y="191" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1629639762169" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629705859052">
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629708393217">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629705859052" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629708393217" />
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1" timestamp="1629189984996">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

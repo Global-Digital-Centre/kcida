@@ -167,14 +167,14 @@ export const Styles = styled.div`
 
           p {
             font-size: 14px;
-            color: ${colors.text3};
+            color: ${colors.black1};
 
             @media (max-width: 991px) {
               font-size: 13px;
             }
 
             @media (max-width: 767px) {
-              font-size: 14px;
+              font-size: 13px;
             }
           }
         }

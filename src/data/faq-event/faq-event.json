@@ -2,20 +2,11 @@
   "eventDataList": [
     {
       "id": "1",
-      "eventDate": "25 March",
-      "eventTitle": "COUNTY COMMENCES REHABILITATION OF SPORTS FACILITIES",
+      "eventDate": "25 Aug",
+      "eventTitle": "County Commences Rehabilitation Of Sports Facilities",
       "eventTime": "",
-      "eventLocation": "Kakamega,Kenya",
-      "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
-      "eventLink": ""
-    },
-    {
-      "id": "2",
-      "eventDate": "25 March",
-      "eventTitle": "LAND GRABBERS PUT ON NOTICE",
-      "eventTime": "",
-      "eventLocation": "Kakamega,Kenya",
-      "eventdesc": "Lorem ipsum dolor sit amet consectetur. Como Ssee hou",
+      "eventLocation": "Kakamega, Kenya",
+      "eventdesc": "Lorem ipsum dolor sit amet consectetur.",
       "eventLink": ""
     }
   ],

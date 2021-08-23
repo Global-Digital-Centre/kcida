@@ -54,10 +54,6 @@ function FaqEvent() {
                           </h6>
                           <ul className="list-unstyled list-inline">
                             <li className="list-inline-item">
-                              <i className="las la-clock" />
-                              {eventData.eventTime}
-                            </li>
-                            <li className="list-inline-item">
                               <i className="las la-map-marker" />
                               {eventData.eventLocation}
                             </li>
@@ -94,10 +90,6 @@ function FaqEvent() {
                             </Link>
                           </h6>
                           <ul className="list-unstyled list-inline">
-                            <li className="list-inline-item">
-                              <i className="las la-clock" />
-                              {eventData.eventTime}
-                            </li>
                             <li className="list-inline-item">
                               <i className="las la-map-marker" />
                               {eventData.eventLocation}

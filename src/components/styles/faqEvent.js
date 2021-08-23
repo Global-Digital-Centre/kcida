@@ -74,6 +74,7 @@ export const Styles = styled.div`
               color: ${colors.black1};
               display: inline-block;
               font-weight: 600;
+              font-size: 15px;
               margin-bottom: 10px;
 
               &:hover {
@@ -83,9 +84,10 @@ export const Styles = styled.div`
              @media (max-width: 480px) {
                 a {
               color: ${colors.black1};
-              display: inline-block;
+              display: block;
+              justify-content: start;
               font-weight: 600;
-              font-size: 15px;
+              font-size: 13px;
               margin-bottom: 10px;
 
               &:hover {
@@ -114,6 +116,7 @@ export const Styles = styled.div`
           p {
             color: ${colors.text3};
             line-height: 22px;
+            
           }
         }
 
