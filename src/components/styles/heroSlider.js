@@ -16,15 +16,17 @@ export const Styles = styled.div`
             height: 700px;
             img.slider-image {
               width: auto;
-              margin-top: 0;
+              margin-top: 10px;
               transition: all 6000ms linear;
               transform: scale(1);
             }
             @media (max-width: 767px) {
               height: 450px;
+              width: auto;
             }
             @media (max-width: 575px) {
               height: 360px;
+              width: auto;
             }
           }
           .slider-table {
