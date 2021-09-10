@@ -47,8 +47,8 @@ class Projects extends Component {
                               Add To Cart
                             </Link>*/}
                             <Link
-                                className="item_view"
-                                to={process.env.PUBLIC_URL + data.productUrl}
+                              className="item_view"
+                              to={process.env.PUBLIC_URL + data.productUrl}
                             >
                               View Project
                             </Link>
@@ -57,7 +57,7 @@ class Projects extends Component {
                             <div className="pro-title">
                               <h5>
                                 <Link
-                                    to={process.env.PUBLIC_URL + data.productUrl}
+                                  to={process.env.PUBLIC_URL + data.productUrl}
                                 >
                                   {data.productTitle}
                                 </Link>

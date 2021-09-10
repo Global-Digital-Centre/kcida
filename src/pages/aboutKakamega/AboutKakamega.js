@@ -39,8 +39,6 @@ class AboutKakamega extends Component {
           {/* Testimonial Slider */}
           <TestimonialSlider />
 
-
-
           {/* Footer 2 */}
           <FooterTwo />
         </div>

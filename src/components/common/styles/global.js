@@ -6,11 +6,12 @@ Version: 1.0
 ==============================================*/
 
 import {createGlobalStyle} from "styled-components";
-import {colors, fonts} from "../element/elements.js";
+import {colors} from "../element/elements.js";
 
 export const GlobalStyle = createGlobalStyle`
     html {
-        color      : ${colors.bg1};
+        color      : ${colors.grey};
+        font-family: "Montserrat";
         font-size  : 13px;
         line-height: 1.4;
     }
@@ -55,10 +56,9 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         font-size     : 13px;
-        background    : #ffffff;
         color         : ${colors.text1};
         letter-spacing: 0.3px;
-        font-family   : ${fonts.roboto};
+        font-family: "Montserrat";
     }
 
     h1,
@@ -103,7 +103,7 @@ export const GlobalStyle = createGlobalStyle`
     h5 a,
     h6,
     h6 a {
-        font-family: ${fonts.poppins};
+        font-family: "Montserrat";
         margin     : 0;
     }
 
@@ -112,7 +112,7 @@ export const GlobalStyle = createGlobalStyle`
     li,
     p {
         font-size     : 13px;
-        font-family   : ${fonts.roboto};
+        font-family: "Montserrat";
         margin        : 0;
         letter-spacing: 0.3px;
     }

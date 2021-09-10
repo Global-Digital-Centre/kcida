@@ -320,7 +320,7 @@ export const Styles = styled.div`
               &::before {
                 position: absolute;
                 content: "\f058";
-                font-family: "Line Awesome Free";
+                font-family: "Montserrat";
                 font-size: 24px;
                 color: ${colors.green};
                 font-weight: 900;
@@ -338,7 +338,7 @@ export const Styles = styled.div`
               &::before {
                 position: absolute;
                 content: "\f06a";
-                font-family: "Line Awesome Free";
+                font-family: "Montserrat";
                 font-size: 24px;
                 color: ${colors.green};
                 font-weight: 900;

@@ -21,8 +21,6 @@ export default class HomeTwo extends Component {
         {/* Hero Image */}
         <HeroImage />
 
-
-
         {/* About Us 2 */}
         <AboutKakamega />
 

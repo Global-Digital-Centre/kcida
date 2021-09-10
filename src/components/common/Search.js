@@ -35,14 +35,11 @@ function Search() {
         className="nav-link nav-search"
         id="search-trigger"
       >
-        <i className="las la-search"></i>
+        <i className="las la-search" />
       </a>
       {/* Fullscreen search */}
       <div className="search-wrap" id="search-wrap">
-        <div
-          className="search-overlay custom-overlay"
-          id="search-overlay"
-        ></div>
+        <div className="search-overlay custom-overlay" id="search-overlay" />
         <div className="search-inner">
           <form method="get" className="search-form">
             <input
@@ -50,7 +47,7 @@ function Search() {
               name="search"
               placeholder="Type and hit enter...."
             />
-            <i className="las la-times close-btn" id="search-close"></i>
+            <i className="las la-times close-btn" id="search-close" />
           </form>
         </div>
       </div>

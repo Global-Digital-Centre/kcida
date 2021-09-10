@@ -28,11 +28,11 @@ export const Styles = styled.div`
       margin-bottom: 0px;
 
       .box-icon {
-          background: ${colors.green};
-          height: 30px;
-          text-align: center;
-          margin-right: 20px;
-          position: relative;
+        background: ${colors.green};
+        height: 30px;
+        text-align: center;
+        margin-right: 20px;
+        position: relative;
 
         i {
           font-size: 34px;

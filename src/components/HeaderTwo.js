@@ -3,7 +3,6 @@ import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
 import Search from "./common/Search";
 import Sidebar from "./common/Sidebar";
-import StickyMenu from "./common/StickyMenu";
 import MobileMenu from "./common/MobileMenu";
 import {Styles} from "./styles/header.js";
 
@@ -403,7 +402,7 @@ class HeaderTwo extends Component {
         </section>
 
         {/* Sticky Menu */}
-        <StickyMenu />
+       {/* <StickyMenu />*/}
 
         {/* Mobile Menu */}
         <MobileMenu />

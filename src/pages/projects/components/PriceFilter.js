@@ -11,7 +11,7 @@ class PriceFilter extends Component {
           <ul className="filter-item list-unstyled">
             <li className="check-btn">
               <label htmlFor="price1">
-                <input type="checkbox" id="price1" className="check-box"/>
+                <input type="checkbox" id="price1" className="check-box" />
                 $0.00 -
               </label>
             </li>

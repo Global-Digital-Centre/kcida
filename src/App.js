@@ -133,22 +133,22 @@ function App() {
           component={BlogDetails}
         />
         <Route
-            path={`${process.env.PUBLIC_URL + "/projects"}`}
-            component={Projects}
+          path={`${process.env.PUBLIC_URL + "/projects"}`}
+          component={Projects}
         />
         <Route
-            path={`${process.env.PUBLIC_URL + "/projects-details"}`}
-            component={ProjectsDetails}
+          path={`${process.env.PUBLIC_URL + "/projects-details"}`}
+          component={ProjectsDetails}
         />
-        <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart}/>
+        <Route path={`${process.env.PUBLIC_URL + "/cart"}`} component={Cart} />
       </Switch>
 
-      <KommunicateChat/>
+      <KommunicateChat />
 
       <MessengerCustomerChat
-          pageId="101857828882888"
-          appId="891567418072170"
-          htmlRef="https://kcdia.netlify.app/"
+        pageId="101857828882888"
+        appId="891567418072170"
+        htmlRef="https://kcdia.netlify.app/"
       />
     </Router>
   );

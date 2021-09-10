@@ -6,8 +6,8 @@ export const Styles = styled.div`
     padding: 18px 0 0 10px;
 
     i {
-      font-size: 20px;
-      color: ${colors.border1};
+      font-size: 25px;
+      color: ${colors.green};
     }
   }
 

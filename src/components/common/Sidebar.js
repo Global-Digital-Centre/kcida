@@ -76,8 +76,8 @@ function Sidebar() {
               />
             </div>
             <div className="post-title">
-              <p>Lorem ipsum dolor sit amet, consecte adipisicing elit.</p>
-              <span>March 12, 2021</span>
+              <p>County Commences Rehabilitation Of Sports Facilities.</p>
+              <span>Oct 12, 2021</span>
             </div>
           </div>
           <div className="post-box d-flex">
@@ -88,8 +88,8 @@ function Sidebar() {
               />
             </div>
             <div className="post-title">
-              <p>Lorem ipsum dolor sit amet, consecte adipisicing elit.</p>
-              <span>March 12, 2021</span>
+              <p>Sports Facilities.</p>
+              <span>Oct 12, 2021</span>
             </div>
           </div>
           <div className="post-box d-flex">
@@ -100,8 +100,8 @@ function Sidebar() {
               />
             </div>
             <div className="post-title">
-              <p>Lorem ipsum dolor sit amet, consecte adipisicing elit.</p>
-              <span>March 12, 2021</span>
+              <p>County Government.</p>
+              <span>Oct 12, 2021</span>
             </div>
           </div>
         </div>

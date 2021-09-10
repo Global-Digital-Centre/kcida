@@ -7,10 +7,13 @@ export const colors = {
   blue: "#2c97ea",
   green: "#11B67A",
   green2: "#00a76a",
+  grey: "#EAEDED",
   red: "#ff6f6f",
   purple: "#84479c",
   yellow: "#fbab19",
   black1: "#000000",
+  black: "#000000",
+  gold: "#B68D40",
   black2: "#444444",
   text1: "#555555",
   text2: "#666666",
@@ -29,4 +32,5 @@ export const colors = {
 export const fonts = {
   roboto: "'Roboto', sans-serif",
   poppins: "'Poppins', sans-serif",
+  Montserrat: "Montserrat",
 };

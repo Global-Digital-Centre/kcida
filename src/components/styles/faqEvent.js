@@ -49,7 +49,6 @@ export const Styles = styled.div`
             transform: rotate(45deg);
             z-index: -1;
           }
-          
 
           p {
             font-size: 17px;
@@ -81,20 +80,20 @@ export const Styles = styled.div`
                 color: ${colors.green};
               }
             }
-             @media (max-width: 480px) {
-                a {
-              color: ${colors.black1};
-              display: block;
-              justify-content: start;
-              font-weight: 600;
-              font-size: 13px;
-              margin-bottom: 10px;
+            @media (max-width: 480px) {
+              a {
+                color: ${colors.black1};
+                display: block;
+                justify-content: start;
+                font-weight: 600;
+                font-size: 13px;
+                margin-bottom: 10px;
 
-              &:hover {
-                color: ${colors.green};
+                &:hover {
+                  color: ${colors.green};
+                }
               }
             }
-              }
           }
 
           ul {
@@ -116,7 +115,6 @@ export const Styles = styled.div`
           p {
             color: ${colors.text3};
             line-height: 22px;
-            
           }
         }
 

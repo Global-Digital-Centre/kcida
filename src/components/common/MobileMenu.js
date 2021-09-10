@@ -176,8 +176,8 @@ function MobileMenu() {
 
                 <li className="nav-item">
                   <Link
-                      className="nav-link"
-                      to={process.env.PUBLIC_URL + "/projects"}
+                    className="nav-link"
+                    to={process.env.PUBLIC_URL + "/projects"}
                   >
                     Projects
                   </Link>

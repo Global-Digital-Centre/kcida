@@ -3,19 +3,18 @@ import {colors} from "../common/element/elements.js";
 
 export const Styles = styled.div`
   .top-bar {
-    background: ${colors.bg1};
+    background-color: ${colors.grey};
     .bar-left {
+    margin-top: 10px;
       ul {
         li {
-          font-size: 13px;
+          font-size: 15px;
           color: ${colors.text4};
-          border-left: 1px solid ${colors.border2};
-          padding: 10px 15px;
           margin: 0;
-          display: inline-block;
+          display: flex-start;
 
           a {
-            font-size: 13px;
+            font-size: 15px;
             color: ${colors.text4};
 
             &:hover {
@@ -31,7 +30,6 @@ export const Styles = styled.div`
           }
 
           &:last-child {
-            border-right: 1px solid ${colors.border2};
           }
 
           @media (max-width: 991px) {
@@ -45,15 +43,15 @@ export const Styles = styled.div`
       }
     }
 
+   
+
     .bar-right {
       ul.bar-social {
-        border-right: 1px solid ${colors.border2};
-        border-left: 1px solid ${colors.border2};
-        padding: 10px 15px;
+        padding: 100px 150px;
 
         li {
           a {
-            font-size: 14px;
+            font-size: 30px;
             color: ${colors.green};
             margin-right: 10px;
 
@@ -75,7 +73,6 @@ export const Styles = styled.div`
       }
 
       ul.bar-lang {
-        border-right: 1px solid ${colors.border2};
         padding: 10px 15px;
 
         li {
@@ -149,7 +146,6 @@ export const Styles = styled.div`
 
       ul.bar-login {
         li {
-          border-right: 1px solid ${colors.border2};
           padding: 10px 15px;
           margin: 0;
           display: inline-block;
@@ -184,13 +180,19 @@ export const Styles = styled.div`
   }
 
   .logo-area {
-    padding: 22px 0;
+    flex: start;
+    justify-content: left;
     .logo {
+      float: left;
+       margin-top: 35px;
+       display:none;
+
       a {
         img {
           @media (max-width: 991px) {
             max-width: 100%;
-            margin-top: 4px;
+            justify-content: left;
+            margin-left: 2px;
           }
         }
       }
@@ -314,16 +316,18 @@ export const Styles = styled.div`
   .main-menu {
     .main-menu-box {
       position: relative;
-      margin-bottom: 10px;
-      z-index: 111;
+      margin-top: 0;
+      justify-content: center;
+      /*margin-left: 180px;*/
 
       .menu-box {
         position: absolute;
+        color: ${colors.green};
         width: 100%;
         top: 20px;
         left: 0;
+
         padding: 0 30px;
-        background: ${colors.gr_bg};
         border-radius: 5px;
 
         ul.nav.menu-nav {
@@ -332,13 +336,15 @@ export const Styles = styled.div`
 
             a.nav-link {
               font-size: 14px;
-              color: #ffffff;
+              color: ${colors.black};
+              border-left: 1px solid ${colors.border2};
               text-transform: uppercase;
               font-weight: 500;
               padding: 18px 25px 15px 0;
 
               i {
-                font-size: 12px;
+                font-family: "Montserrat";
+                font-size: 100px;
               }
 
               &:after {
@@ -346,7 +352,7 @@ export const Styles = styled.div`
               }
 
               &:hover {
-                color: ${colors.black1};
+                color: ${colors.green};
               }
 
               @media (max-width: 991px) {
@@ -375,9 +381,10 @@ export const Styles = styled.div`
 
                 a.nav-link {
                   font-size: 13px;
-                  color: ${colors.text1};
+                  color: ${colors.bg1};
                   padding: 10px 20px;
                   text-transform: capitalize;
+                  font-family: "Montserrat";
                   margin-right: 0;
                   font-weight: 400;
                   border-bottom: 1px solid ${colors.border1};
@@ -440,12 +447,14 @@ export const Styles = styled.div`
         }
 
         ul.search-cart-bar {
+          justify-content: space-between;
           li.search-box {
             i.close-btn {
               position: absolute;
+              justify-content: space-between;
               top: 25px;
-              right: -12px;
-              font-size: 26px;
+              right: -300px;
+              font-size: 35px;
               color: ${colors.green};
               cursor: pointer;
             }
@@ -456,8 +465,8 @@ export const Styles = styled.div`
               padding: 18px 0 0 10px;
 
               i {
-                font-size: 20px;
-                color: ${colors.border1};
+                font-size: 25px;
+                color: ${colors.green};
                 line-height: 17px;
               }
             }

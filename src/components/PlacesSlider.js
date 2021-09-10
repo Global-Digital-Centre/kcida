@@ -69,12 +69,12 @@ class PlacesSlider extends Component {
                                 alt=""
                               />
                             </div>
-                           {/* <div className="title">
+                            {/* <div className="title">
                               <p>{data.authorName}</p>
                                <span>{data.authorCourses}</span>
                             </div>*/}
                           </div>
-                         {/* <div className="course-price">
+                          {/* <div className="course-price">
                             <p>{data.price}</p>
                           </div>*/}
                         </div>
