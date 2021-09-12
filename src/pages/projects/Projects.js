@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Datas from "../../data/projects/projects.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import ShopSidebar from "./components/ShopSidebar";
 import FooterTwo from "../../components/FooterTwo";
@@ -15,7 +15,7 @@ class Projects extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper product-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="Projects" />

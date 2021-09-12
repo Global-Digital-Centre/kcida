@@ -3,7 +3,7 @@ import Datas from "../../data/event/details.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
 import Timer from "react-compound-timer";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import PopularCourse from "./../courses/components/PopularCourse";
 import CourseTag from "./../courses/components/CourseTag";
@@ -17,7 +17,7 @@ class EventDetails extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper event-details-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="Event Details" />

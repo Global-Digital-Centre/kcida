@@ -3,6 +3,7 @@ import {colors} from "../element/elements.js";
 
 export const Styles = styled.div`
   .breadcrumb-area {
+  margin-top: 185px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

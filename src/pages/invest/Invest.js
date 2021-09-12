@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import TabBox from "./../../components/TabBox";
 import TestimonialSlider from "../../components/TestimonialSlider";
@@ -14,7 +14,7 @@ class Invest extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper about-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="Invest in Kakamega" />

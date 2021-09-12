@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Datas from "../../data/projects/projects.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Nav, Row, Tab, Table} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -24,7 +24,7 @@ class ProjectsDetails extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper product-details-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="Project Details" />

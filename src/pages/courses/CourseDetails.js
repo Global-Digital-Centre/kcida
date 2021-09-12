@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {Col, Container, Nav, Row, Tab} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import ReviewForm from "./components/ReviewForm";
 import PopularCourse from "./components/PopularCourse";
@@ -30,7 +30,7 @@ function CourseDetails() {
   return (
     <div className="main-wrapper course-details-page">
       {/* Header 2 */}
-      <HeaderTwo />
+      <Header/>
 
       {/* Breadcroumb */}
       <BreadcrumbBox title="Details" />

@@ -4,6 +4,7 @@ import {colors} from "../common/element/elements.js";
 export const Styles = styled.div`
   .course-filter {
     background: ${colors.bg2};
+    
     padding: 62px 0 70px;
 
     .sec-title {
@@ -11,6 +12,7 @@ export const Styles = styled.div`
         color: ${colors.black1};
         line-height: 35px;
         font-weight: 600;
+         cursor: pointer;
         max-width: 550px;
         margin: auto;
         margin-bottom: 42px;

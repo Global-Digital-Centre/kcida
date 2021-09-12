@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Datas from "../../data/gallery/gallery-page.json";
 import {Col, Container, Row} from "react-bootstrap";
 import ModalImage from "react-modal-image";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import Pagination from "./../../components/Pagination";
 import FooterTwo from "../../components/FooterTwo";
@@ -15,7 +15,7 @@ class Gallery extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper gallery-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="Gallery" />

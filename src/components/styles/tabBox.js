@@ -4,6 +4,7 @@ import {colors} from "../common/element/elements.js";
 export const Styles = styled.div`
 
     .tab-section {
+    cursor: pointer;
         background: ${colors.bg2};
         padding   : 70px 0 65px;
         text-transform: capitalize;

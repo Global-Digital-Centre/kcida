@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Datas from "../../data/event/events.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import Pagination from "../../components/Pagination";
 import CourseSidebar from "../courses/components/CourseSidebar";
@@ -16,7 +16,7 @@ class Events extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper event-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="Events" />

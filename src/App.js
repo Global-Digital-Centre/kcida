@@ -19,9 +19,9 @@ import Contact from "./pages/contact/Contact";
 import Faq from "./pages/faq/Faq";
 import PageNotFound from "./pages/404/PageNotFound";
 import ComingSoon from "./pages/comingsoon/ComingSoon";
-import BlogClassic from "./pages/blog/BlogClassic";
-import BlogGrid from "./pages/blog/BlogGrid";
-import BlogDetails from "./pages/blog/BlogDetails";
+import NewsClassic from "./pages/news/NewsClassic";
+import NewsGrid from "./pages/news/NewsGrid";
+import NewsDetails from "./pages/news/NewsDetails";
 import Projects from "./pages/projects/Projects";
 import ProjectsDetails from "./pages/projects/ProjectsDetails";
 import Cart from "./pages/projects/Cart";
@@ -117,24 +117,24 @@ function App() {
           component={PageNotFound}
         />
         <Route
-          path={`${process.env.PUBLIC_URL + "/coming-soon"}`}
-          component={ComingSoon}
+            path={`${process.env.PUBLIC_URL + "/coming-soon"}`}
+            component={ComingSoon}
         />
         <Route
-          path={`${process.env.PUBLIC_URL + "/blog-classic"}`}
-          component={BlogClassic}
+            path={`${process.env.PUBLIC_URL + "/news-classic"}`}
+            component={NewsClassic}
         />
         <Route
-          path={`${process.env.PUBLIC_URL + "/blog-grid"}`}
-          component={BlogGrid}
+            path={`${process.env.PUBLIC_URL + "/news-grid"}`}
+            component={NewsGrid}
         />
         <Route
-          path={`${process.env.PUBLIC_URL + "/blog-details"}`}
-          component={BlogDetails}
+            path={`${process.env.PUBLIC_URL + "/news-details"}`}
+            component={NewsDetails}
         />
         <Route
-          path={`${process.env.PUBLIC_URL + "/projects"}`}
-          component={Projects}
+            path={`${process.env.PUBLIC_URL + "/projects"}`}
+            component={Projects}
         />
         <Route
           path={`${process.env.PUBLIC_URL + "/projects-details"}`}

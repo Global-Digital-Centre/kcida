@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import HeaderTwo from "./components/HeaderTwo";
+import HeaderTwo from "./components/Header";
 import HeroImage from "./components/HeroImage";
 import AboutKakamega from "./components/AboutUsKakamega";
 import NumberCounter from "./components/NumberCounter";

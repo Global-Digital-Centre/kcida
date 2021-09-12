@@ -2,24 +2,24 @@ import React, {Component} from "react";
 import Datas from "../../data/blog/classic.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import Pagination from "./../../components/Pagination";
 import BlogSidebar from "./components/BlogSidebar";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/blog.js";
 
-class BlogClassic extends Component {
+class NewsClassic extends Component {
   render() {
     return (
-      <Styles>
-        {/* Main Wrapper */}
-        <div className="main-wrapper blog-classic-page">
-          {/* Header 2 */}
-          <HeaderTwo />
+        <Styles>
+          {/* Main Wrapper */}
+          <div className="main-wrapper blog-classic-page">
+            {/* Header 2 */}
+            <Header/>
 
-          {/* Breadcroumb */}
-          <BreadcrumbBox title="Blog Classic" />
+            {/* Breadcroumb */}
+            <BreadcrumbBox title="Blog Classic"/>
 
           {/* Blog Classic */}
           <section className="blog-classic-area">
@@ -106,4 +106,4 @@ class BlogClassic extends Component {
   }
 }
 
-export default BlogClassic;
+export default NewsClassic;

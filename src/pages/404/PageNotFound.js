@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Datas from "../../data/404/error.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/pageNotFound.js";
 
@@ -13,7 +13,7 @@ class PageNotFound extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper error-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* 404 Area */}
           <section
@@ -34,7 +34,7 @@ class PageNotFound extends Component {
                       Ooops! The page you are looking for, couldn't be found.
                     </p>
                     <Link to={process.env.PUBLIC_URL + "/"}>
-                      <i className="fas fa-home"></i>Go To Homepage
+                      <i className="fas fa-home"/>Go To Homepage
                     </Link>
                   </div>
                 </Col>

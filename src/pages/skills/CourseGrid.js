@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import CourseSidebar from "./components/CourseSidebar";
 import CourseItemGrid from "./components/CourseItemsGrid";
@@ -12,7 +12,7 @@ class CourseGrid extends Component {
     return (
       <div className="main-wrapper course-page">
         {/* Header 2 */}
-        <HeaderTwo />
+        <Header/>
 
         {/* Breadcroumb */}
         <BreadcrumbBox title="Kakamega" />

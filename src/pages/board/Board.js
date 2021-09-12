@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Datas from "../../data/board/board.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import Pagination from "./../../components/Pagination";
 import FooterTwo from "../../components/FooterTwo";
@@ -15,7 +15,7 @@ class Board extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper instructor-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="The  Board" />

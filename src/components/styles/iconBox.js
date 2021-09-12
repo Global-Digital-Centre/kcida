@@ -3,6 +3,7 @@ import {colors} from "../common/element/elements.js";
 
 export const Styles = styled.div`
   .icon-box-area {
+   cursor: pointer;
     padding-bottom: 80px;
 
     .full-icon-box {

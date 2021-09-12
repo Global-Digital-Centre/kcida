@@ -114,13 +114,13 @@ class Footer extends Component {
                     <div className="post-img">
                       <img
                         src={
-                          process.env.PUBLIC_URL + "/assets/images/blog-2.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/news-2.jpg"
                         }
                         alt=""
                       />
                     </div>
                     <div className="post-content">
-                      <Link to={process.env.PUBLIC_URL + "/blog-details"}>
+                      <Link to={process.env.PUBLIC_URL + "/news-details"}>
                         Lorem ipsum dolor sit amet consectet adipisicing elit
                         com...
                       </Link>
@@ -131,13 +131,13 @@ class Footer extends Component {
                     <div className="post-img">
                       <img
                         src={
-                          process.env.PUBLIC_URL + "/assets/images/blog-3.jpg"
+                          process.env.PUBLIC_URL + "/assets/images/news-3.jpg"
                         }
                         alt=""
                       />
                     </div>
                     <div className="post-content">
-                      <Link to={process.env.PUBLIC_URL + "/blog-details"}>
+                      <Link to={process.env.PUBLIC_URL + "/news-details"}>
                         Lorem ipsum dolor sit amet consectet adipisicing elit
                         com...
                       </Link>

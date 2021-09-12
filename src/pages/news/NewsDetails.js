@@ -1,24 +1,24 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import BlogSidebar from "./components/BlogSidebar";
 import CommentForm from "./components/CommentForm";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/blogDetails.js";
 
-class BlogDetails extends Component {
+class NewsDetails extends Component {
   render() {
     return (
-      <Styles>
-        {/* Main Wrapper */}
-        <div className="main-wrapper blog-details-page">
-          {/* Header 2 */}
-          <HeaderTwo />
+        <Styles>
+          {/* Main Wrapper */}
+          <div className="main-wrapper blog-details-page">
+            {/* Header 2 */}
+            <Header/>
 
-          {/* Breadcroumb */}
-          <BreadcrumbBox title="Blog Details" />
+            {/* Breadcroumb */}
+            <BreadcrumbBox title="Blog Details"/>
 
           {/* Blog Details */}
           <section className="blog-details-area">
@@ -316,4 +316,4 @@ class BlogDetails extends Component {
   }
 }
 
-export default BlogDetails;
+export default NewsDetails;

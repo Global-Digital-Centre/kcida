@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import GoogleMap from "./GoogleMap";
 import FooterTwo from "../../components/FooterTwo";
@@ -73,7 +73,7 @@ function Contact() {
       {/* Main Wrapper */}
       <div className="main-wrapper contact-page">
         {/* Header 2 */}
-        <HeaderTwo />
+        <Header/>
 
         {/* Breadcroumb */}
         <BreadcrumbBox title="Contact Us" />

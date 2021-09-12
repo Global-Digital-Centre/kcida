@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Col, Container, Row, Table} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/cart.js";
@@ -12,7 +12,7 @@ class Cart extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper cart-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="Cart" />

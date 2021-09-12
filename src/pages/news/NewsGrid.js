@@ -2,24 +2,24 @@ import React, {Component} from "react";
 import Datas from "../../data/blog/grid.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import Pagination from "./../../components/Pagination";
 import BlogSidebar from "./components/BlogSidebar";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/blog.js";
 
-class BlogGrid extends Component {
+class NewsGrid extends Component {
   render() {
     return (
-      <Styles>
-        {/* Main Wrapper */}
-        <div className="main-wrapper blog-grid-page">
-          {/* Header 2 */}
-          <HeaderTwo />
+        <Styles>
+          {/* Main Wrapper */}
+          <div className="main-wrapper blog-grid-page">
+            {/* Header 2 */}
+            <Header/>
 
-          {/* Breadcroumb */}
-          <BreadcrumbBox title="Blog Grid" />
+            {/* Breadcroumb */}
+            <BreadcrumbBox title="News"/>
 
           {/* Blog Classic */}
           <section className="blog-grid-area">
@@ -110,4 +110,4 @@ class BlogGrid extends Component {
   }
 }
 
-export default BlogGrid;
+export default NewsGrid;

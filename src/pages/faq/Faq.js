@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import Datas from "../../data/faq/faq.json";
 import {Col, Container, Nav, Row, Tab} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/faq.js";
@@ -13,7 +13,7 @@ class Faq extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper faq-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="Faq" />

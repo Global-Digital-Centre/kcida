@@ -3,7 +3,7 @@ import Datas from "../../data/board/details.json";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
 import Swiper from "react-id-swiper";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/instructor.js";
@@ -42,7 +42,7 @@ class BoardDetails extends Component {
         {/* Main Wrapper */}
         <div className="main-wrapper instructor-details-page">
           {/* Header 2 */}
-          <HeaderTwo />
+          <Header/>
 
           {/* Breadcroumb */}
           <BreadcrumbBox title="Instructor Details" />

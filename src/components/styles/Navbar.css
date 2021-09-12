@@ -1,9 +1,12 @@
 .header {
-  margin-top: 50px;
+  margin-top: 0;
   display: flex;
-  margin-left: 20px;
+  z-index: 50;
+  font-family: "Montserrat", serif;
   flex: 1;
+  background-color: #EAEDED;
   flex-direction: column;
+  border-right: 50px solid green;
 
 }
 
@@ -11,6 +14,7 @@
   display: flex;
   width: 100%;
   height: 80px;
+  margin-top: 40px;
 }
 
 .header-top__logo {
@@ -22,6 +26,7 @@
 
 .header-logo {
   margin-top: 10px;
+  margin-left: 20px;
 }
 
 .header-top__navbar {
@@ -30,17 +35,20 @@
   flex-direction: column;
 }
 
-/*.header-top__seperator {
+.header-top__seperator {
   width: 100%;
   border: none;
-  height: 2px;
-  margin-top: 2px;
+  height: 0;
+  display: none;
+  margin-top: 0;
   background-color: black;
-}*/
+}
 
 .header-top__navigation {
   display: flex;
   flex: 1;
+  font-weight: 600;
+  text-transform: uppercase;
   flex-direction: row;
   justify-content: flex-start;
   margin-right: 55px;
@@ -53,56 +61,39 @@
   flex: 1;
   justify-content: center;
   align-items: center;
-  margin-top: 6px;
+  margin-top: 0;
 }
 
 .header-bottom__email {
-  margin-right: 55px;
+  font-size: 35px;
+  justify-content: center;
 }
+
+.header-bottom__email i {
+  display: inline-grid;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
 
 .header-bottom__phone {
-  margin-right: 65px;
+  margin-right: 0;
 }
 
-.header-bottom__bag {
-  position: absolute;
-  display: flex;
-}
 
-.header-bottom__bag-icon {
-  position: relative;
-  display: flex;
-  left: -5px;
-  width: 30px;
-  height: 30px;
-}
-
-.header-bottom__bag-count {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Montserrat";
-  right: 0px;
-  top: -5px;
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  border-radius: 10px;
-  color: white;
-}
-
-/*
 .navbar {
   display: flex;
   flex-direction: row;
   justify-content: center;
   color: black;
+  font-size: 80px;
+  font-family: "Montserrat", cursive;
+
 }
 
-.navbar-item {
+.nav-item {
   display: flex;
-  !*border: 1px solid green;*!
+  border-right: 5px solid green;
   justify-content: center;
   align-items: center;
   margin-left: 20px;
@@ -110,15 +101,14 @@
   text-decoration: inherit;
   text-transform: uppercase;
   outline: none;
-  border-spacing: 0;
+  border-spacing: 10px;
   font-family: "Montserrat", serif;
   font-size: 25px;
 
 }
 
 .nav-link{
-  font-family: "Montserrat", serif;
-  font-size: 25px;
+
   color: inherit;
   text-decoration: inherit;
   text-transform: uppercase;
@@ -127,13 +117,4 @@
 
 .navbar-nav{
   border-spacing: 20px;
-}*/
-
-.header-title {
-  color: green;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: 30px;
-  font-size: 60px;
-
 }

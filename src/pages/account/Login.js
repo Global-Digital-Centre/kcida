@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import {Link} from "react-router-dom";
 import {Col, Container, Row} from "react-bootstrap";
-import HeaderTwo from "../../components/HeaderTwo";
+import Header from "../../components/Header";
 import {BreadcrumbBox} from "../../components/common/Breadcrumb";
 import FooterTwo from "../../components/FooterTwo";
 import {Styles} from "./styles/account.js";
@@ -51,7 +51,7 @@ function Login() {
       {/* Main Wrapper */}
       <div className="main-wrapper login-page">
         {/* Header 2 */}
-        <HeaderTwo />
+        <Header/>
 
         {/* Breadcroumb */}
         <BreadcrumbBox title="Log In" />
