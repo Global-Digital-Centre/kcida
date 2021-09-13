@@ -20,21 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/public/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/FaqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FaqEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeroImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroImage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeBlog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PlacesFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlacesFilter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PlacesSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlacesSlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/navbar/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/styles/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/global.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/common/styles/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/sidebar.js" afterDir="false" />
@@ -43,11 +39,9 @@
       <change beforePath="$PROJECT_DIR$/src/components/styles/campusTour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/campusTour.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/faqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/faqEvent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/headerTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/headerTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/heroSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/heroSlider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/iconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/iconBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/pagination.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/tabBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/tabBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data/faq-event/faq-event.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/faq-event/faq-event.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/account/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/account/styles/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/styles/account.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.js" afterDir="false" />
@@ -180,7 +174,7 @@
       <workItem from="1631220227203" duration="18303000" />
       <workItem from="1631270004544" duration="29255000" />
       <workItem from="1631496449216" duration="115000" />
-      <workItem from="1631496881434" duration="5568000" />
+      <workItem from="1631496881434" duration="6983000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -483,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631294453034</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="header &amp; refactoring">
+      <created>1631502548239</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1631502548239</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +508,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="v2.0.4" />
     <MESSAGE value="v2.0" />
     <MESSAGE value="APIs" />
     <MESSAGE value="refactoring v2" />
@@ -532,7 +532,8 @@
     <MESSAGE value="refactoring-slider" />
     <MESSAGE value="refactoring-news" />
     <MESSAGE value="fixing header...." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing header...." />
+    <MESSAGE value="header &amp; refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="header &amp; refactoring" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -582,10 +583,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1" y="191" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1629639762169" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1629710226265">
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1631502552079">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1629710226265" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1631502552079" />
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1" timestamp="1629189984996">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

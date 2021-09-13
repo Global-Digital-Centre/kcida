@@ -137,7 +137,7 @@ function PlacesFilter() {
             </Col>
             <Col md="12" className="text-center">
               <div className="viewall-btn">
-                <Link to={process.env.PUBLIC_URL + "/course-grid"}>
+                <Link to={process.env.PUBLIC_URL + "/places-grid"}>
                   View All
                 </Link>
               </div>
