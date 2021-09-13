@@ -48,7 +48,7 @@ function FaqEvent() {
                         </div>
                         <div className="event-details">
                           <h6>
-                            <Link to={eventData.eventLink}>
+                            <Link target="_blank" rel="noopener noreferrer" to={eventData.eventLink}>
                               {eventData.eventTitle}
                             </Link>
                           </h6>

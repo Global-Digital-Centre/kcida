@@ -51,7 +51,7 @@ function Login() {
       {/* Main Wrapper */}
       <div className="main-wrapper login-page">
         {/* Header 2 */}
-        <Header/>
+        <Header />
 
         {/* Breadcroumb */}
         <BreadcrumbBox title="Log In" />

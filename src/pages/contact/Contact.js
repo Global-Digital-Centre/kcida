@@ -73,7 +73,7 @@ function Contact() {
       {/* Main Wrapper */}
       <div className="main-wrapper contact-page">
         {/* Header 2 */}
-        <Header/>
+        <Header />
 
         {/* Breadcroumb */}
         <BreadcrumbBox title="Contact Us" />

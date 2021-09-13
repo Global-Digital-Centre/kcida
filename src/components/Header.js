@@ -43,9 +43,10 @@ class Header extends Component {
             </section>
 
             <section className="header-bottom__email">
-                <i style={{color: "blue"}} className="fab fa-twitter"/>
-                <i style={{color: "red"}} className="fab fa-instagram"/>
-                <i style={{color: "blue"}} className="fab fa-facebook"/>
+                <a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "https://kakamega.go.ke"} style={{color: "green"}} className="fab fa-internet-explorer"/>
+                <a target="_blank" rel="noopener noreferrer" href={process.env.PUBLIC_URL + "https://twitter.com/County037?"} style={{color: "blue"}} className="fab fa-twitter"/>
+                <a style={{color: "red"}} className="fab fa-instagram"/>
+                <a style={{color: "blue"}} className="fab fa-facebook"/>
 
             </section>
 
@@ -56,6 +57,7 @@ class Header extends Component {
 
         {/* Mobile Menu */}
         <MobileMenu />
+
       </Styles>
     );
   }

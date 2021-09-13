@@ -3,7 +3,7 @@ import {colors} from "../common/element/elements.js";
 
 export const Styles = styled.div`
   .hero-slider-area {
-    margin-top: 185px;
+    
     .swiper-container {
       position: relative;
       .swiper-wrapper {
@@ -20,6 +20,9 @@ export const Styles = styled.div`
               margin-top: 0;
               transition: all 6000ms linear;
               transform: scale(1);
+            }
+            @media all and (min-width: 992px) {
+            margin-top: 185px;
             }
             @media (max-width: 767px) {
               height: 450px;
