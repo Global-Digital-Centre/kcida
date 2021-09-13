@@ -4,7 +4,7 @@ import {colors} from "../element/elements.js";
 export const Styles = styled.div`
   .mobile-menu-area {
     background: ${colors.green};
-    position: sticky;
+  
     display: none;
     .mb-topbar {
       border-bottom: 1px solid ${colors.white};

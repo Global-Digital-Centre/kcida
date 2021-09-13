@@ -53,7 +53,7 @@ function MobileMenu() {
   return (
     <Styles>
       {/* Mobile Menu */}
-      <section className="mobile-menu-area">
+      <section className="mobile-menu-area fixed-top">
         <Container>
           <Row>
             <Col md="0" sm="12">

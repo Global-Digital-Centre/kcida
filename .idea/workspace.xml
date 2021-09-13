@@ -21,39 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b6293066-9b69-43f4-bb14-27ee55f69397" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeOne.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeOne.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FaqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FaqEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeroImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeroImage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeBlog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeBlog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlacesFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlacesFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PlacesSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PlacesSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Breadcrumb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/backToTop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/styles/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/styles/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/styles/stickyMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/stickyMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/MobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/MobileMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/styles/breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/breadcrumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/styles/mobileMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/styles/mobileMenu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/styles/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/Navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/campusTour.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/campusTour.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/faqEvent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/faqEvent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/headerTwo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/headerTwo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/iconBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/iconBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/tabBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/styles/tabBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/account/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/account/styles/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/account/styles/account.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CoursePrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CoursePrice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseSidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseSidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/courses/components/CourseTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/courses/components/CourseTag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/events/styles/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/events/styles/event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/skills/components/CourseItemsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseItemsList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/skills/components/CourseTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/components/CourseTag.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/skills/styles/coursePrice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/styles/coursePrice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/skills/styles/courseSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/styles/courseSearch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/skills/styles/courseTag.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/skills/styles/courseTag.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +145,7 @@
       <workItem from="1631220227203" duration="18303000" />
       <workItem from="1631270004544" duration="29255000" />
       <workItem from="1631496449216" duration="115000" />
-      <workItem from="1631496881434" duration="6983000" />
+      <workItem from="1631496881434" duration="10907000" />
     </task>
     <task id="LOCAL-00001" summary="v2.0.0">
       <created>1628250874828</created>
@@ -484,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631502548239</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="header &amp; refactoring">
+      <created>1631504022118</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1631504022118</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,10 +561,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1" y="191" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1629639762169" />
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1631502552079">
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2" timestamp="1631504024286">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1631502552079" />
+    <state x="554" y="285" width="802" height="543" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1631504024286" />
     <state x="0" y="27" width="1874" height="1009" key="dock-window-1" timestamp="1629189984996">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

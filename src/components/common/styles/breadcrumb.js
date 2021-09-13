@@ -3,12 +3,15 @@ import {colors} from "../element/elements.js";
 
 export const Styles = styled.div`
   .breadcrumb-area {
-  margin-top: 185px;
+ margin-top: 80px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     padding: 60px 0;
     position: relative;
+    @media all and (min-width: 992px) {
+            margin-top: 185px;
+            }
 
     &:before {
       position: absolute;
